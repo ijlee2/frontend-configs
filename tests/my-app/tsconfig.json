@@ -1,0 +1,32 @@
+{
+  "extends": "@ijlee2-frontend-configs/typescript/ember",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "my-app/tests/*": [
+        "tests/*"
+      ],
+      "my-app/*": [
+        "app/*"
+      ],
+      "*": [
+        "types/*"
+      ]
+    },
+    "skipLibCheck": true,
+    "types": [
+      "ember-source/types"
+    ]
+  },
+  "include": [
+    "app/**/*",
+    "tests/**/*",
+    "types/**/*"
+  ],
+  "glint": {
+    "environment": [
+      "ember-loose",
+      "ember-template-imports"
+    ]
+  }
+}
