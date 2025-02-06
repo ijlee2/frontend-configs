@@ -1,0 +1,8 @@
+# @ijlee2-frontend-configs/stylelint
+
+## 0.1.0
+
+### Minor Changes
+
+- [#5](https://github.com/ijlee2/frontend-configs/pull/5) Generalized configuration ([@ijlee2](https://github.com/ijlee2))
+- [#1](https://github.com/ijlee2/frontend-configs/pull/1) Extracted package ([@ijlee2](https://github.com/ijlee2))

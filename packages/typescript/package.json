@@ -1,7 +1,6 @@
 {
   "name": "@ijlee2-frontend-configs/typescript",
-  "version": "0.0.0",
-  "private": true,
+  "version": "0.1.0",
   "description": "Configuration for typescript",
   "type": "module",
   "exports": {
