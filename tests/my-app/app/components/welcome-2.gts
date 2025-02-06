@@ -1,5 +1,7 @@
 import type { TOC } from '@ember/component/template-only';
 
+import styles from './welcome-2.css';
+
 interface Welcome2Signature {
   Args: {};
 }
@@ -7,7 +9,7 @@ interface Welcome2Signature {
 const Welcome2Component: TOC<Welcome2Signature> = <template>
   <p>
     Visit
-    <a href="/tests?hidepassed&nolint">/tests</a>
+    <a class={{styles.link}} href="/tests?hidepassed&nolint">/tests</a>
     to run tests.
   </p>
 </template>;
