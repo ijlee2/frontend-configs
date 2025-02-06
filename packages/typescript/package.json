@@ -1,0 +1,42 @@
+{
+  "name": "@ijlee2-frontend-configs/typescript",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Configuration for typescript",
+  "type": "module",
+  "exports": {
+    "./ember": "./ember/index.json",
+    "./node18": "./node18/index.json",
+    "./node20": "./node20/index.json",
+    "./node22": "./node22/index.json"
+  },
+  "scripts": {
+    "lint": "concurrently \"pnpm:lint:*(!fix)\" --names \"lint:\"",
+    "lint:fix": "concurrently \"pnpm:lint:*:fix\" --names \"fix:\"",
+    "lint:js": "prettier . --check",
+    "lint:js:fix": "prettier . --write"
+  },
+  "dependencies": {
+    "@tsconfig/ember": "^3.0.9",
+    "@tsconfig/node18": "^18.2.4",
+    "@tsconfig/node20": "^20.1.4",
+    "@tsconfig/node22": "^22.0.0",
+    "@tsconfig/strictest": "^2.0.5"
+  },
+  "devDependencies": {
+    "@ijlee2-frontend-configs/prettier": "workspace:*",
+    "concurrently": "^9.1.2",
+    "prettier": "^3.4.2"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "peerDependenciesMeta": {
+    "typescript": {
+      "optional": false
+    }
+  },
+  "engines": {
+    "node": "18.* || >= 20"
+  }
+}

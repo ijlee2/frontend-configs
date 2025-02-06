@@ -1,0 +1,13 @@
+# dependencies
+/node_modules/
+
+# misc
+/.DS_Store
+/.eslintcache
+/.git/
+/.github/
+/.gitignore
+/.pnpm-debug.log
+/.prettierignore
+/.prettierrc.cjs
+/eslint.config.js
