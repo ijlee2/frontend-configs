@@ -9,12 +9,12 @@
 
 ### Package overview
 
-- `@ijlee2-frontend-configs/ember-template-lint`
-- `@ijlee2-frontend-configs/eslint-config-ember`
-- `@ijlee2-frontend-configs/eslint-config-node`
-- `@ijlee2-frontend-configs/prettier`
-- `@ijlee2-frontend-configs/stylelint`
-- `@ijlee2-frontend-configs/typescript`
+- [`@ijlee2-frontend-configs/ember-template-lint`](./packages/ember-template-lint/README.md)
+- [`@ijlee2-frontend-configs/eslint-config-ember`](./packages/eslint/ember/README.md)
+- [`@ijlee2-frontend-configs/eslint-config-node`](./packages/eslint/node/README.md)
+- [`@ijlee2-frontend-configs/prettier`](./packages/prettier/README.md)
+- [`@ijlee2-frontend-configs/stylelint`](./packages/stylelint/README.md)
+- [`@ijlee2-frontend-configs/typescript`](./packages/typescript/README.md)
 
 
 ## Local development
