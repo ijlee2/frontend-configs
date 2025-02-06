@@ -59,7 +59,7 @@ export default tseslint.config(
   // TypeScript files
   {
     extends: [
-      ...tseslint.configs.recommended,
+      tseslint.configs.recommendedTypeChecked,
       eslintPluginImport.flatConfigs.typescript,
     ],
     files: ['**/*.ts'],

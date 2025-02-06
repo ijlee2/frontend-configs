@@ -84,7 +84,7 @@ export default tseslint.config(
   },
   {
     extends: [
-      ...tseslint.configs.recommended,
+      tseslint.configs.recommendedTypeChecked,
       eslintPluginEmber.configs.gts,
       eslintPluginImport.flatConfigs.typescript,
     ],
@@ -138,7 +138,7 @@ export default tseslint.config(
       '.stylelintrc.js',
       '.template-lintrc.js',
       'ember-cli-build.js',
-      'postcss.config.js',
+      'index.js',
       'testem.js',
     ],
     languageOptions: {

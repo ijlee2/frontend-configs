@@ -1,0 +1,13 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "declarationDir": "declarations",
+    "emitDeclarationOnly": true,
+    "noEmit": false,
+    "rootDir": ".",
+    "types": [
+      "ember-source/types"
+    ]
+  },
+  "include": ["addon", "addon-test-support"]
+}
