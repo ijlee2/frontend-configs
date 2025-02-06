@@ -1,0 +1,10 @@
+{
+  "extends": "@ijlee2-frontend-configs/typescript/node18",
+  "compilerOptions": {
+    "declaration": false,
+    "moduleResolution": "NodeNext",
+    "outDir": "dist"
+  },
+  "include": ["bin", "src"],
+  "exclude": ["src/blueprints"]
+}
