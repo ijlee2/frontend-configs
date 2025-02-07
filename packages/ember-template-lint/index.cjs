@@ -24,9 +24,6 @@ module.exports = {
           },
         },
       ],
-      rules: {
-        'attribute-order': true,
-      },
     },
   },
   rules: {},
