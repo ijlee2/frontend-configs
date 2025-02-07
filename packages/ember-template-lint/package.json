@@ -1,6 +1,6 @@
 {
   "name": "@ijlee2-frontend-configs/ember-template-lint",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Configuration for ember-template-lint",
   "type": "module",
   "main": "index.cjs",

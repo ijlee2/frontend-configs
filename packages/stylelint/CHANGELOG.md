@@ -1,5 +1,15 @@
 # @ijlee2-frontend-configs/stylelint
 
+## 0.2.0
+
+### Minor Changes
+
+- [#9](https://github.com/ijlee2/frontend-configs/pull/9) Supported esm ([@ijlee2](https://github.com/ijlee2))
+
+### Patch Changes
+
+- [#10](https://github.com/ijlee2/frontend-configs/pull/10) Documented usage ([@ijlee2](https://github.com/ijlee2))
+
 ## 0.1.0
 
 ### Minor Changes

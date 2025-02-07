@@ -1,6 +1,6 @@
 {
   "name": "@ijlee2-frontend-configs/stylelint",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Configuration for stylelint",
   "type": "module",
   "exports": {

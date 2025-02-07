@@ -1,5 +1,15 @@
 # @ijlee2-frontend-configs/typescript
 
+## 0.2.0
+
+### Minor Changes
+
+- [#6](https://github.com/ijlee2/frontend-configs/pull/6) Specified module: nodenext for Node projects ([@ijlee2](https://github.com/ijlee2))
+
+### Patch Changes
+
+- [#10](https://github.com/ijlee2/frontend-configs/pull/10) Documented usage ([@ijlee2](https://github.com/ijlee2))
+
 ## 0.1.0
 
 ### Minor Changes
