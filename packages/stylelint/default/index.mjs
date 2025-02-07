@@ -16,5 +16,12 @@ export default {
         ignoreShorthands: ['grid-gap', 'grid-template'],
       },
     ],
+
+    'order/properties-order': [
+      [],
+      {
+        unspecified: 'bottomAlphabetical',
+      },
+    ],
   },
 };
