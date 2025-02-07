@@ -4,8 +4,14 @@
   "description": "Configuration for stylelint",
   "type": "module",
   "exports": {
-    ".": "./default/index.cjs",
-    "./css-modules": "./css-modules/index.cjs"
+    ".": {
+      "import": "./default/index.mjs",
+      "require": "./default/index.cjs"
+    },
+    "./css-modules": {
+      "import": "./css-modules/index.mjs",
+      "require": "./css-modules/index.cjs"
+    }
   },
   "scripts": {
     "lint": "concurrently \"pnpm:lint:*(!fix)\" --names \"lint:\"",
