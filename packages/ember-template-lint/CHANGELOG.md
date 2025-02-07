@@ -1,5 +1,11 @@
 # @ijlee2-frontend-configs/ember-template-lint
 
+## 0.3.0
+
+### Minor Changes
+
+- [#11](https://github.com/ijlee2/frontend-configs/pull/11) Removed attribute-order ([@ijlee2](https://github.com/ijlee2))
+
 ## 0.2.0
 
 ### Minor Changes
