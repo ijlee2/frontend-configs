@@ -9,6 +9,6 @@
 /.gitignore
 /.pnpm-debug.log
 /.prettierignore
-/.prettierrc.cjs
 /CHANGELOG.md
 /eslint.config.mjs
+/prettier.config.mjs
