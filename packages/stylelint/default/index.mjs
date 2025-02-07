@@ -1,6 +1,4 @@
-'use strict';
-
-module.exports = {
+export default {
   extends: ['stylelint-config-standard', 'stylelint-prettier/recommended'],
   plugins: ['stylelint-order'],
   rules: {

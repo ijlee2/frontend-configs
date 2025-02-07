@@ -11,4 +11,4 @@
 /.prettierignore
 /.prettierrc.cjs
 /CHANGELOG.md
-/eslint.config.js
+/eslint.config.mjs
