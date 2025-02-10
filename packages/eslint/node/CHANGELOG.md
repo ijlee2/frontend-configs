@@ -1,5 +1,15 @@
 # @ijlee2-frontend-configs/eslint-config-node
 
+## 0.2.0
+
+### Minor Changes
+
+- [#14](https://github.com/ijlee2/frontend-configs/pull/14) Replaced eslint-plugin-import with eslint-plugin-import-x ([@ijlee2](https://github.com/ijlee2))
+
+### Patch Changes
+
+- [#15](https://github.com/ijlee2/frontend-configs/pull/15) Updated dependencies ([@ijlee2](https://github.com/ijlee2))
+
 ## 0.1.1
 
 ### Patch Changes
