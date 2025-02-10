@@ -1,6 +1,6 @@
 import babelEslintParser from '@babel/eslint-parser';
 import eslint from '@eslint/js';
-import eslintPluginImport from 'eslint-plugin-import';
+import eslintPluginImportX from 'eslint-plugin-import-x';
 import eslintPluginN from 'eslint-plugin-n';
 import eslintPluginPrettier from 'eslint-plugin-prettier/recommended';
 import eslintPluginSimpleImportSort from 'eslint-plugin-simple-import-sort';
@@ -25,7 +25,7 @@ export default [
   },
 
   eslint.configs.recommended,
-  eslintPluginImport.flatConfigs.recommended,
+  eslintPluginImportX.flatConfigs.recommended,
   eslintPluginPrettier,
   {
     plugins: {
@@ -33,8 +33,8 @@ export default [
     },
     rules: {
       curly: 'error',
-      'import/no-duplicates': 'error',
-      'import/no-unresolved': 'off',
+      'import-x/no-duplicates': 'error',
+      'import-x/no-unresolved': 'off',
       'simple-import-sort/imports': 'error',
       'simple-import-sort/exports': 'error',
     },

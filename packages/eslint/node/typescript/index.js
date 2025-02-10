@@ -1,6 +1,6 @@
 import babelEslintParser from '@babel/eslint-parser';
 import eslint from '@eslint/js';
-import eslintPluginImport from 'eslint-plugin-import';
+import eslintPluginImportX from 'eslint-plugin-import-x';
 import eslintPluginN from 'eslint-plugin-n';
 import eslintPluginPrettier from 'eslint-plugin-prettier/recommended';
 import eslintPluginSimpleImportSort from 'eslint-plugin-simple-import-sort';
@@ -32,7 +32,7 @@ export default tseslint.config(
   },
 
   eslint.configs.recommended,
-  eslintPluginImport.flatConfigs.recommended,
+  eslintPluginImportX.flatConfigs.recommended,
   eslintPluginPrettier,
   {
     plugins: {
@@ -40,8 +40,8 @@ export default tseslint.config(
     },
     rules: {
       curly: 'error',
-      'import/no-duplicates': 'error',
-      'import/no-unresolved': 'off',
+      'import-x/no-duplicates': 'error',
+      'import-x/no-unresolved': 'off',
       'simple-import-sort/imports': 'error',
       'simple-import-sort/exports': 'error',
     },
@@ -60,7 +60,7 @@ export default tseslint.config(
   {
     extends: [
       tseslint.configs.recommendedTypeChecked,
-      eslintPluginImport.flatConfigs.typescript,
+      eslintPluginImportX.flatConfigs.typescript,
     ],
     files: ['**/*.ts'],
     languageOptions: {
@@ -77,7 +77,7 @@ export default tseslint.config(
       'typescript-sort-keys/string-enum': 'error',
     },
     settings: {
-      'import/resolver': {
+      'import-x/resolver': {
         node: true,
         typescript: true,
       },
