@@ -26,6 +26,30 @@ export { default } from '@ijlee2-frontend-configs/eslint-config-node/javascript'
 export { default } from '@ijlee2-frontend-configs/eslint-config-node/typescript';
 ```
 
+> [!IMPORTANT]
+>
+> In TypeScript projects, using `@ijlee2-frontend-configs/eslint-config-ember` with `@ijlee2-frontend-configs/typescript` causes `eslint-plugin-import-x` to error.
+>
+>    ```sh
+>    Resolve error: File '@tsconfig/strictest/tsconfig' not found.
+>      at resolveExtends
+>      at _parseTsconfig
+>      ...
+>    ```
+>
+> As a temporary fix, please pin `get-tsconfig` to `v4.7.3`.
+>
+>    ```json5
+>    // package.json
+>    {
+>      "pnpm": {
+>        "overrides": {
+>          "get-tsconfig": "4.7.3"
+>        }
+>      }
+>    }
+>    ```
+
 
 ### Customization
 
