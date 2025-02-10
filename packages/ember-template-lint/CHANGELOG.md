@@ -1,5 +1,11 @@
 # @ijlee2-frontend-configs/ember-template-lint
 
+## 0.4.0
+
+### Minor Changes
+
+- [#13](https://github.com/ijlee2/frontend-configs/pull/13) Reverted #7 ([@ijlee2](https://github.com/ijlee2))
+
 ## 0.3.0
 
 ### Minor Changes

@@ -1,5 +1,11 @@
 # @ijlee2-frontend-configs/typescript
 
+## 0.3.0
+
+### Minor Changes
+
+- [#12](https://github.com/ijlee2/frontend-configs/pull/12) Enabled verbatimModuleSyntax ([@ijlee2](https://github.com/ijlee2))
+
 ## 0.2.0
 
 ### Minor Changes
