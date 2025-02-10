@@ -1,5 +1,11 @@
 # @ijlee2-frontend-configs/eslint-config-ember
 
+## 0.2.1
+
+### Patch Changes
+
+- [#16](https://github.com/ijlee2/frontend-configs/pull/16) Documented a temporary fix for regression in get-tsconfig@4.7.4 ([@ijlee2](https://github.com/ijlee2))
+
 ## 0.2.0
 
 ### Minor Changes
