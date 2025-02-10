@@ -2,7 +2,6 @@
   "extends": "@ijlee2-frontend-configs/typescript/node18",
   "compilerOptions": {
     "declaration": false,
-    "moduleResolution": "NodeNext",
     "outDir": "dist-for-testing"
   },
   "include": ["bin", "src", "tests"],
