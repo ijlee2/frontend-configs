@@ -20,24 +20,23 @@ Afterwards, create the file `.template-lintrc.cjs`.
 ```js
 'use strict';
 
-module.exports = {
-  plugins: ['@ijlee2-frontend-configs/ember-template-lint'],
-  extends: ['@ijlee2-frontend-configs/ember-template-lint:recommended'],
-};
+module.exports = require('@ijlee2-frontend-configs/ember-template-lint');
 ```
 
 
 ### Customization
 
-Use [`overrides`](https://github.com/ember-template-lint/ember-template-lint/blob/master/docs/configuration.md#configuration-properties) to change rules.
+Import the configuration, then export the modified object. See [`ember-template-lint` documentation](https://github.com/ember-template-lint/ember-template-lint?tab=readme-ov-file#rules) for more information.
 
 ```js
 'use strict';
 
+const baseConfiguration = require('@ijlee2-frontend-configs/ember-template-lint');
+
 module.exports = {
-  plugins: ['@ijlee2-frontend-configs/ember-template-lint'],
-  extends: ['@ijlee2-frontend-configs/ember-template-lint:recommended'],
+  ...baseConfiguration,
   overrides: [
+    ...baseConfiguration.overrides,
     {
       files: ['tests/**/*-test.{js,ts}'],
       rules: {
