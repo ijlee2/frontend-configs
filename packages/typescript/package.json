@@ -29,7 +29,7 @@
   "devDependencies": {
     "@ijlee2-frontend-configs/prettier": "workspace:*",
     "concurrently": "^9.1.2",
-    "prettier": "^3.5.0"
+    "prettier": "^3.5.1"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
