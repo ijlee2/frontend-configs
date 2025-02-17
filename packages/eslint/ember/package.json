@@ -2,6 +2,10 @@
   "name": "@ijlee2-frontend-configs/eslint-config-ember",
   "version": "0.2.1",
   "description": "Configuration for eslint (Ember)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ijlee2/frontend-configs.git"
+  },
   "type": "module",
   "exports": {
     "./app": "./app/index.js",

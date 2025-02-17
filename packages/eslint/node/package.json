@@ -2,6 +2,10 @@
   "name": "@ijlee2-frontend-configs/eslint-config-node",
   "version": "0.2.1",
   "description": "Configuration for eslint (Node)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ijlee2/frontend-configs.git"
+  },
   "type": "module",
   "exports": {
     "./javascript": "./javascript/index.js",
