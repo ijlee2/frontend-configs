@@ -2,6 +2,10 @@
   "name": "@ijlee2-frontend-configs/typescript",
   "version": "0.3.0",
   "description": "Configuration for typescript",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ijlee2/frontend-configs.git"
+  },
   "type": "module",
   "exports": {
     "./ember": "./ember/index.json",
