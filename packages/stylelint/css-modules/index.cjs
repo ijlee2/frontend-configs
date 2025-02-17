@@ -15,10 +15,7 @@ module.exports = {
     'declaration-block-no-duplicate-properties': [
       true,
       {
-        ignoreProperties: [
-          // Defined by CSS modules
-          'composes',
-        ],
+        ignoreProperties: ['composes'],
       },
     ],
 
@@ -30,10 +27,7 @@ module.exports = {
     ],
 
     'order/properties-order': [
-      [
-        // Defined by CSS modules
-        'composes',
-      ],
+      ['composes'],
       {
         unspecified: 'bottomAlphabetical',
       },
@@ -42,20 +36,14 @@ module.exports = {
     'property-no-unknown': [
       true,
       {
-        ignoreProperties: [
-          // Defined by CSS modules
-          'composes',
-        ],
+        ignoreProperties: ['composes'],
       },
     ],
 
     'selector-pseudo-class-no-unknown': [
       true,
       {
-        ignorePseudoClasses: [
-          // Defined by CSS modules
-          'global',
-        ],
+        ignorePseudoClasses: ['global'],
       },
     ],
   },

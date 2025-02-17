@@ -13,10 +13,7 @@ export default {
     'declaration-block-no-duplicate-properties': [
       true,
       {
-        ignoreProperties: [
-          // Defined by CSS modules
-          'composes',
-        ],
+        ignoreProperties: ['composes'],
       },
     ],
 
@@ -28,10 +25,7 @@ export default {
     ],
 
     'order/properties-order': [
-      [
-        // Defined by CSS modules
-        'composes',
-      ],
+      ['composes'],
       {
         unspecified: 'bottomAlphabetical',
       },
@@ -40,20 +34,14 @@ export default {
     'property-no-unknown': [
       true,
       {
-        ignoreProperties: [
-          // Defined by CSS modules
-          'composes',
-        ],
+        ignoreProperties: ['composes'],
       },
     ],
 
     'selector-pseudo-class-no-unknown': [
       true,
       {
-        ignorePseudoClasses: [
-          // Defined by CSS modules
-          'global',
-        ],
+        ignorePseudoClasses: ['global'],
       },
     ],
   },
