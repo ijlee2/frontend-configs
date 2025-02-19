@@ -1,5 +1,11 @@
 # my-v2-addon
 
+## 0.1.3
+
+### Patch Changes
+
+- [#19](https://github.com/ijlee2/frontend-configs/pull/19) Consumed the correct configuration ([@ijlee2](https://github.com/ijlee2))
+
 ## 0.1.2
 
 ### Patch Changes

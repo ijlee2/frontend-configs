@@ -1,5 +1,11 @@
 # @ijlee2-frontend-configs/ember-template-lint
 
+## 0.4.2
+
+### Patch Changes
+
+- [#19](https://github.com/ijlee2/frontend-configs/pull/19) Specified prettier as a peer dependency ([@ijlee2](https://github.com/ijlee2))
+
 ## 0.4.1
 
 ### Patch Changes
