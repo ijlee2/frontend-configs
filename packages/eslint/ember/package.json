@@ -24,7 +24,7 @@
     "@babel/plugin-proposal-decorators": "^7.25.9",
     "@eslint/js": "^9.20.0",
     "eslint-config-prettier": "^10.0.1",
-    "eslint-import-resolver-typescript": "^3.8.0",
+    "eslint-import-resolver-typescript": "^3.8.2",
     "eslint-plugin-ember": "^12.5.0",
     "eslint-plugin-import-x": "^4.6.1",
     "eslint-plugin-n": "^17.15.1",
@@ -33,7 +33,7 @@
     "eslint-plugin-simple-import-sort": "^12.1.1",
     "eslint-plugin-typescript-sort-keys": "^3.3.0",
     "globals": "^15.15.0",
-    "typescript-eslint": "^8.24.0"
+    "typescript-eslint": "^8.24.1"
   },
   "devDependencies": {
     "@ijlee2-frontend-configs/eslint-config-node": "workspace:*",
