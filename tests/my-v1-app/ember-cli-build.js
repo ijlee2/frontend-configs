@@ -38,7 +38,7 @@ module.exports = function (defaults) {
             // We want to enable the local mode only for our own host app.
             // All other addons should be loaded in the global mode.
             const hostAppLocation =
-              'tests/my-app/node_modules/.embroider/rewritten-app';
+              'tests/my-v1-app/node_modules/.embroider/rewritten-app';
 
             return resourcePath.includes(hostAppLocation) ? 'local' : 'global';
           },
