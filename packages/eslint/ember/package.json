@@ -8,8 +8,8 @@
   },
   "type": "module",
   "exports": {
-    "./app": "./app/index.js",
     "./v1-addon": "./v1-addon/index.js",
+    "./v1-app": "./v1-app/index.js",
     "./v2-addon": "./v2-addon/index.js"
   },
   "scripts": {
