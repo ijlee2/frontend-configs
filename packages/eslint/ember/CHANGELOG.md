@@ -1,5 +1,16 @@
 # @ijlee2-frontend-configs/eslint-config-ember
 
+## 0.3.0
+
+### Minor Changes
+
+- [#22](https://github.com/ijlee2/frontend-configs/pull/22) Defined configuration for v2 apps ([@ijlee2](https://github.com/ijlee2))
+- [#21](https://github.com/ijlee2/frontend-configs/pull/21) Updated export path for v1 apps ([@ijlee2](https://github.com/ijlee2))
+
+### Patch Changes
+
+- [#23](https://github.com/ijlee2/frontend-configs/pull/23) Updated dependencies ([@ijlee2](https://github.com/ijlee2))
+
 ## 0.2.3
 
 ### Patch Changes
