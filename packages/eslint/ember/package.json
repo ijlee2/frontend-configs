@@ -39,7 +39,6 @@
   "devDependencies": {
     "@ijlee2-frontend-configs/eslint-config-node": "workspace:*",
     "@ijlee2-frontend-configs/prettier": "workspace:*",
-    "@types/eslint__js": "^8.42.3",
     "concurrently": "^9.1.2",
     "eslint": "^9.21.0",
     "prettier": "^3.5.2"
