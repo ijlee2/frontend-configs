@@ -10,7 +10,8 @@
   "exports": {
     "./v1-addon": "./v1-addon/index.js",
     "./v1-app": "./v1-app/index.js",
-    "./v2-addon": "./v2-addon/index.js"
+    "./v2-addon": "./v2-addon/index.js",
+    "./v2-app": "./v2-app/index.js"
   },
   "scripts": {
     "lint": "concurrently \"pnpm:lint:*(!fix)\" --names \"lint:\"",
