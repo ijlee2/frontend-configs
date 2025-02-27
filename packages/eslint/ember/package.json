@@ -8,10 +8,10 @@
   },
   "type": "module",
   "exports": {
-    "./v1-addon": "./v1-addon/index.js",
-    "./v1-app": "./v1-app/index.js",
-    "./v2-addon": "./v2-addon/index.js",
-    "./v2-app": "./v2-app/index.js"
+    "./v1-addon": "./v1-addon/index.mjs",
+    "./v1-app": "./v1-app/index.mjs",
+    "./v2-addon": "./v2-addon/index.mjs",
+    "./v2-app": "./v2-app/index.mjs"
   },
   "scripts": {
     "lint": "concurrently \"pnpm:lint:*(!fix)\" --names \"lint:\"",
@@ -23,9 +23,9 @@
     "@babel/core": "^7.26.9",
     "@babel/eslint-parser": "^7.26.8",
     "@babel/plugin-proposal-decorators": "^7.25.9",
-    "@eslint/js": "^9.20.0",
-    "eslint-config-prettier": "^10.0.1",
-    "eslint-import-resolver-typescript": "^3.8.2",
+    "@eslint/js": "^9.21.0",
+    "eslint-config-prettier": "^10.0.2",
+    "eslint-import-resolver-typescript": "^3.8.3",
     "eslint-plugin-ember": "^12.5.0",
     "eslint-plugin-import-x": "^4.6.1",
     "eslint-plugin-n": "^17.15.1",
@@ -33,16 +33,15 @@
     "eslint-plugin-qunit": "^8.1.2",
     "eslint-plugin-simple-import-sort": "^12.1.1",
     "eslint-plugin-typescript-sort-keys": "^3.3.0",
-    "globals": "^15.15.0",
-    "typescript-eslint": "^8.24.1"
+    "globals": "^16.0.0",
+    "typescript-eslint": "^8.25.0"
   },
   "devDependencies": {
     "@ijlee2-frontend-configs/eslint-config-node": "workspace:*",
     "@ijlee2-frontend-configs/prettier": "workspace:*",
-    "@types/eslint__js": "^8.42.3",
     "concurrently": "^9.1.2",
-    "eslint": "^9.20.1",
-    "prettier": "^3.5.1"
+    "eslint": "^9.21.0",
+    "prettier": "^3.5.2"
   },
   "peerDependencies": {
     "eslint": "^9.0.0",
