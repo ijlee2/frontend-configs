@@ -19,8 +19,8 @@ Install these packages as development dependencies:
 Afterwards, create the file `eslint.config.mjs`.
 
 ```js
-// For an app
-export { default } from '@ijlee2-frontend-configs/eslint-config-ember/app';
+// For a v1 app (classic, or Embroider + Webpack)
+export { default } from '@ijlee2-frontend-configs/eslint-config-ember/v1-app';
 
 // For a v1 addon
 export { default } from '@ijlee2-frontend-configs/eslint-config-ember/v1-addon';
@@ -59,7 +59,7 @@ export { default } from '@ijlee2-frontend-configs/eslint-config-ember/v2-addon';
 Import the configuration, then export the modified object. See [`eslint` documentation](https://eslint.org/docs/latest/use/configure/configuration-files#configuration-objects) for more information.
 
 ```js
-import baseConfiguration from '@ijlee2-frontend-configs/eslint-config-ember/app';
+import baseConfiguration from '@ijlee2-frontend-configs/eslint-config-ember/v1-app';
 
 export default [
   ...baseConfiguration,
