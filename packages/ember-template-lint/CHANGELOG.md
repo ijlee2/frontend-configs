@@ -1,5 +1,15 @@
 # @ijlee2-frontend-configs/ember-template-lint
 
+## 0.5.0
+
+### Minor Changes
+
+- [#24](https://github.com/ijlee2/frontend-configs/pull/24) Limited support to v7 ([@ijlee2](https://github.com/ijlee2))
+
+### Patch Changes
+
+- [#24](https://github.com/ijlee2/frontend-configs/pull/24) Updated dependencies ([@ijlee2](https://github.com/ijlee2))
+
 ## 0.4.2
 
 ### Patch Changes

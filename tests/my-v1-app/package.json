@@ -1,6 +1,6 @@
 {
   "name": "my-v1-app",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "private": true,
   "description": "An Ember app for testing @ijlee2-frontend-configs",
   "repository": "",

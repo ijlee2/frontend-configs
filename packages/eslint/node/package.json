@@ -1,6 +1,6 @@
 {
   "name": "@ijlee2-frontend-configs/eslint-config-node",
-  "version": "0.2.4",
+  "version": "0.2.5",
   "description": "Configuration for eslint (Node)",
   "repository": {
     "type": "git",
