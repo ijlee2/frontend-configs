@@ -13,6 +13,7 @@ module('Integration | Component | hello', function (hooks) {
 
     assert
       .dom('[data-test-hello]')
+      .hasClass(styles.emphasize)
       .hasClass(styles.message)
       .hasStyle({
         fontSize: '128px',

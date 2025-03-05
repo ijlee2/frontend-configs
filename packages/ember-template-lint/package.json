@@ -20,10 +20,10 @@
   "devDependencies": {
     "@ijlee2-frontend-configs/prettier": "workspace:*",
     "concurrently": "^9.1.2",
-    "prettier": "^3.5.2"
+    "prettier": "^3.5.3"
   },
   "peerDependencies": {
-    "ember-template-lint": "^6.0.0",
+    "ember-template-lint": "^7.0.0",
     "prettier": "^3.0.0"
   },
   "peerDependenciesMeta": {
