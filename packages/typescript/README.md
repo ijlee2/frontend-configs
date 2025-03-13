@@ -48,4 +48,4 @@ See [`typescript` documentation](https://www.typescriptlang.org/tsconfig/) for m
 
 ## License
 
-This project is licensed under the [MIT License](../../LICENSE.md).
+This project is licensed under the [MIT License](./LICENSE.md).
