@@ -6,6 +6,7 @@
     "type": "git",
     "url": "https://github.com/ijlee2/frontend-configs.git"
   },
+  "license": "MIT",
   "type": "module",
   "exports": {
     ".": {
