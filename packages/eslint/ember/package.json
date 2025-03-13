@@ -1,6 +1,6 @@
 {
   "name": "@ijlee2-frontend-configs/eslint-config-ember",
-  "version": "0.3.2",
+  "version": "0.3.3",
   "description": "Configuration for eslint (Ember)",
   "repository": {
     "type": "git",

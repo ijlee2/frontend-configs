@@ -1,5 +1,11 @@
 # @ijlee2-frontend-configs/eslint-config-ember
 
+## 0.3.3
+
+### Patch Changes
+
+- [#26](https://github.com/ijlee2/frontend-configs/pull/26) Added LICENSE ([@ijlee2](https://github.com/ijlee2))
+
 ## 0.3.2
 
 ### Patch Changes

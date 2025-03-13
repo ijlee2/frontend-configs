@@ -1,6 +1,6 @@
 {
   "name": "@ijlee2-frontend-configs/ember-template-lint",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "description": "Configuration for ember-template-lint",
   "repository": {
     "type": "git",

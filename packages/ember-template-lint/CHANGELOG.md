@@ -1,5 +1,11 @@
 # @ijlee2-frontend-configs/ember-template-lint
 
+## 0.5.1
+
+### Patch Changes
+
+- [#26](https://github.com/ijlee2/frontend-configs/pull/26) Added LICENSE ([@ijlee2](https://github.com/ijlee2))
+
 ## 0.5.0
 
 ### Minor Changes

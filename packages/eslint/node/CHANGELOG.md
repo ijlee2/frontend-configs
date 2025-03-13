@@ -1,5 +1,11 @@
 # @ijlee2-frontend-configs/eslint-config-node
 
+## 0.2.7
+
+### Patch Changes
+
+- [#26](https://github.com/ijlee2/frontend-configs/pull/26) Added LICENSE ([@ijlee2](https://github.com/ijlee2))
+
 ## 0.2.6
 
 ### Patch Changes
