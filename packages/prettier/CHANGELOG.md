@@ -1,5 +1,11 @@
 # @ijlee2-frontend-configs/prettier
 
+## 0.2.3
+
+### Patch Changes
+
+- [#27](https://github.com/ijlee2/frontend-configs/pull/27) Added license field ([@ijlee2](https://github.com/ijlee2))
+
 ## 0.2.2
 
 ### Patch Changes
