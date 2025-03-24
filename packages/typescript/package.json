@@ -21,10 +21,10 @@
     "lint:js:fix": "prettier \"**/*.{cjs,json,mjs}\" --write"
   },
   "dependencies": {
-    "@tsconfig/ember": "^3.0.9",
+    "@tsconfig/ember": "^3.0.10",
     "@tsconfig/node18": "^18.2.4",
-    "@tsconfig/node20": "^20.1.4",
-    "@tsconfig/node22": "^22.0.0",
+    "@tsconfig/node20": "^20.1.5",
+    "@tsconfig/node22": "^22.0.1",
     "@tsconfig/strictest": "^2.0.5"
   },
   "devDependencies": {
