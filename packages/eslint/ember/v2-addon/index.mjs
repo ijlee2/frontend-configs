@@ -45,6 +45,7 @@ export default tseslint.config(
       curly: 'error',
       'import-x/no-duplicates': 'error',
       'import-x/no-unresolved': 'off',
+      'max-depth': ['error', 3],
       'simple-import-sort/imports': 'error',
       'simple-import-sort/exports': 'error',
     },
@@ -88,6 +89,7 @@ export default tseslint.config(
     rules: {
       '@typescript-eslint/array-type': 'error',
       '@typescript-eslint/consistent-type-imports': 'error',
+      '@typescript-eslint/method-signature-style': ['error', 'property'],
       '@typescript-eslint/no-empty-object-type': [
         'error',
         {
