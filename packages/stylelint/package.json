@@ -25,7 +25,7 @@
     "lint:js:fix": "prettier \"**/*.{cjs,mjs}\" --write"
   },
   "dependencies": {
-    "stylelint-config-standard": "^37.0.0",
+    "stylelint-config-standard": "^38.0.0",
     "stylelint-order": "^6.0.4",
     "stylelint-prettier": "^5.0.3"
   },

@@ -50,15 +50,15 @@
     "test": "echo \"A v2 addon does not have tests, run tests in tests/my-app\""
   },
   "dependencies": {
-    "@embroider/addon-shim": "^1.9.0",
+    "@embroider/addon-shim": "^1.10.0",
     "decorator-transforms": "^2.3.0",
-    "embroider-css-modules": "^2.0.15"
+    "embroider-css-modules": "^2.0.16"
   },
   "devDependencies": {
     "@babel/core": "^7.26.10",
-    "@babel/plugin-transform-typescript": "^7.26.8",
-    "@babel/runtime": "^7.26.10",
-    "@ember/test-helpers": "^5.1.0",
+    "@babel/plugin-transform-typescript": "^7.27.0",
+    "@babel/runtime": "^7.27.0",
+    "@ember/test-helpers": "^5.2.1",
     "@embroider/addon-dev": "^7.1.3",
     "@glimmer/component": "^2.0.0",
     "@glimmer/tracking": "^1.1.2",
@@ -72,19 +72,19 @@
     "@ijlee2-frontend-configs/stylelint": "workspace:*",
     "@ijlee2-frontend-configs/typescript": "workspace:*",
     "@rollup/plugin-babel": "^6.0.4",
-    "babel-plugin-ember-template-compilation": "^2.4.0",
+    "babel-plugin-ember-template-compilation": "^2.4.1",
     "concurrently": "^9.1.2",
     "ember-modifier": "^4.2.0",
     "ember-source": "~6.2.0",
-    "ember-template-lint": "^7.0.1",
-    "eslint": "^9.23.0",
+    "ember-template-lint": "^7.0.7",
+    "eslint": "^9.24.0",
     "postcss": "^8.5.2",
     "prettier": "^3.5.3",
-    "rollup": "^4.37.0",
+    "rollup": "^4.40.0",
     "rollup-plugin-postcss": "^4.0.2",
-    "stylelint": "^16.16.0",
+    "stylelint": "^16.18.0",
     "type-css-modules": "^1.0.17",
-    "typescript": "^5.8.2"
+    "typescript": "^5.8.3"
   },
   "engines": {
     "node": "18.* || >= 20"
