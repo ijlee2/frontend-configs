@@ -1,5 +1,11 @@
 # @ijlee2-frontend-configs/eslint-config-node
 
+## 0.4.1
+
+### Patch Changes
+
+- [#31](https://github.com/ijlee2/frontend-configs/pull/31) Allowed maximum depth of 4 (default value) ([@ijlee2](https://github.com/ijlee2))
+
 ## 0.4.0
 
 ### Minor Changes
