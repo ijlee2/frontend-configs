@@ -35,6 +35,7 @@ export default [
       curly: 'error',
       'import-x/no-duplicates': 'error',
       'import-x/no-unresolved': 'off',
+      'max-depth': ['error', 3],
       'simple-import-sort/imports': 'error',
       'simple-import-sort/exports': 'error',
     },
