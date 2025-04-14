@@ -1,5 +1,15 @@
 # @ijlee2-frontend-configs/eslint-config-ember
 
+## 0.5.0
+
+### Minor Changes
+
+- [#30](https://github.com/ijlee2/frontend-configs/pull/30) Set max-depth and @typescript-eslint/method-signature-style ([@ijlee2](https://github.com/ijlee2))
+
+### Patch Changes
+
+- [#29](https://github.com/ijlee2/frontend-configs/pull/29) Updated dependencies ([@ijlee2](https://github.com/ijlee2))
+
 ## 0.4.0
 
 ### Minor Changes
