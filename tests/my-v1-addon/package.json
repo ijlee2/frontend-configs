@@ -49,11 +49,11 @@
     "ember-auto-import": "^2.10.0",
     "ember-cli-babel": "^8.2.0",
     "ember-cli-htmlbars": "^6.3.0",
-    "ember-intl": "^7.1.5"
+    "ember-intl": "^7.1.6"
   },
   "devDependencies": {
     "@ember/optional-features": "^2.2.0",
-    "@ember/test-helpers": "^5.1.0",
+    "@ember/test-helpers": "^5.2.1",
     "@embroider/test-setup": "^4.0.0",
     "@glimmer/component": "^2.0.0",
     "@glimmer/tracking": "^1.1.2",
@@ -77,20 +77,20 @@
     "ember-cli-terser": "^4.0.2",
     "ember-load-initializers": "^3.0.1",
     "ember-page-title": "^9.0.1",
-    "ember-qunit": "^9.0.1",
+    "ember-qunit": "^9.0.2",
     "ember-resolver": "^13.1.0",
     "ember-source": "~6.2.0",
-    "ember-template-lint": "^7.0.1",
-    "ember-test-selectors": "^7.0.0",
-    "eslint": "^9.23.0",
+    "ember-template-lint": "^7.0.7",
+    "ember-test-selectors": "^7.1.0",
+    "eslint": "^9.24.0",
     "loader.js": "^4.7.0",
     "prettier": "^3.5.3",
     "qunit": "^2.24.1",
     "qunit-dom": "^3.4.0",
-    "stylelint": "^16.16.0",
+    "stylelint": "^16.18.0",
     "type-css-modules": "^1.0.17",
-    "typescript": "^5.8.2",
-    "webpack": "^5.98.0"
+    "typescript": "^5.8.3",
+    "webpack": "^5.99.5"
   },
   "engines": {
     "node": "18.* || >= 20"
