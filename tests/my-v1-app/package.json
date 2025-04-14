@@ -68,7 +68,7 @@
     "ember-resolver": "^13.1.0",
     "ember-source": "~6.2.0",
     "ember-template-imports": "^4.3.0",
-    "ember-template-lint": "^7.0.7",
+    "ember-template-lint": "7.0.5",
     "ember-test-selectors": "^7.1.0",
     "embroider-css-modules": "^2.0.16",
     "eslint": "^9.24.0",
