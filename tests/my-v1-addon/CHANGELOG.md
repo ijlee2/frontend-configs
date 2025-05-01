@@ -1,5 +1,15 @@
 # my-v1-addon
 
+## 1.0.0
+
+### Major Changes
+
+- [#34](https://github.com/ijlee2/frontend-configs/pull/34) Dropped Node 18 support ([@ijlee2](https://github.com/ijlee2))
+
+### Patch Changes
+
+- [#32](https://github.com/ijlee2/frontend-configs/pull/32) Updated dependencies ([@ijlee2](https://github.com/ijlee2))
+
 ## 0.1.8
 
 ### Patch Changes

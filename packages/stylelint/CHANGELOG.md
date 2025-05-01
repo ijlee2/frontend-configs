@@ -1,5 +1,15 @@
 # @ijlee2-frontend-configs/stylelint
 
+## 1.0.0
+
+### Major Changes
+
+- [#34](https://github.com/ijlee2/frontend-configs/pull/34) Dropped Node 18 support ([@ijlee2](https://github.com/ijlee2))
+
+### Minor Changes
+
+- [#32](https://github.com/ijlee2/frontend-configs/pull/32) Updated dependencies ([@ijlee2](https://github.com/ijlee2))
+
 ## 0.3.0
 
 ### Minor Changes

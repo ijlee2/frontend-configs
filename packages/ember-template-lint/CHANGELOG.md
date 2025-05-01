@@ -1,5 +1,11 @@
 # @ijlee2-frontend-configs/ember-template-lint
 
+## 1.0.0
+
+### Major Changes
+
+- [#34](https://github.com/ijlee2/frontend-configs/pull/34) Dropped Node 18 support ([@ijlee2](https://github.com/ijlee2))
+
 ## 0.5.2
 
 ### Patch Changes

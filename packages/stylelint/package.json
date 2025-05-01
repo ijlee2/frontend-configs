@@ -1,6 +1,6 @@
 {
   "name": "@ijlee2-frontend-configs/stylelint",
-  "version": "0.3.0",
+  "version": "1.0.0",
   "description": "Configuration for stylelint",
   "repository": {
     "type": "git",

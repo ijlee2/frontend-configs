@@ -1,6 +1,6 @@
 {
   "name": "@ijlee2-frontend-configs/prettier",
-  "version": "0.2.4",
+  "version": "1.0.0",
   "description": "Configuration for prettier",
   "repository": {
     "type": "git",
