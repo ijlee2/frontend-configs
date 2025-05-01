@@ -19,7 +19,7 @@
     "test": "pnpm --filter './tests/**' test"
   },
   "devDependencies": {
-    "@changesets/cli": "^2.29.0",
+    "@changesets/cli": "^2.29.2",
     "@changesets/get-github-info": "^0.6.0",
     "update-workspace-root-version": "^1.0.5"
   },
