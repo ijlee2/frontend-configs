@@ -5,6 +5,7 @@ import eslintPluginImportX from 'eslint-plugin-import-x';
 import eslintPluginN from 'eslint-plugin-n';
 import eslintPluginPrettier from 'eslint-plugin-prettier/recommended';
 import eslintPluginSimpleImportSort from 'eslint-plugin-simple-import-sort';
+import eslintPluginSortClassMembers from 'eslint-plugin-sort-class-members';
 import eslintPluginTypescriptSortKeys from 'eslint-plugin-typescript-sort-keys';
 import globals from 'globals';
 import tseslint from 'typescript-eslint';
@@ -36,6 +37,7 @@ export default tseslint.config(
   eslintPluginEmber.configs.base,
   eslintPluginEmber.configs.gjs,
   eslintPluginImportX.flatConfigs.recommended,
+  eslintPluginSortClassMembers.configs['flat/recommended'],
   eslintPluginPrettier,
   {
     plugins: {
@@ -48,6 +50,72 @@ export default tseslint.config(
       'max-depth': ['error', 4],
       'simple-import-sort/imports': 'error',
       'simple-import-sort/exports': 'error',
+      'sort-class-members/sort-class-members': [
+        2,
+        {
+          groups: {
+            'ember-actions': [
+              {
+                groupByDecorator: 'action',
+                sort: 'alphabetical',
+                type: 'method',
+              },
+            ],
+            'ember-data-decorators': [
+              {
+                groupByDecorator: 'belongsTo',
+                sort: 'alphabetical',
+                type: 'property',
+              },
+              {
+                groupByDecorator: 'hasMany',
+                sort: 'alphabetical',
+                type: 'property',
+              },
+              {
+                groupByDecorator: 'attr',
+                sort: 'alphabetical',
+                type: 'property',
+              },
+            ],
+            'ember-controller-model': [{ name: 'model', type: 'property' }],
+            'ember-controller-queryParams': [
+              { name: 'queryParams', type: 'property' },
+            ],
+            'ember-services': [
+              {
+                groupByDecorator: 'service',
+                sort: 'alphabetical',
+                type: 'property',
+              },
+            ],
+            'ember-tracked-properties': [
+              {
+                groupByDecorator: 'tracked',
+                sort: 'alphabetical',
+                type: 'property',
+              },
+            ],
+            getters: [{ kind: 'get', sort: 'alphabetical' }],
+            methods: [{ sort: 'alphabetical', type: 'method' }],
+            properties: [{ sort: 'alphabetical', type: 'property' }],
+            setters: [{ kind: 'set', sort: 'alphabetical' }],
+          },
+          order: [
+            '[ember-data-decorators]',
+            '[ember-services]',
+            '[ember-controller-model]',
+            '[ember-controller-queryParams]',
+            '[properties]',
+            '[ember-tracked-properties]',
+            '[getters]',
+            '[setters]',
+            'constructor',
+            '[methods]',
+            '[ember-actions]',
+          ],
+        },
+      ],
     },
   },
 

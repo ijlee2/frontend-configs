@@ -4,6 +4,7 @@ import eslintPluginImportX from 'eslint-plugin-import-x';
 import eslintPluginN from 'eslint-plugin-n';
 import eslintPluginPrettier from 'eslint-plugin-prettier/recommended';
 import eslintPluginSimpleImportSort from 'eslint-plugin-simple-import-sort';
+import eslintPluginSortClassMembers from 'eslint-plugin-sort-class-members';
 import globals from 'globals';
 
 const parserOptionsJs = {
@@ -26,6 +27,7 @@ export default [
 
   eslint.configs.recommended,
   eslintPluginImportX.flatConfigs.recommended,
+  eslintPluginSortClassMembers.configs['flat/recommended'],
   eslintPluginPrettier,
   {
     plugins: {
@@ -38,6 +40,24 @@ export default [
       'max-depth': ['error', 4],
       'simple-import-sort/imports': 'error',
       'simple-import-sort/exports': 'error',
+      'sort-class-members/sort-class-members': [
+        2,
+        {
+          groups: {
+            getters: [{ kind: 'get', sort: 'alphabetical' }],
+            methods: [{ sort: 'alphabetical', type: 'method' }],
+            properties: [{ sort: 'alphabetical', type: 'property' }],
+            setters: [{ kind: 'set', sort: 'alphabetical' }],
+          },
+          order: [
+            '[properties]',
+            '[getters]',
+            '[setters]',
+            'constructor',
+            '[methods]',
+          ],
+        },
+      ],
     },
   },
 
