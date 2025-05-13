@@ -1,5 +1,11 @@
 # @ijlee2-frontend-configs/ember-template-lint
 
+## 1.1.0
+
+### Minor Changes
+
+- [#36](https://github.com/ijlee2/frontend-configs/pull/36) Enabled sort-invocations ([@ijlee2](https://github.com/ijlee2))
+
 ## 1.0.0
 
 ### Major Changes

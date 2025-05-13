@@ -1,5 +1,15 @@
 # @ijlee2-frontend-configs/eslint-config-ember
 
+## 1.1.0
+
+### Minor Changes
+
+- [#36](https://github.com/ijlee2/frontend-configs/pull/36) Placed services and tracked properties nearer one another ([@ijlee2](https://github.com/ijlee2))
+
+### Patch Changes
+
+- [#35](https://github.com/ijlee2/frontend-configs/pull/35) Updated dependencies ([@ijlee2](https://github.com/ijlee2))
+
 ## 1.0.0
 
 ### Major Changes
