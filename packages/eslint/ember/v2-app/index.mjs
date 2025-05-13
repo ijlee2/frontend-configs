@@ -104,11 +104,11 @@ export default tseslint.config(
           },
           order: [
             '[ember-data-decorators]',
-            '[ember-services]',
             '[ember-controller-model]',
             '[ember-controller-queryParams]',
-            '[properties]',
+            '[ember-services]',
             '[ember-tracked-properties]',
+            '[properties]',
             '[getters]',
             '[setters]',
             'constructor',
