@@ -9,6 +9,10 @@ export default [
           type: 'method',
         },
       ],
+      'ember-controller-model': [{ name: 'model', type: 'property' }],
+      'ember-controller-queryParams': [
+        { name: 'queryParams', type: 'property' },
+      ],
       'ember-data-decorators': [
         {
           groupByDecorator: 'belongsTo',
@@ -26,9 +30,11 @@ export default [
           type: 'property',
         },
       ],
-      'ember-controller-model': [{ name: 'model', type: 'property' }],
-      'ember-controller-queryParams': [
-        { name: 'queryParams', type: 'property' },
+      'ember-data-type-brand': [
+        {
+          name: 'Type',
+          type: 'property',
+        },
       ],
       'ember-services': [
         {
@@ -50,6 +56,7 @@ export default [
       setters: [{ kind: 'set', sort: 'alphabetical' }],
     },
     order: [
+      '[ember-data-type-brand]',
       '[ember-data-decorators]',
       '[ember-controller-model]',
       '[ember-controller-queryParams]',
