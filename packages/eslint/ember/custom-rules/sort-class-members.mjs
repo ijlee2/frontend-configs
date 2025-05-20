@@ -30,6 +30,12 @@ export default [
           type: 'property',
         },
       ],
+      'ember-data-type-brand': [
+        {
+          name: 'Type',
+          type: 'property',
+        },
+      ],
       'ember-services': [
         {
           groupByDecorator: 'service',
@@ -50,6 +56,7 @@ export default [
       setters: [{ kind: 'set', sort: 'alphabetical' }],
     },
     order: [
+      '[ember-data-type-brand]',
       '[ember-data-decorators]',
       '[ember-controller-model]',
       '[ember-controller-queryParams]',
