@@ -22,7 +22,7 @@
   "dependencies": {
     "@tsconfig/ember": "^3.0.10",
     "@tsconfig/node20": "^20.1.5",
-    "@tsconfig/node22": "^22.0.1",
+    "@tsconfig/node22": "^22.0.2",
     "@tsconfig/strictest": "^2.0.5"
   },
   "devDependencies": {
