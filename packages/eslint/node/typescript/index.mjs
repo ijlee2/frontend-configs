@@ -9,6 +9,8 @@ import eslintPluginTypescriptSortKeys from 'eslint-plugin-typescript-sort-keys';
 import globals from 'globals';
 import tseslint from 'typescript-eslint';
 
+import customRules from '../custom-rules/index.mjs';
+
 const parserOptionsJs = {
   ecmaFeatures: {
     modules: true,
@@ -40,33 +42,8 @@ export default tseslint.config(
     plugins: {
       'simple-import-sort': eslintPluginSimpleImportSort,
     },
-    rules: {
-      curly: 'error',
-      'import-x/no-duplicates': 'error',
-      'import-x/no-unresolved': 'off',
-      'max-depth': ['error', 4],
-      'simple-import-sort/imports': 'error',
-      'simple-import-sort/exports': 'error',
-      'sort-class-members/sort-class-members': [
-        2,
-        {
-          groups: {
-            getters: [{ kind: 'get', sort: 'alphabetical' }],
-            methods: [{ sort: 'alphabetical', type: 'method' }],
-            properties: [{ sort: 'alphabetical', type: 'property' }],
-            setters: [{ kind: 'set', sort: 'alphabetical' }],
-          },
-          order: [
-            '[properties]',
-            '[getters]',
-            '[setters]',
-            'constructor',
-            '[methods]',
-          ],
-        },
-      ],
-    },
   },
+  customRules,
 
   // JavaScript files
   {
