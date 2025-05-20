@@ -1,5 +1,13 @@
 # @ijlee2-frontend-configs/eslint-config-node
 
+## 1.0.2
+
+### Patch Changes
+
+- [#39](https://github.com/ijlee2/frontend-configs/pull/39) Recommended installing `@tsconfig/*` packages ([@ijlee2](https://github.com/ijlee2))
+- [#38](https://github.com/ijlee2/frontend-configs/pull/38) Extracted custom rules ([@ijlee2](https://github.com/ijlee2))
+- [#37](https://github.com/ijlee2/frontend-configs/pull/37) Updated dependencies ([@ijlee2](https://github.com/ijlee2))
+
 ## 1.0.1
 
 ### Patch Changes

@@ -1,5 +1,17 @@
 # @ijlee2-frontend-configs/eslint-config-ember
 
+## 1.2.0
+
+### Minor Changes
+
+- [#40](https://github.com/ijlee2/frontend-configs/pull/40) Sorted ember-data's Type brand ([@ijlee2](https://github.com/ijlee2))
+
+### Patch Changes
+
+- [#39](https://github.com/ijlee2/frontend-configs/pull/39) Recommended installing `@tsconfig/*` packages ([@ijlee2](https://github.com/ijlee2))
+- [#38](https://github.com/ijlee2/frontend-configs/pull/38) Extracted custom rules ([@ijlee2](https://github.com/ijlee2))
+- [#37](https://github.com/ijlee2/frontend-configs/pull/37) Updated dependencies ([@ijlee2](https://github.com/ijlee2))
+
 ## 1.1.0
 
 ### Minor Changes
