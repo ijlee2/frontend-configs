@@ -43,18 +43,7 @@ export { default } from '@ijlee2-frontend-configs/eslint-config-ember/v2-addon';
 >      ...
 >    ```
 >
-> As a temporary fix, please pin `get-tsconfig` to `v4.7.3`.
->
->    ```json5
->    // package.json
->    {
->      "pnpm": {
->        "overrides": {
->          "get-tsconfig": "4.7.3"
->        }
->      }
->    }
->    ```
+> As a temporary fix, please install `@tsconfig/*` packages instead of `@ijlee2-frontend-configs/typescript`.
 
 
 ### Customization
