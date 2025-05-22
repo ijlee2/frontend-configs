@@ -1,5 +1,11 @@
 # @ijlee2-frontend-configs/eslint-config-node
 
+## 1.1.0
+
+### Minor Changes
+
+- [#41](https://github.com/ijlee2/frontend-configs/pull/41) Sorted getters and setters alphabetically ([@ijlee2](https://github.com/ijlee2))
+
 ## 1.0.2
 
 ### Patch Changes
