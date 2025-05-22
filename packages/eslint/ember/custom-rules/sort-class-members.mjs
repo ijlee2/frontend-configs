@@ -50,10 +50,10 @@ export default [
           type: 'property',
         },
       ],
-      getters: [{ kind: 'get', sort: 'alphabetical' }],
+      getters: [{ kind: 'get', sort: 'alphabetical', type: 'method' }],
       methods: [{ sort: 'alphabetical', type: 'method' }],
       properties: [{ sort: 'alphabetical', type: 'property' }],
-      setters: [{ kind: 'set', sort: 'alphabetical' }],
+      setters: [{ kind: 'set', sort: 'alphabetical', type: 'method' }],
     },
     order: [
       '[ember-data-type-brand]',
