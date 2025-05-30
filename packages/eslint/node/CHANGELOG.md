@@ -1,5 +1,15 @@
 # @ijlee2-frontend-configs/eslint-config-node
 
+## 1.2.0
+
+### Minor Changes
+
+- [#42](https://github.com/ijlee2/frontend-configs/pull/42) Enabled recommended configs from eslint-plugin-n ([@ijlee2](https://github.com/ijlee2))
+
+### Patch Changes
+
+- [#43](https://github.com/ijlee2/frontend-configs/pull/43) Updated dependencies ([@ijlee2](https://github.com/ijlee2))
+
 ## 1.1.0
 
 ### Minor Changes

@@ -1,5 +1,15 @@
 # @ijlee2-frontend-configs/eslint-config-ember
 
+## 1.4.0
+
+### Minor Changes
+
+- [#42](https://github.com/ijlee2/frontend-configs/pull/42) Enabled recommended configs from eslint-plugin-n and eslint-plugin-qunit ([@ijlee2](https://github.com/ijlee2))
+
+### Patch Changes
+
+- [#43](https://github.com/ijlee2/frontend-configs/pull/43) Updated dependencies ([@ijlee2](https://github.com/ijlee2))
+
 ## 1.3.0
 
 ### Minor Changes
