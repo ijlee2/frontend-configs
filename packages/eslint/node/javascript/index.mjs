@@ -49,6 +49,7 @@ export default [
 
   // Configuration files
   {
+    ...eslintPluginN.configs['flat/recommended-script'],
     files: ['**/*.cjs'],
     languageOptions: {
       ecmaVersion: 'latest',
@@ -60,6 +61,7 @@ export default [
     },
   },
   {
+    ...eslintPluginN.configs['flat/recommended-module'],
     files: ['**/*.mjs'],
     languageOptions: {
       ecmaVersion: 'latest',

@@ -22,6 +22,7 @@ const parserOptionsJs = {
 
 const parserOptionsTs = {
   projectService: true,
+  // eslint-disable-next-line n/no-unsupported-features/node-builtins
   tsconfigRootDir: import.meta.dirname,
 };
 
@@ -122,6 +123,7 @@ export default tseslint.config(
 
   // Configuration files
   {
+    ...eslintPluginN.configs['flat/recommended-script'],
     files: [
       '**/*.cjs',
       '.prettierrc.js',
@@ -138,6 +140,7 @@ export default tseslint.config(
     },
   },
   {
+    ...eslintPluginN.configs['flat/recommended-module'],
     files: ['**/*.mjs'],
     languageOptions: {
       ecmaVersion: 'latest',
