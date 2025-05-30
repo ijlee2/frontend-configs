@@ -121,6 +121,7 @@ export default tseslint.config(
 
   // Test files
   {
+    ...eslintPluginQunit.configs.recommended,
     files: ['tests/**/*-test.{gjs,gts,js,ts}'],
     plugins: {
       qunit: eslintPluginQunit,
@@ -129,6 +130,7 @@ export default tseslint.config(
 
   // Configuration files
   {
+    ...eslintPluginN.configs['flat/recommended-script'],
     files: [
       '**/*.cjs',
       'config/**/*.js',
@@ -150,6 +152,7 @@ export default tseslint.config(
     },
   },
   {
+    ...eslintPluginN.configs['flat/recommended-module'],
     files: ['**/*.mjs'],
     languageOptions: {
       ecmaVersion: 'latest',
