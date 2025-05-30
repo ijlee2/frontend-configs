@@ -85,6 +85,7 @@ export default tseslint.config(
 
   // Configuration files
   {
+    ...eslintPluginN.configs['flat/recommended-script'],
     files: ['**/*.cjs'],
     languageOptions: {
       ecmaVersion: 'latest',
@@ -96,6 +97,7 @@ export default tseslint.config(
     },
   },
   {
+    ...eslintPluginN.configs['flat/recommended-module'],
     files: ['**/*.mjs'],
     languageOptions: {
       ecmaVersion: 'latest',
