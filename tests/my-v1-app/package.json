@@ -26,7 +26,7 @@
     "test": "ember test --test-port 0"
   },
   "devDependencies": {
-    "@babel/core": "^7.27.1",
+    "@babel/core": "^7.27.3",
     "@ember/optional-features": "^2.2.0",
     "@ember/string": "^4.0.1",
     "@ember/test-helpers": "^5.2.2",
@@ -74,12 +74,12 @@
     "eslint": "^9.27.0",
     "loader.js": "^4.7.0",
     "my-v2-addon": "workspace:*",
-    "postcss": "^8.5.3",
+    "postcss": "^8.5.4",
     "postcss-loader": "^8.1.1",
     "prettier": "^3.5.3",
     "qunit": "^2.24.1",
     "qunit-dom": "^3.4.0",
-    "stylelint": "^16.19.1",
+    "stylelint": "^16.20.0",
     "tracked-built-ins": "^4.0.0",
     "type-css-modules": "^2.0.0",
     "typescript": "^5.8.3",
