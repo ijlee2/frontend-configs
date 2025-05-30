@@ -34,16 +34,16 @@
   },
   "dependencies": {
     "@codemod-utils/files": "^3.0.1",
-    "yargs": "^17.7.2"
+    "yargs": "^18.0.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.27.1",
+    "@babel/core": "^7.27.3",
     "@codemod-utils/tests": "^2.0.0",
     "@ijlee2-frontend-configs/eslint-config-node": "workspace:*",
     "@ijlee2-frontend-configs/prettier": "workspace:*",
     "@ijlee2-frontend-configs/typescript": "workspace:*",
     "@sondr3/minitest": "^0.1.2",
-    "@types/node": "^22.15.19",
+    "@types/node": "^22.15.27",
     "@types/yargs": "^17.0.33",
     "concurrently": "^9.1.2",
     "eslint": "^9.27.0",
