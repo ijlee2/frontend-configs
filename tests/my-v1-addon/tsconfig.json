@@ -15,14 +15,9 @@
       "*": ["types/*"]
     },
     "skipLibCheck": true,
-    "types": [
-      "ember-source/types"
-    ]
+    "types": ["ember-source/types"]
   },
   "glint": {
-    "environment": [
-      "ember-loose",
-      "ember-template-imports"
-    ]
+    "environment": ["ember-loose", "ember-template-imports"]
   }
 }

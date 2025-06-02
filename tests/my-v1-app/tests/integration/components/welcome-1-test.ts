@@ -7,7 +7,11 @@ module('Integration | Component | welcome-1', function (hooks) {
   setupRenderingTest(hooks);
 
   test('it renders', async function (assert) {
-    await render(hbs`<Welcome-1 />`);
+    await render(
+      hbs`
+        <Welcome-1 />
+      `,
+    );
 
     assert
       .dom()
