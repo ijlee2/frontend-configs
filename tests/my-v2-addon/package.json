@@ -60,9 +60,9 @@
     "embroider-css-modules": "^3.0.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.27.3",
+    "@babel/core": "^7.27.4",
     "@babel/plugin-transform-typescript": "^7.27.1",
-    "@babel/runtime": "^7.27.3",
+    "@babel/runtime": "^7.27.4",
     "@ember/test-helpers": "^5.2.2",
     "@embroider/addon-dev": "^8.0.1",
     "@glimmer/component": "^2.0.0",
@@ -82,7 +82,7 @@
     "ember-modifier": "^4.2.2",
     "ember-source": "~6.4.0",
     "ember-template-lint": "^7.7.0",
-    "eslint": "^9.27.0",
+    "eslint": "^9.28.0",
     "postcss": "^8.5.4",
     "prettier": "^3.5.3",
     "rollup": "^4.41.1",

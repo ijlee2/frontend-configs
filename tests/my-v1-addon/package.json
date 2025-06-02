@@ -50,7 +50,7 @@
     "test": "ember test --test-port 0"
   },
   "dependencies": {
-    "@babel/core": "^7.27.3",
+    "@babel/core": "^7.27.4",
     "ember-auto-import": "^2.10.0",
     "ember-cli-babel": "^8.2.0",
     "ember-cli-htmlbars": "^6.3.0",
@@ -87,7 +87,7 @@
     "ember-source": "~6.4.0",
     "ember-template-lint": "^7.7.0",
     "ember-test-selectors": "^7.1.0",
-    "eslint": "^9.27.0",
+    "eslint": "^9.28.0",
     "loader.js": "^4.7.0",
     "prettier": "^3.5.3",
     "qunit": "^2.24.1",
