@@ -8,7 +8,4 @@
 /coverage/
 !.*
 .*/
-
-# ember-template-imports
-/**/*.gjs
-/**/*.gts
+*.html
