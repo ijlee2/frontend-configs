@@ -35,8 +35,8 @@
     "test": "vite build --mode test && ember test --config-file \"./testem.cjs\" --path dist --test-port=0"
   },
   "devDependencies": {
-    "@babel/core": "^7.27.3",
-    "@babel/plugin-transform-runtime": "^7.27.3",
+    "@babel/core": "^7.27.4",
+    "@babel/plugin-transform-runtime": "^7.27.4",
     "@babel/plugin-transform-typescript": "^7.27.1",
     "@ember/optional-features": "^2.2.0",
     "@ember/string": "^4.0.1",
@@ -83,7 +83,7 @@
     "ember-template-lint": "^7.7.0",
     "ember-test-selectors": "^7.1.0",
     "embroider-css-modules": "^3.0.0",
-    "eslint": "^9.27.0",
+    "eslint": "^9.28.0",
     "prettier": "^3.5.3",
     "qunit": "^2.24.1",
     "qunit-dom": "^3.4.0",
