@@ -4,7 +4,7 @@
 
 ## What is it?
 
-`@ijlee2-frontend-configs` provides base configuration files for Ember and Node projects.
+`@ijlee2-frontend-configs` provides reusable configurations for Ember and Node projects.
 
 
 ### Package overview
@@ -17,16 +17,9 @@
 - [`@ijlee2-frontend-configs/typescript`](./packages/typescript/README.md)
 
 
-## Local development
+## Contributing
 
-```sh
-# Lint files
-pnpm lint
-pnpm lint:fix
-
-# Run tests
-pnpm test
-```
+See the [Contributing](CONTRIBUTING.md) guide for details.
 
 
 ## License
