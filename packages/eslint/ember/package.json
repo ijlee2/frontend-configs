@@ -15,10 +15,8 @@
     "./v2-app": "./v2-app/index.mjs"
   },
   "scripts": {
-    "lint": "concurrently \"pnpm:lint:*(!fix)\" --names \"lint:\"",
-    "lint:fix": "concurrently \"pnpm:lint:*:fix\" --names \"fix:\"",
-    "lint:js": "eslint . --cache",
-    "lint:js:fix": "eslint . --fix"
+    "lint": "eslint . --cache",
+    "lint:fix": "eslint . --fix"
   },
   "dependencies": {
     "@babel/core": "^7.27.3",
@@ -41,7 +39,6 @@
   "devDependencies": {
     "@ijlee2-frontend-configs/eslint-config-node": "workspace:*",
     "@ijlee2-frontend-configs/prettier": "workspace:*",
-    "concurrently": "^9.1.2",
     "eslint": "^9.27.0",
     "prettier": "^3.5.3"
   },

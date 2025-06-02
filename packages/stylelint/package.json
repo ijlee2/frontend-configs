@@ -19,10 +19,8 @@
     }
   },
   "scripts": {
-    "lint": "concurrently \"pnpm:lint:*(!fix)\" --names \"lint:\"",
-    "lint:fix": "concurrently \"pnpm:lint:*:fix\" --names \"fix:\"",
-    "lint:js": "prettier \"**/*.{cjs,mjs}\" --check",
-    "lint:js:fix": "prettier \"**/*.{cjs,mjs}\" --write"
+    "lint": "prettier \"**/*.mjs\" --cache --check",
+    "lint:fix": "prettier \"**/*.mjs\" --cache --write"
   },
   "dependencies": {
     "stylelint-config-standard": "^38.0.0",
@@ -31,7 +29,6 @@
   },
   "devDependencies": {
     "@ijlee2-frontend-configs/prettier": "workspace:*",
-    "concurrently": "^9.1.2",
     "prettier": "^3.5.3"
   },
   "peerDependencies": {
