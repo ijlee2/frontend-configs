@@ -9,29 +9,19 @@
   "license": "MIT",
   "type": "module",
   "exports": {
-    ".": {
-      "import": "./default/index.mjs",
-      "require": "./default/index.cjs"
-    },
-    "./css-modules": {
-      "import": "./css-modules/index.mjs",
-      "require": "./css-modules/index.cjs"
-    }
+    ".": "./default/index.mjs",
+    "./css-modules": "./css-modules/index.mjs"
   },
   "scripts": {
-    "lint": "concurrently \"pnpm:lint:*(!fix)\" --names \"lint:\"",
-    "lint:fix": "concurrently \"pnpm:lint:*:fix\" --names \"fix:\"",
-    "lint:js": "prettier \"**/*.{cjs,mjs}\" --check",
-    "lint:js:fix": "prettier \"**/*.{cjs,mjs}\" --write"
+    "lint": "prettier \"**/*.mjs\" --cache --check",
+    "lint:fix": "prettier \"**/*.mjs\" --cache --write"
   },
   "dependencies": {
     "stylelint-config-standard": "^38.0.0",
-    "stylelint-order": "^7.0.0",
-    "stylelint-prettier": "^5.0.3"
+    "stylelint-order": "^7.0.0"
   },
   "devDependencies": {
     "@ijlee2-frontend-configs/prettier": "workspace:*",
-    "concurrently": "^9.1.2",
     "prettier": "^3.5.3"
   },
   "peerDependencies": {

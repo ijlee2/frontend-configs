@@ -14,25 +14,15 @@ Install these packages as development dependencies:
 - `@ijlee2-frontend-configs/prettier`
 - `prettier`
 
-Afterwards, create the file `.prettierrc.mjs` or `prettier.config.mjs`.
+Afterwards, create the file `prettier.config.mjs`.
 
 ```js
-export { default } from '@ijlee2-frontend-configs/prettier';
+// For an Ember project
+export { default } from '@ijlee2-frontend-configs/prettier/ember';
+
+// For a Node project
+export { default } from '@ijlee2-frontend-configs/prettier/node';
 ```
-
-<details>
-
-<summary>Use CommonJS?</summary>
-
-Create the file `.prettierrc.cjs` or `prettier.config.cjs` instead.
-
-```js
-'use strict';
-
-module.exports = require('@ijlee2-frontend-configs/prettier');
-```
-
-</details>
 
 
 ### Customization
@@ -40,16 +30,15 @@ module.exports = require('@ijlee2-frontend-configs/prettier');
 Import the configuration, then export the modified object. See [`prettier` documentation](https://prettier.io/docs/sharing-configurations#extending-a-sharable-config) for more information.
 
 ```js
-import baseConfiguration from '@ijlee2-frontend-configs/prettier';
+import baseConfiguration from '@ijlee2-frontend-configs/prettier/ember';
 
 export default {
   ...baseConfiguration,
   overrides: [
     ...baseConfiguration.overrides,
     {
-      files: '*.hbs',
+      files: ['*.scss'],
       options: {
-        printWidth: 80,
         singleQuote: false,
       },
     },

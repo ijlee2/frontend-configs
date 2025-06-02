@@ -11,8 +11,11 @@
   "author": "Isaac J. Lee",
   "type": "module",
   "scripts": {
+    "format": "pnpm --filter \"*\" format",
     "lint": "pnpm --filter \"*\" lint",
     "lint:fix": "pnpm --filter \"*\" lint:fix",
+    "lint:package-json": "pnpm lint:package-json:fix --check",
+    "lint:package-json:fix": "sort-package-json \"**/package.json\" --ignore \"**/{dist,dist-for-testing,node_modules}/**\"",
     "prepare": "pnpm --filter my-v2-addon build",
     "release:prepare": "changeset version; update-workspace-root-version",
     "release:publish": "changeset publish",
@@ -21,6 +24,7 @@
   "devDependencies": {
     "@changesets/cli": "^2.29.4",
     "@changesets/get-github-info": "^0.6.0",
+    "sort-package-json": "^3.2.1",
     "update-workspace-root-version": "^2.0.0"
   },
   "packageManager": "pnpm@9.15.9",

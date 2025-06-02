@@ -9,22 +9,18 @@
   "license": "MIT",
   "type": "module",
   "exports": {
-    ".": {
-      "import": "./index.mjs",
-      "require": "./index.cjs"
-    }
+    "./ember": "./ember/index.mjs",
+    "./node": "./node/index.mjs"
   },
   "scripts": {
-    "lint": "concurrently \"pnpm:lint:*(!fix)\" --names \"lint:\"",
-    "lint:fix": "concurrently \"pnpm:lint:*:fix\" --names \"fix:\"",
-    "lint:js": "prettier \"**/*.{cjs,mjs}\" --check",
-    "lint:js:fix": "prettier \"**/*.{cjs,mjs}\" --write"
+    "lint": "prettier \"**/*.mjs\" --cache --check",
+    "lint:fix": "prettier \"**/*.mjs\" --cache --write"
   },
   "dependencies": {
+    "prettier-plugin-ember-hbs-tag": "^0.4.3",
     "prettier-plugin-ember-template-tag": "^2.0.5"
   },
   "devDependencies": {
-    "concurrently": "^9.1.2",
     "prettier": "^3.5.3"
   },
   "peerDependencies": {

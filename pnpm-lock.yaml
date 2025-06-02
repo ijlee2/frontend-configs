@@ -14,22 +14,18 @@ importers:
       '@changesets/get-github-info':
         specifier: ^0.6.0
         version: 0.6.0
+      sort-package-json:
+        specifier: ^3.2.1
+        version: 3.2.1
       update-workspace-root-version:
         specifier: ^2.0.0
         version: 2.0.0
 
   packages/ember-template-lint:
-    dependencies:
-      ember-template-lint-plugin-prettier:
-        specifier: ^5.0.0
-        version: 5.0.0(ember-template-lint@7.7.0(@babel/core@7.27.3))(prettier@3.5.3)
     devDependencies:
       '@ijlee2-frontend-configs/prettier':
         specifier: workspace:*
         version: link:../prettier
-      concurrently:
-        specifier: ^9.1.2
-        version: 9.1.2
       prettier:
         specifier: ^3.5.3
         version: 3.5.3
@@ -63,9 +59,6 @@ importers:
       eslint-plugin-n:
         specifier: ^17.18.0
         version: 17.18.0(eslint@9.27.0(jiti@1.21.7))
-      eslint-plugin-prettier:
-        specifier: ^5.4.1
-        version: 5.4.1(@types/eslint@9.6.1)(eslint-config-prettier@10.1.5(eslint@9.27.0(jiti@1.21.7)))(eslint@9.27.0(jiti@1.21.7))(prettier@3.5.3)
       eslint-plugin-qunit:
         specifier: ^8.1.2
         version: 8.1.2(eslint@9.27.0(jiti@1.21.7))
@@ -91,9 +84,6 @@ importers:
       '@ijlee2-frontend-configs/prettier':
         specifier: workspace:*
         version: link:../../prettier
-      concurrently:
-        specifier: ^9.1.2
-        version: 9.1.2
       eslint:
         specifier: ^9.27.0
         version: 9.27.0(jiti@1.21.7)
@@ -124,9 +114,6 @@ importers:
       eslint-plugin-n:
         specifier: ^17.18.0
         version: 17.18.0(eslint@9.27.0(jiti@1.21.7))
-      eslint-plugin-prettier:
-        specifier: ^5.4.1
-        version: 5.4.1(@types/eslint@9.6.1)(eslint-config-prettier@10.1.5(eslint@9.27.0(jiti@1.21.7)))(eslint@9.27.0(jiti@1.21.7))(prettier@3.5.3)
       eslint-plugin-simple-import-sort:
         specifier: ^12.1.1
         version: 12.1.1(eslint@9.27.0(jiti@1.21.7))
@@ -146,9 +133,6 @@ importers:
       '@ijlee2-frontend-configs/prettier':
         specifier: workspace:*
         version: link:../../prettier
-      concurrently:
-        specifier: ^9.1.2
-        version: 9.1.2
       eslint:
         specifier: ^9.27.0
         version: 9.27.0(jiti@1.21.7)
@@ -158,13 +142,13 @@ importers:
 
   packages/prettier:
     dependencies:
+      prettier-plugin-ember-hbs-tag:
+        specifier: ^0.4.3
+        version: 0.4.3(prettier@3.5.3)
       prettier-plugin-ember-template-tag:
         specifier: ^2.0.5
         version: 2.0.5(prettier@3.5.3)
     devDependencies:
-      concurrently:
-        specifier: ^9.1.2
-        version: 9.1.2
       prettier:
         specifier: ^3.5.3
         version: 3.5.3
@@ -177,16 +161,10 @@ importers:
       stylelint-order:
         specifier: ^7.0.0
         version: 7.0.0(stylelint@16.20.0(typescript@5.8.3))
-      stylelint-prettier:
-        specifier: ^5.0.3
-        version: 5.0.3(prettier@3.5.3)(stylelint@16.20.0(typescript@5.8.3))
     devDependencies:
       '@ijlee2-frontend-configs/prettier':
         specifier: workspace:*
         version: link:../prettier
-      concurrently:
-        specifier: ^9.1.2
-        version: 9.1.2
       prettier:
         specifier: ^3.5.3
         version: 3.5.3
@@ -209,9 +187,6 @@ importers:
       '@ijlee2-frontend-configs/prettier':
         specifier: workspace:*
         version: link:../prettier
-      concurrently:
-        specifier: ^9.1.2
-        version: 9.1.2
       prettier:
         specifier: ^3.5.3
         version: 3.5.3
@@ -2184,10 +2159,6 @@ packages:
     resolution: {integrity: sha512-oGB+UxlgWcgQkgwo8GcEGwemoTFt3FIO9ababBmaGwXIoBKZ+GTy0pP185beGg7Llih/NSHSV2XAs1lnznocSg==}
     engines: {node: '>= 8'}
 
-  '@pkgr/core@0.2.4':
-    resolution: {integrity: sha512-ROFF39F6ZrnzSUEmQQZUar0Jt4xVoP9WnDRdWwF4NNcXs3xBTLgBUDoOwW141y1jP+S8nahIbdxbFC7IShw9Iw==}
-    engines: {node: ^12.20.0 || ^14.18.0 || >=16.0.0}
-
   '@pnpm/constants@1001.1.0':
     resolution: {integrity: sha512-xb9dfSGi1qfUKY3r4Zy9JdC9+ZeaDxwfE7HrrGIEsBVY1hvIn6ntbR7A97z3nk44yX7vwbINNf9sizTp0WEtEw==}
     engines: {node: '>=18.12'}
@@ -2199,11 +2170,6 @@ packages:
   '@pnpm/find-workspace-dir@1000.1.0':
     resolution: {integrity: sha512-K5iG/z0SLV6bVW1jIYvbNBI6vWAD6ETJKyWj/wwHr7hxloxtm9xJCGbe/41pmM9nfFFUPbr1Z0YOi4q9yWkj6g==}
     engines: {node: '>=18.12'}
-
-  '@prettier/sync@0.2.1':
-    resolution: {integrity: sha512-7ls1R6//+GPYD9vof1XaL5psViv83CwpdwlS8oUkWldYgbPhzZ3WgxIQMWqGyBmWPmoBfQg8C7jj7KI/ZuDHhQ==}
-    peerDependencies:
-      prettier: ^3.0.0
 
   '@rollup/plugin-babel@6.0.4':
     resolution: {integrity: sha512-YF7Y52kFdFT/xVSuVdjkV5ZdX/3YtmX0QulG+x0taQOtJdHYzVU61aSSkAgVJ7NOv6qPkIYiJSgSWWN/DM5sGw==}
@@ -4173,13 +4139,6 @@ packages:
     resolution: {integrity: sha512-jZ5D6KLKU8up/AynZltmKh4lkXBPgTGSPgomprI/55XvIVqn42UNUpEz7ra/mO3QiGODDZOUesbggPe49i38sQ==}
     engines: {node: 16.* || >= 18}
 
-  ember-template-lint-plugin-prettier@5.0.0:
-    resolution: {integrity: sha512-aXUYM4yuIdPZ80+AsAU8QBwGSJJ/aAkRsNcQ5vI5HmXiBjzHlDc/ZhmP6iVcYuCmoA/3iKcssMAYwIDbuby4pg==}
-    engines: {node: ^16.0.0 || ^18.0.0 || >=20.0.0}
-    peerDependencies:
-      ember-template-lint: '>= 4.0.0'
-      prettier: '>= 3.0.0'
-
   ember-template-lint@7.7.0:
     resolution: {integrity: sha512-KVQNeCdZHglpMm0YY4itu18xzw+IYeLLceWlL9tplCNcsQLSDYynyOvkzuQQH+y4JYN7aFnlxlxSGPyCOpBLZg==}
     engines: {node: ^18.18.0 || >= 20.9.0}
@@ -4389,20 +4348,6 @@ packages:
     peerDependencies:
       eslint: '>=8.23.0'
 
-  eslint-plugin-prettier@5.4.1:
-    resolution: {integrity: sha512-9dF+KuU/Ilkq27A8idRP7N2DH8iUR6qXcjF3FR2wETY21PZdBrIjwCau8oboyGj9b7etWmTGEeM8e7oOed6ZWg==}
-    engines: {node: ^14.18.0 || >=16.0.0}
-    peerDependencies:
-      '@types/eslint': '>=8.0.0'
-      eslint: '>=8.0.0'
-      eslint-config-prettier: '>= 7.0.0 <10.0.0 || >=10.1.0'
-      prettier: '>=3.0.0'
-    peerDependenciesMeta:
-      '@types/eslint':
-        optional: true
-      eslint-config-prettier:
-        optional: true
-
   eslint-plugin-qunit@8.1.2:
     resolution: {integrity: sha512-2gDQdHlQW8GVXD7YYkO8vbm9Ldc60JeGMuQN5QlD48OeZ8znBvvoHWZZMeXjvoDPReGaLEvyuWrDtrI8bDbcqw==}
     engines: {node: ^16.0.0 || ^18.0.0 || >=20.0.0}
@@ -4583,9 +4528,6 @@ packages:
 
   fast-deep-equal@3.1.3:
     resolution: {integrity: sha512-f3qQ9oQy9j2AhBe/H9VC91wLmKBCCU/gDOnKNAYG5hswO7BLKj09Hc5HYNz9cGI++xlpDCIgDaitVs03ATR84Q==}
-
-  fast-diff@1.3.0:
-    resolution: {integrity: sha512-VxPP4NqbUjj6MaAOafWeUn2cXWLcCtljklUtZf0Ind4XQ+QPtmA0b18zZy0jIQx+ExRVCR/ZQpBmik5lXshNsw==}
 
   fast-glob@3.3.3:
     resolution: {integrity: sha512-7MptL8U0cqcFdzIzwOTHoilX9x5BrNqye7Z/LuC7kCMRio1EMSyqRK3BEAUD7sXRq4iT4AzTVuZdhgQ2TCvYLg==}
@@ -4907,6 +4849,9 @@ packages:
 
   git-hooks-list@3.2.0:
     resolution: {integrity: sha512-ZHG9a1gEhUMX1TvGrLdyWb9kDopCBbTnI8z4JgRMYxsijWipgjSEYoPWqBuIB0DnRnvqlQSEeVmzpeuPm7NdFQ==}
+
+  git-hooks-list@4.1.1:
+    resolution: {integrity: sha512-cmP497iLq54AZnv4YRAEMnEyQ1eIn4tGKbmswqwmFV4GBnAqE8NLtWxxdXa++AalfgL5EBH4IxTPyquEuGY/jA==}
 
   git-repo-info@2.1.1:
     resolution: {integrity: sha512-8aCohiDo4jwjOwma4FmYFd3i97urZulL8XL24nIPxuE+GZnfsAyy/g2Shqx6OjUiFKUXZM+Yy+KHnOmmA3FVcg==}
@@ -6601,9 +6546,11 @@ packages:
     resolution: {integrity: sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g==}
     engines: {node: '>= 0.8.0'}
 
-  prettier-linter-helpers@1.0.0:
-    resolution: {integrity: sha512-GbK2cP9nraSSUF9N2XwUwqfzlAFlMNYYl+ShE/V+H8a9uNl/oUqB1w2EL54Jh0OlyRSd8RfWYJ3coVS4TROP2w==}
-    engines: {node: '>=6.0.0'}
+  prettier-plugin-ember-hbs-tag@0.4.3:
+    resolution: {integrity: sha512-VxLwPg24fSkq8oLNByFnW+oYioud6KXZuqf4Px9jJ2xCbpKWbxbwzAdjIw6tVO0hS2XoevjLLqsyTyGUsl2szQ==}
+    engines: {node: 20.* || >= 22, pnpm: '>= 9'}
+    peerDependencies:
+      prettier: ^3.0.0
 
   prettier-plugin-ember-template-tag@2.0.5:
     resolution: {integrity: sha512-G9lbK3wmryIBSzqBKKoy254v7hIjqzqYpqWxi9NvOxcxNtwLyrC1u9NLJJFm+x9blzqHQOzKGOseVnbLtEwEbg==}
@@ -7152,6 +7099,10 @@ packages:
     resolution: {integrity: sha512-9x9+o8krTT2saA9liI4BljNjwAbvUnWf11Wq+i/iZt8nl2UGYnf3TH5uBydE7VALmP7AGwlfszuEeL8BDyb0YA==}
     hasBin: true
 
+  sort-package-json@3.2.1:
+    resolution: {integrity: sha512-rTfRdb20vuoAn7LDlEtCqOkYfl2X+Qze6cLbNOzcDpbmKEhJI30tTN44d5shbKJnXsvz24QQhlCm81Bag7EOKg==}
+    hasBin: true
+
   source-map-js@1.2.1:
     resolution: {integrity: sha512-UXWMKhLOwVKb728IUtQPXxfYU+usdybtUrK/8uGE8CQMvrhOpwvzDBwj0QhSL7MQc7vIsISBG8VQ8+IDQxpfQA==}
     engines: {node: '>=0.10.0'}
@@ -7353,13 +7304,6 @@ packages:
     peerDependencies:
       stylelint: ^16.18.0
 
-  stylelint-prettier@5.0.3:
-    resolution: {integrity: sha512-B6V0oa35ekRrKZlf+6+jA+i50C4GXJ7X1PPmoCqSUoXN6BrNF6NhqqhanvkLjqw2qgvrS0wjdpeC+Tn06KN3jw==}
-    engines: {node: '>=18.12.0'}
-    peerDependencies:
-      prettier: '>=3.0.0'
-      stylelint: '>=16.0.0'
-
   stylelint@16.20.0:
     resolution: {integrity: sha512-B5Myu9WRxrgKuLs3YyUXLP2H0mrbejwNxPmyADlACWwFsrL8Bmor/nTSh4OMae5sHjOz6gkSeccQH34gM4/nAw==}
     engines: {node: '>=18.12.0'}
@@ -7405,10 +7349,6 @@ packages:
   sync-disk-cache@2.1.0:
     resolution: {integrity: sha512-vngT2JmkSapgq0z7uIoYtB9kWOOzMihAAYq/D3Pjm/ODOGMgS4r++B+OZ09U4hWR6EaOdy9eqQ7/8ygbH3wehA==}
     engines: {node: 8.* || >= 10.*}
-
-  synckit@0.11.8:
-    resolution: {integrity: sha512-+XZ+r1XGIJGeQk3VvXhT6xx/VpbHsRzsTkGgF6E5RX9TTXD0118l87puaEBZ566FhqblC6U0d4XnubznJDm30A==}
-    engines: {node: ^14.18.0 || >=16.0.0}
 
   table@6.9.0:
     resolution: {integrity: sha512-9kY+CygyYM6j02t5YFHbNz2FN5QmYGv9zAjVp4lCDjlCw7amdckXlEt/bjMhUIfj4ThGRE4gCUH5+yGnNuPo5A==}
@@ -10557,8 +10497,6 @@ snapshots:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.19.1
 
-  '@pkgr/core@0.2.4': {}
-
   '@pnpm/constants@1001.1.0': {}
 
   '@pnpm/error@1000.0.2':
@@ -10569,10 +10507,6 @@ snapshots:
     dependencies:
       '@pnpm/error': 1000.0.2
       find-up: 5.0.0
-
-  '@prettier/sync@0.2.1(prettier@3.5.3)':
-    dependencies:
-      prettier: 3.5.3
 
   '@rollup/plugin-babel@6.0.4(@babel/core@7.27.3)(rollup@4.41.1)':
     dependencies:
@@ -13180,13 +13114,6 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  ember-template-lint-plugin-prettier@5.0.0(ember-template-lint@7.7.0(@babel/core@7.27.3))(prettier@3.5.3):
-    dependencies:
-      '@prettier/sync': 0.2.1(prettier@3.5.3)
-      ember-template-lint: 7.7.0(@babel/core@7.27.3)
-      prettier: 3.5.3
-      prettier-linter-helpers: 1.0.0
-
   ember-template-lint@7.7.0(@babel/core@7.27.3):
     dependencies:
       '@babel/generator': 7.27.3
@@ -13538,16 +13465,6 @@ snapshots:
       minimatch: 9.0.5
       semver: 7.7.2
 
-  eslint-plugin-prettier@5.4.1(@types/eslint@9.6.1)(eslint-config-prettier@10.1.5(eslint@9.27.0(jiti@1.21.7)))(eslint@9.27.0(jiti@1.21.7))(prettier@3.5.3):
-    dependencies:
-      eslint: 9.27.0(jiti@1.21.7)
-      prettier: 3.5.3
-      prettier-linter-helpers: 1.0.0
-      synckit: 0.11.8
-    optionalDependencies:
-      '@types/eslint': 9.6.1
-      eslint-config-prettier: 10.1.5(eslint@9.27.0(jiti@1.21.7))
-
   eslint-plugin-qunit@8.1.2(eslint@9.27.0(jiti@1.21.7)):
     dependencies:
       eslint-utils: 3.0.0(eslint@9.27.0(jiti@1.21.7))
@@ -13805,8 +13722,6 @@ snapshots:
   extract-stack@2.0.0: {}
 
   fast-deep-equal@3.1.3: {}
-
-  fast-diff@1.3.0: {}
 
   fast-glob@3.3.3:
     dependencies:
@@ -14232,6 +14147,8 @@ snapshots:
   get-value@2.0.6: {}
 
   git-hooks-list@3.2.0: {}
+
+  git-hooks-list@4.1.1: {}
 
   git-repo-info@2.1.1: {}
 
@@ -15901,9 +15818,12 @@ snapshots:
 
   prelude-ls@1.2.1: {}
 
-  prettier-linter-helpers@1.0.0:
+  prettier-plugin-ember-hbs-tag@0.4.3(prettier@3.5.3):
     dependencies:
-      fast-diff: 1.3.0
+      '@babel/core': 7.27.3
+      prettier: 3.5.3
+    transitivePeerDependencies:
+      - supports-color
 
   prettier-plugin-ember-template-tag@2.0.5(prettier@3.5.3):
     dependencies:
@@ -16579,6 +16499,16 @@ snapshots:
       sort-object-keys: 1.1.3
       tinyglobby: 0.2.14
 
+  sort-package-json@3.2.1:
+    dependencies:
+      detect-indent: 7.0.1
+      detect-newline: 4.0.1
+      git-hooks-list: 4.1.1
+      is-plain-obj: 4.1.0
+      semver: 7.7.2
+      sort-object-keys: 1.1.3
+      tinyglobby: 0.2.14
+
   source-map-js@1.2.1: {}
 
   source-map-resolve@0.5.3:
@@ -16780,12 +16710,6 @@ snapshots:
       postcss-sorting: 9.1.0(postcss@8.5.4)
       stylelint: 16.20.0(typescript@5.8.3)
 
-  stylelint-prettier@5.0.3(prettier@3.5.3)(stylelint@16.20.0(typescript@5.8.3)):
-    dependencies:
-      prettier: 3.5.3
-      prettier-linter-helpers: 1.0.0
-      stylelint: 16.20.0(typescript@5.8.3)
-
   stylelint@16.20.0(typescript@5.8.3):
     dependencies:
       '@csstools/css-parser-algorithms': 3.0.5(@csstools/css-tokenizer@3.0.4)
@@ -16884,10 +16808,6 @@ snapshots:
       username-sync: 1.0.3
     transitivePeerDependencies:
       - supports-color
-
-  synckit@0.11.8:
-    dependencies:
-      '@pkgr/core': 0.2.4
 
   table@6.9.0:
     dependencies:
