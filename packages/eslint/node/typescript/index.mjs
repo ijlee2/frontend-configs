@@ -1,8 +1,8 @@
 import babelEslintParser from '@babel/eslint-parser';
 import eslint from '@eslint/js';
+import eslintConfigPrettier from 'eslint-config-prettier';
 import eslintPluginImportX from 'eslint-plugin-import-x';
 import eslintPluginN from 'eslint-plugin-n';
-import eslintPluginPrettier from 'eslint-plugin-prettier/recommended';
 import eslintPluginSimpleImportSort from 'eslint-plugin-simple-import-sort';
 import eslintPluginSortClassMembers from 'eslint-plugin-sort-class-members';
 import eslintPluginTypescriptSortKeys from 'eslint-plugin-typescript-sort-keys';
@@ -38,7 +38,7 @@ export default tseslint.config(
   eslint.configs.recommended,
   eslintPluginImportX.flatConfigs.recommended,
   eslintPluginSortClassMembers.configs['flat/recommended'],
-  eslintPluginPrettier,
+  eslintConfigPrettier,
   {
     plugins: {
       'simple-import-sort': eslintPluginSimpleImportSort,
