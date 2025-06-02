@@ -1,5 +1,12 @@
 # @ijlee2-frontend-configs/prettier
 
+## 2.0.0
+
+### Major Changes
+
+- [#44](https://github.com/ijlee2/frontend-configs/pull/44) Separated Ember and Node configs for Prettier ([@ijlee2](https://github.com/ijlee2))
+- [#44](https://github.com/ijlee2/frontend-configs/pull/44) Removed CJS support ([@ijlee2](https://github.com/ijlee2))
+
 ## 1.0.0
 
 ### Major Changes

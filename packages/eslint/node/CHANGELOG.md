@@ -1,5 +1,16 @@
 # @ijlee2-frontend-configs/eslint-config-node
 
+## 2.0.0
+
+### Major Changes
+
+- [#44](https://github.com/ijlee2/frontend-configs/pull/44) Separated formatting and linting ([@ijlee2](https://github.com/ijlee2))
+
+### Patch Changes
+
+- [#45](https://github.com/ijlee2/frontend-configs/pull/45) Removed unnecessary peer dependency (patched #44) ([@ijlee2](https://github.com/ijlee2))
+- [#45](https://github.com/ijlee2/frontend-configs/pull/45) Updated dependencies ([@ijlee2](https://github.com/ijlee2))
+
 ## 1.2.0
 
 ### Minor Changes
