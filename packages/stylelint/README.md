@@ -26,20 +26,6 @@ export { default } from '@ijlee2-frontend-configs/stylelint';
 export { default } from '@ijlee2-frontend-configs/stylelint/css-modules';
 ```
 
-<details>
-
-<summary>Use CommonJS?</summary>
-
-Create the file `.stylelintrc.cjs`.
-
-```js
-'use strict';
-
-module.exports = require('@ijlee2-frontend-configs/stylelint');
-```
-
-</details>
-
 
 ### Customization
 

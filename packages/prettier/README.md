@@ -20,20 +20,6 @@ Afterwards, create the file `.prettierrc.mjs` or `prettier.config.mjs`.
 export { default } from '@ijlee2-frontend-configs/prettier';
 ```
 
-<details>
-
-<summary>Use CommonJS?</summary>
-
-Create the file `.prettierrc.cjs` or `prettier.config.cjs` instead.
-
-```js
-'use strict';
-
-module.exports = require('@ijlee2-frontend-configs/prettier');
-```
-
-</details>
-
 
 ### Customization
 
