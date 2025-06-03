@@ -11,9 +11,7 @@ The package provides a configuration for [`stylelint`](https://stylelint.io/user
 
 Install these packages as development dependencies:
 
-- `@ijlee2-frontend-configs/prettier`
 - `@ijlee2-frontend-configs/stylelint`
-- `prettier`
 - `stylelint`
 
 Afterwards, create the file `.stylelintrc.mjs`.

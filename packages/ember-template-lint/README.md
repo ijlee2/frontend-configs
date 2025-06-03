@@ -13,7 +13,6 @@ Install these packages as development dependencies:
 
 - `@ijlee2-frontend-configs/ember-template-lint`
 - `ember-template-lint`
-- `prettier`
 
 Afterwards, create the file `.template-lintrc.cjs`.
 
@@ -35,15 +34,10 @@ const baseConfiguration = require('@ijlee2-frontend-configs/ember-template-lint'
 
 module.exports = {
   ...baseConfiguration,
-  overrides: [
-    ...baseConfiguration.overrides,
-    {
-      files: ['tests/**/*-test.{js,ts}'],
-      rules: {
-        prettier: true,
-      },
-    },
-  ],
+  rules: {
+    ...baseConfiguration.rules,
+    'no-bare-strings': true,
+  },
 };
 ```
 
