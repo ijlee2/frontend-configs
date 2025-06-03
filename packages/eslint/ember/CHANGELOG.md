@@ -1,5 +1,11 @@
 # @ijlee2-frontend-configs/eslint-config-ember
 
+## 2.0.1
+
+### Patch Changes
+
+- [#46](https://github.com/ijlee2/frontend-configs/pull/46) Removed references to prettier in README ([@ijlee2](https://github.com/ijlee2))
+
 ## 2.0.0
 
 ### Major Changes
