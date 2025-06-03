@@ -13,7 +13,6 @@ Install these packages as development dependencies:
 
 - `@ijlee2-frontend-configs/eslint-config-node`
 - `eslint`
-- `prettier`
 - `typescript` (optional)
 
 Afterwards, create the file `eslint.config.mjs`.
