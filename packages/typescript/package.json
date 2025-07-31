@@ -18,14 +18,14 @@
     "lint:fix": "prettier \"**/*.{json,mjs}\" --cache --write"
   },
   "dependencies": {
-    "@tsconfig/ember": "^3.0.10",
+    "@tsconfig/ember": "^3.0.11",
     "@tsconfig/node20": "^20.1.6",
     "@tsconfig/node22": "^22.0.2",
     "@tsconfig/strictest": "^2.0.5"
   },
   "devDependencies": {
     "@ijlee2-frontend-configs/prettier": "workspace:*",
-    "prettier": "^3.6.0"
+    "prettier": "^3.6.2"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
