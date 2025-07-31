@@ -1,5 +1,11 @@
 # @ijlee2-frontend-configs/prettier
 
+## 2.1.1
+
+### Patch Changes
+
+- [#52](https://github.com/ijlee2/frontend-configs/pull/52) Updated prettier-plugin-ember-hbs-tag to 1.0.0 ([@ijlee2](https://github.com/ijlee2))
+
 ## 2.1.0
 
 ### Minor Changes
