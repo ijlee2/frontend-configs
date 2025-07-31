@@ -18,10 +18,10 @@
   },
   "dependencies": {
     "prettier-plugin-ember-hbs-tag": "^0.4.6",
-    "prettier-plugin-ember-template-tag": "^2.0.6"
+    "prettier-plugin-ember-template-tag": "^2.1.0"
   },
   "devDependencies": {
-    "prettier": "^3.6.0"
+    "prettier": "^3.6.2"
   },
   "peerDependencies": {
     "prettier": "^3.0.0"
