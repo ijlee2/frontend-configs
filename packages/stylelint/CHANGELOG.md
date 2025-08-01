@@ -1,5 +1,11 @@
 # @ijlee2-frontend-configs/stylelint
 
+## 2.1.1
+
+### Patch Changes
+
+- [#53](https://github.com/ijlee2/frontend-configs/pull/53) Replaced grip-gap (deprecated) with gap ([@ijlee2](https://github.com/ijlee2))
+
 ## 2.1.0
 
 ### Minor Changes
