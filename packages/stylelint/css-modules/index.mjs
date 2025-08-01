@@ -20,7 +20,7 @@ export default {
     'declaration-block-no-redundant-longhand-properties': [
       true,
       {
-        ignoreShorthands: ['grid-gap', 'grid-template'],
+        ignoreShorthands: ['gap', 'grid-template'],
       },
     ],
 
