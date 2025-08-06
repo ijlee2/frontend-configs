@@ -1,5 +1,11 @@
 # @ijlee2-frontend-configs/ember-template-lint
 
+## 2.2.0
+
+### Minor Changes
+
+- [#55](https://github.com/ijlee2/frontend-configs/pull/55) Enabled reportUnusedDisableDirectives ([@ijlee2](https://github.com/ijlee2))
+
 ## 2.1.0
 
 ### Minor Changes

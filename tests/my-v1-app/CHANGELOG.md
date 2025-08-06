@@ -1,5 +1,12 @@
 # my-v1-app
 
+## 1.0.8
+
+### Patch Changes
+
+- [#56](https://github.com/ijlee2/frontend-configs/pull/56) Updated dependencies ([@ijlee2](https://github.com/ijlee2))
+- [#55](https://github.com/ijlee2/frontend-configs/pull/55) Enabled reportUnusedDisableDirectives ([@ijlee2](https://github.com/ijlee2))
+
 ## 1.0.7
 
 ### Patch Changes
