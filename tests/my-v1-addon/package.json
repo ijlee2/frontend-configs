@@ -93,8 +93,8 @@
     "qunit": "^2.24.1",
     "qunit-dom": "^3.4.0",
     "stylelint": "^16.23.0",
-    "type-css-modules": "^2.0.1",
-    "typescript": "^5.8.3",
+    "type-css-modules": "^2.0.2",
+    "typescript": "^5.9.2",
     "webpack": "^5.101.0"
   },
   "engines": {
