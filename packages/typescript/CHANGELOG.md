@@ -1,5 +1,11 @@
 # @ijlee2-frontend-configs/typescript
 
+## 1.0.4
+
+### Patch Changes
+
+- [#57](https://github.com/ijlee2/frontend-configs/pull/57) Extended the correct package ([@ijlee2](https://github.com/ijlee2))
+
 ## 1.0.3
 
 ### Patch Changes
