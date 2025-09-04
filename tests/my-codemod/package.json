@@ -42,7 +42,7 @@
     "yargs": "^18.0.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.28.0",
+    "@babel/core": "^7.28.3",
     "@codemod-utils/tests": "^2.0.2",
     "@ijlee2-frontend-configs/eslint-config-node": "workspace:*",
     "@ijlee2-frontend-configs/prettier": "workspace:*",
@@ -50,8 +50,8 @@
     "@sondr3/minitest": "^0.1.2",
     "@types/node": "^22.17.0",
     "@types/yargs": "^17.0.33",
-    "concurrently": "^9.2.0",
-    "eslint": "^9.32.0",
+    "concurrently": "^9.2.1",
+    "eslint": "^9.34.0",
     "prettier": "^3.6.2",
     "typescript": "^5.9.2"
   },
