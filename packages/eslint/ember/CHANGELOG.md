@@ -1,5 +1,15 @@
 # @ijlee2-frontend-configs/eslint-config-ember
 
+## 2.2.0
+
+### Minor Changes
+
+- [#60](https://github.com/ijlee2/frontend-configs/pull/60) Removed tsconfigRootDir ([@ijlee2](https://github.com/ijlee2))
+
+### Patch Changes
+
+- [#59](https://github.com/ijlee2/frontend-configs/pull/59) Updated dependencies ([@ijlee2](https://github.com/ijlee2))
+
 ## 2.1.2
 
 ### Patch Changes

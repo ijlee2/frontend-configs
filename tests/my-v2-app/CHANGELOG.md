@@ -1,5 +1,11 @@
 # my-v2-app
 
+## 1.0.9
+
+### Patch Changes
+
+- [#59](https://github.com/ijlee2/frontend-configs/pull/59) Updated dependencies ([@ijlee2](https://github.com/ijlee2))
+
 ## 1.0.8
 
 ### Patch Changes
