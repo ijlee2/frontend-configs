@@ -33,8 +33,6 @@ const parserOptionsJs = {
 
 const parserOptionsTs = {
   projectService: true,
-  // eslint-disable-next-line n/no-unsupported-features/node-builtins
-  tsconfigRootDir: import.meta.dirname,
 };
 
 export default tseslint.config(
