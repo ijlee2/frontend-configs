@@ -1,5 +1,11 @@
 # @ijlee2-frontend-configs/prettier
 
+## 2.2.0
+
+### Minor Changes
+
+- [#61](https://github.com/ijlee2/frontend-configs/pull/61) Removed unused barrel file ([@ijlee2](https://github.com/ijlee2))
+
 ## 2.1.1
 
 ### Patch Changes
