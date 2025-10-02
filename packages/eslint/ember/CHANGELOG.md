@@ -1,5 +1,15 @@
 # @ijlee2-frontend-configs/eslint-config-ember
 
+## 2.3.0
+
+### Minor Changes
+
+- [#64](https://github.com/ijlee2/frontend-configs/pull/64) Ignored @typescript-eslint/no-this-alias in tests ([@ijlee2](https://github.com/ijlee2))
+
+### Patch Changes
+
+- [#63](https://github.com/ijlee2/frontend-configs/pull/63) Updated dependencies ([@ijlee2](https://github.com/ijlee2))
+
 ## 2.2.1
 
 ### Patch Changes
