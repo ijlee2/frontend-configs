@@ -21,7 +21,7 @@
     "@tsconfig/ember": "^3.0.11",
     "@tsconfig/node20": "^20.1.6",
     "@tsconfig/node22": "^22.0.2",
-    "@tsconfig/strictest": "^2.0.5"
+    "@tsconfig/strictest": "^2.0.6"
   },
   "devDependencies": {
     "@ijlee2-frontend-configs/prettier": "workspace:*",
