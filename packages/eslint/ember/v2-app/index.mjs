@@ -115,6 +115,9 @@ export default tseslint.config(
     plugins: {
       qunit: eslintPluginQunit,
     },
+    rules: {
+      '@typescript-eslint/no-this-alias': 'off',
+    },
   },
 
   // Configuration files
