@@ -26,29 +26,29 @@
     "@babel/core": "^7.28.5",
     "@babel/eslint-parser": "^7.28.5",
     "@babel/plugin-proposal-decorators": "^7.28.0",
-    "@eslint/js": "^9.38.0",
+    "@eslint/js": "^9.39.1",
     "eslint-config-prettier": "^10.1.8",
     "eslint-import-resolver-typescript": "^4.4.4",
-    "eslint-plugin-ember": "^12.7.4",
+    "eslint-plugin-ember": "^12.7.5",
     "eslint-plugin-import-x": "^4.16.1",
     "eslint-plugin-n": "^17.23.1",
     "eslint-plugin-qunit": "^8.2.5",
     "eslint-plugin-simple-import-sort": "^12.1.1",
     "eslint-plugin-sort-class-members": "^1.21.0",
     "eslint-plugin-typescript-sort-keys": "^3.3.0",
-    "globals": "^16.4.0",
-    "typescript-eslint": "^8.46.2"
+    "globals": "^16.5.0",
+    "typescript-eslint": "^8.48.1"
   },
   "devDependencies": {
     "@ijlee2-frontend-configs/eslint-config-node": "workspace:*",
     "@ijlee2-frontend-configs/prettier": "workspace:*",
     "concurrently": "^9.2.1",
-    "eslint": "^9.38.0",
-    "prettier": "^3.6.2"
+    "eslint": "^9.39.1",
+    "prettier": "^3.7.4"
   },
   "peerDependencies": {
-    "eslint": "^9.0.0",
-    "typescript": "^5.0.0"
+    "eslint": "^9.39.0",
+    "typescript": "^5.9.3"
   },
   "peerDependenciesMeta": {
     "eslint": {
