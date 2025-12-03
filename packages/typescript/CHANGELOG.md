@@ -1,5 +1,11 @@
 # @ijlee2-frontend-configs/typescript
 
+## 1.1.0
+
+### Minor Changes
+
+- [#66](https://github.com/ijlee2/frontend-configs/pull/66) Updated dependencies ([@ijlee2](https://github.com/ijlee2))
+
 ## 1.0.6
 
 ### Patch Changes
