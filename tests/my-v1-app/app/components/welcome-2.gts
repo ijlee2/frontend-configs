@@ -15,10 +15,3 @@ const Welcome2Component: TOC<Welcome2Signature> = <template>
 </template>;
 
 export default Welcome2Component;
-
-declare module '@glint/environment-ember-loose/registry' {
-  export default interface Registry {
-    'Welcome-2': typeof Welcome2Component;
-    'welcome-2': typeof Welcome2Component;
-  }
-}
