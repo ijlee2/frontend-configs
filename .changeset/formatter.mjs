@@ -1,3 +1,3 @@
-import getConfig from '@ijlee2-frontend-configs/changesets';
+import getFormatter from '@ijlee2-frontend-configs/changesets';
 
-export default getConfig('ijlee2/frontend-configs');
+export default getFormatter('ijlee2/frontend-configs');
