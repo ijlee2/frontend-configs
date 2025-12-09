@@ -11,15 +11,28 @@ importers:
       '@changesets/cli':
         specifier: ^2.29.8
         version: 2.29.8(@types/node@22.19.1)
-      '@changesets/get-github-info':
-        specifier: ^0.6.0
-        version: 0.6.0
+      '@ijlee2-frontend-configs/changesets':
+        specifier: workspace:*
+        version: link:packages/changesets
       sort-package-json:
         specifier: ^3.5.0
         version: 3.5.0
       update-workspace-root-version:
         specifier: ^2.0.6
         version: 2.0.6
+
+  packages/changesets:
+    dependencies:
+      '@changesets/get-github-info':
+        specifier: ^0.6.0
+        version: 0.6.0
+    devDependencies:
+      '@ijlee2-frontend-configs/prettier':
+        specifier: workspace:*
+        version: link:../prettier
+      prettier:
+        specifier: ^3.7.4
+        version: 3.7.4
 
   packages/ember-template-lint:
     devDependencies:
