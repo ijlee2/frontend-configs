@@ -9,6 +9,7 @@
 
 ### Package overview
 
+- [`@ijlee2-frontend-configs/changesets`](./packages/changesets/README.md)
 - [`@ijlee2-frontend-configs/ember-template-lint`](./packages/ember-template-lint/README.md)
 - [`@ijlee2-frontend-configs/eslint-config-ember`](./packages/eslint/ember/README.md)
 - [`@ijlee2-frontend-configs/eslint-config-node`](./packages/eslint/node/README.md)
