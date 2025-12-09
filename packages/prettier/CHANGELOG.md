@@ -1,5 +1,11 @@
 # @ijlee2-frontend-configs/prettier
 
+## 2.3.1
+
+### Patch Changes
+
+- [#69](https://github.com/ijlee2/frontend-configs/pull/69) Updated dependencies ([@ijlee2](https://github.com/ijlee2))
+
 ## 2.3.0
 
 ### Minor Changes
