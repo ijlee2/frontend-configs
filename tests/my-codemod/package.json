@@ -1,6 +1,6 @@
 {
   "name": "my-codemod",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "private": true,
   "description": "A Node project for testing @ijlee2-frontend-configs",
   "keywords": [
