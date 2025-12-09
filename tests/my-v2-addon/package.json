@@ -57,7 +57,7 @@
   "dependencies": {
     "@embroider/addon-shim": "^1.10.2",
     "decorator-transforms": "^2.3.0",
-    "embroider-css-modules": "^3.1.2"
+    "embroider-css-modules": "^3.1.3"
   },
   "devDependencies": {
     "@babel/core": "^7.28.5",
@@ -86,7 +86,7 @@
     "rollup": "^4.53.3",
     "rollup-plugin-postcss": "^4.0.2",
     "stylelint": "^16.26.1",
-    "type-css-modules": "^2.0.6",
+    "type-css-modules": "^2.1.0",
     "typescript": "^5.9.3"
   },
   "engines": {
