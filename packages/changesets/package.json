@@ -14,7 +14,7 @@
     "lint:fix": "prettier \"**/*.{cjs,mjs}\" --cache --write"
   },
   "dependencies": {
-    "@changesets/get-github-info": "^0.6.0"
+    "@changesets/get-github-info": "^0.7.0"
   },
   "devDependencies": {
     "@ijlee2-frontend-configs/prettier": "workspace:*",
