@@ -1,5 +1,11 @@
 # @ijlee2-frontend-configs/eslint-config-ember
 
+## 2.4.2
+
+### Patch Changes
+
+- [#70](https://github.com/ijlee2/frontend-configs/pull/70) Imported babelEslintParser from experimental-worker for v2 apps ([@ijlee2](https://github.com/ijlee2))
+
 ## 2.4.1
 
 ### Patch Changes
