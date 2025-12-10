@@ -1,4 +1,4 @@
-import babelEslintParser from '@babel/eslint-parser';
+import babelEslintParser from '@babel/eslint-parser/experimental-worker';
 import eslint from '@eslint/js';
 import eslintConfigPrettier from 'eslint-config-prettier';
 import eslintPluginEmber from 'eslint-plugin-ember/recommended';
