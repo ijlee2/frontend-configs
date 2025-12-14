@@ -1,5 +1,11 @@
 # @ijlee2-frontend-configs/changesets
 
+## 1.0.1
+
+### Patch Changes
+
+- [#71](https://github.com/ijlee2/frontend-configs/pull/71) Added repository.directory ([@ijlee2](https://github.com/ijlee2))
+
 ## 1.0.0
 
 ### Major Changes

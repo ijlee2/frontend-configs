@@ -1,5 +1,11 @@
 # @ijlee2-frontend-configs/stylelint
 
+## 2.2.1
+
+### Patch Changes
+
+- [#71](https://github.com/ijlee2/frontend-configs/pull/71) Added repository.directory ([@ijlee2](https://github.com/ijlee2))
+
 ## 2.2.0
 
 ### Minor Changes
