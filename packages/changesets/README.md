@@ -38,6 +38,11 @@ Then, provide the relative path to this file in `.changeset/config.json`.
 ```
 
 
+## Contributing
+
+See the [Contributing](../../CONTRIBUTING.md) guide for details.
+
+
 ## License
 
 This project is licensed under the [MIT License](./LICENSE.md).
