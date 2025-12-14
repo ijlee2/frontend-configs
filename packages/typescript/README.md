@@ -46,6 +46,11 @@ See [`typescript` documentation](https://www.typescriptlang.org/tsconfig/) for m
 ```
 
 
+## Contributing
+
+See the [Contributing](../../CONTRIBUTING.md) guide for details.
+
+
 ## License
 
 This project is licensed under the [MIT License](./LICENSE.md).
