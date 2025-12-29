@@ -105,6 +105,7 @@ export default tseslint.config(
         },
       ],
       '@typescript-eslint/no-import-type-side-effects': 'error',
+      'ember/no-unused-services': 'error',
       'typescript-sort-keys/interface': 'error',
       'typescript-sort-keys/string-enum': 'error',
     },
