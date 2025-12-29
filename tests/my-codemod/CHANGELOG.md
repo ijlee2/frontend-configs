@@ -1,5 +1,11 @@
 # my-codemod
 
+## 1.0.15
+
+### Patch Changes
+
+- [#74](https://github.com/ijlee2/frontend-configs/pull/74) Updated dependencies ([@ijlee2](https://github.com/ijlee2))
+
 ## 1.0.14
 
 ### Patch Changes

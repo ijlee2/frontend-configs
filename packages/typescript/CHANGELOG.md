@@ -1,5 +1,11 @@
 # @ijlee2-frontend-configs/typescript
 
+## 1.1.2
+
+### Patch Changes
+
+- [#75](https://github.com/ijlee2/frontend-configs/pull/75) Updated copyright year ([@ijlee2](https://github.com/ijlee2))
+
 ## 1.1.1
 
 ### Patch Changes

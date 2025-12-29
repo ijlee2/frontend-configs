@@ -1,6 +1,6 @@
 {
   "name": "@ijlee2-frontend-configs/changesets",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Configuration for changesets",
   "repository": {
     "type": "git",

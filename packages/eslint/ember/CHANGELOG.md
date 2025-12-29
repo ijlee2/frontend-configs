@@ -1,5 +1,16 @@
 # @ijlee2-frontend-configs/eslint-config-ember
 
+## 2.5.0
+
+### Minor Changes
+
+- [#73](https://github.com/ijlee2/frontend-configs/pull/73) Enabled ember/no-unused-services ([@ijlee2](https://github.com/ijlee2))
+
+### Patch Changes
+
+- [#75](https://github.com/ijlee2/frontend-configs/pull/75) Updated copyright year ([@ijlee2](https://github.com/ijlee2))
+- [#74](https://github.com/ijlee2/frontend-configs/pull/74) Updated dependencies ([@ijlee2](https://github.com/ijlee2))
+
 ## 2.4.3
 
 ### Patch Changes

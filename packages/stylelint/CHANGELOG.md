@@ -1,5 +1,12 @@
 # @ijlee2-frontend-configs/stylelint
 
+## 2.2.2
+
+### Patch Changes
+
+- [#75](https://github.com/ijlee2/frontend-configs/pull/75) Updated copyright year ([@ijlee2](https://github.com/ijlee2))
+- [#74](https://github.com/ijlee2/frontend-configs/pull/74) Updated dependencies ([@ijlee2](https://github.com/ijlee2))
+
 ## 2.2.1
 
 ### Patch Changes
