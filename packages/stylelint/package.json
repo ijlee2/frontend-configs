@@ -19,7 +19,7 @@
   },
   "dependencies": {
     "stylelint-config-standard": "^39.0.1",
-    "stylelint-order": "^7.0.0"
+    "stylelint-order": "^7.0.1"
   },
   "devDependencies": {
     "@ijlee2-frontend-configs/prettier": "workspace:*",
