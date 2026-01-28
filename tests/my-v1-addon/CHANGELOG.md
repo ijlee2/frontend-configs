@@ -1,5 +1,11 @@
 # my-v1-addon
 
+## 1.0.17
+
+### Patch Changes
+
+- [#77](https://github.com/ijlee2/frontend-configs/pull/77) Enabled explicit-function-return-type for TypeScript files ([@ijlee2](https://github.com/ijlee2))
+
 ## 1.0.16
 
 ### Patch Changes

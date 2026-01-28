@@ -1,5 +1,15 @@
 # @ijlee2-frontend-configs/eslint-config-node
 
+## 2.4.0
+
+### Minor Changes
+
+- [#77](https://github.com/ijlee2/frontend-configs/pull/77) Enabled explicit-function-return-type for TypeScript files ([@ijlee2](https://github.com/ijlee2))
+
+### Patch Changes
+
+- [#76](https://github.com/ijlee2/frontend-configs/pull/76) Updated dependencies ([@ijlee2](https://github.com/ijlee2))
+
 ## 2.3.3
 
 ### Patch Changes

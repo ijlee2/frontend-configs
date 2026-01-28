@@ -1,5 +1,11 @@
 # @ijlee2-frontend-configs/stylelint
 
+## 2.3.0
+
+### Minor Changes
+
+- [#76](https://github.com/ijlee2/frontend-configs/pull/76) Updated dependencies (`node` must be v20.19.0 or higher) ([@ijlee2](https://github.com/ijlee2))
+
 ## 2.2.2
 
 ### Patch Changes
