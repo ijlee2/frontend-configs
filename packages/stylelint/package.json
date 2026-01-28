@@ -18,15 +18,15 @@
     "lint:fix": "prettier \"**/*.mjs\" --cache --write"
   },
   "dependencies": {
-    "stylelint-config-standard": "^39.0.1",
+    "stylelint-config-standard": "^40.0.0",
     "stylelint-order": "^7.0.1"
   },
   "devDependencies": {
     "@ijlee2-frontend-configs/prettier": "workspace:*",
-    "prettier": "^3.7.4"
+    "prettier": "^3.8.1"
   },
   "peerDependencies": {
-    "stylelint": "^16.26.0"
+    "stylelint": "^17.0.0"
   },
   "peerDependenciesMeta": {
     "stylelint": {
@@ -34,6 +34,6 @@
     }
   },
   "engines": {
-    "node": "20.* || >= 22"
+    "node": ">=20.19.0 || >= 22"
   }
 }
