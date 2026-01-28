@@ -86,6 +86,7 @@ export default tseslint.config(
     rules: {
       '@typescript-eslint/array-type': 'error',
       '@typescript-eslint/consistent-type-imports': 'error',
+      '@typescript-eslint/explicit-function-return-type': 'error',
       '@typescript-eslint/method-signature-style': ['error', 'property'],
       '@typescript-eslint/no-empty-object-type': [
         'error',
