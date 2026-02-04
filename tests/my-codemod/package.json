@@ -38,17 +38,17 @@
     "test": "./build.sh --test && mt dist-for-testing --quiet"
   },
   "dependencies": {
-    "@codemod-utils/files": "^3.2.3",
+    "@codemod-utils/files": "^3.2.5",
     "yargs": "^18.0.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.28.6",
-    "@codemod-utils/tests": "^2.2.2",
+    "@babel/core": "^7.29.0",
+    "@codemod-utils/tests": "^2.2.4",
     "@ijlee2-frontend-configs/eslint-config-node": "workspace:*",
     "@ijlee2-frontend-configs/prettier": "workspace:*",
     "@ijlee2-frontend-configs/typescript": "workspace:*",
     "@sondr3/minitest": "^0.1.2",
-    "@types/node": "^22.19.7",
+    "@types/node": "^22.19.8",
     "@types/yargs": "^17.0.35",
     "concurrently": "^9.2.1",
     "eslint": "^9.39.2",
