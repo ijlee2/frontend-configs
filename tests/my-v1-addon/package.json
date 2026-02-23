@@ -27,10 +27,6 @@
       ]
     }
   },
-  "directories": {
-    "doc": "doc",
-    "test": "tests"
-  },
   "scripts": {
     "build": "ember build --environment=production",
     "format": "prettier . --cache --write",
