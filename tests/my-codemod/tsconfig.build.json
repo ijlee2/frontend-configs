@@ -1,5 +1,5 @@
 {
-  "extends": "@ijlee2-frontend-configs/typescript/node20",
+  "extends": "@ijlee2-frontend-configs/typescript/node22",
   "compilerOptions": {
     "declaration": false,
     "outDir": "dist"
