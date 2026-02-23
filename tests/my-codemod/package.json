@@ -38,12 +38,12 @@
     "test": "./build.sh --test && mt dist-for-testing --quiet"
   },
   "dependencies": {
-    "@codemod-utils/files": "^3.2.5",
+    "@codemod-utils/files": "^3.2.8",
     "yargs": "^18.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.29.0",
-    "@codemod-utils/tests": "^2.2.4",
+    "@codemod-utils/tests": "^2.2.7",
     "@ijlee2-frontend-configs/eslint-config-node": "workspace:*",
     "@ijlee2-frontend-configs/prettier": "workspace:*",
     "@ijlee2-frontend-configs/typescript": "workspace:*",
