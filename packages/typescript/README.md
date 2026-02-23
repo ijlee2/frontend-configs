@@ -24,7 +24,7 @@ Afterwards, create the file `tsconfig.json`.
 
 // For a Node project
 {
-  "extends": "@ijlee2-frontend-configs/typescript/node20"
+  "extends": "@ijlee2-frontend-configs/typescript/node24"
 }
 ```
 
