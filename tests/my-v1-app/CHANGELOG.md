@@ -1,5 +1,15 @@
 # my-v1-app
 
+## 1.1.0
+
+### Minor Changes
+
+- [#79](https://github.com/ijlee2/frontend-configs/pull/79) Dropped support for Node 20 ([@ijlee2](https://github.com/ijlee2))
+
+### Patch Changes
+
+- [#80](https://github.com/ijlee2/frontend-configs/pull/80) Updated dependencies ([@ijlee2](https://github.com/ijlee2))
+
 ## 1.0.17
 
 ### Patch Changes

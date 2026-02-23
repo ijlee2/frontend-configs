@@ -1,5 +1,11 @@
 # @ijlee2-frontend-configs/typescript
 
+## 2.0.0
+
+### Major Changes
+
+- [#79](https://github.com/ijlee2/frontend-configs/pull/79) Dropped support for Node 20 ([@ijlee2](https://github.com/ijlee2))
+
 ## 1.1.3
 
 ### Patch Changes

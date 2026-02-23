@@ -1,5 +1,15 @@
 # @ijlee2-frontend-configs/eslint-config-node
 
+## 3.0.0
+
+### Major Changes
+
+- [#79](https://github.com/ijlee2/frontend-configs/pull/79) Dropped support for Node 20 ([@ijlee2](https://github.com/ijlee2))
+
+### Patch Changes
+
+- [#80](https://github.com/ijlee2/frontend-configs/pull/80) Updated dependencies ([@ijlee2](https://github.com/ijlee2))
+
 ## 2.4.1
 
 ### Patch Changes

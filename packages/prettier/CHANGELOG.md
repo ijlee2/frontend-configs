@@ -1,5 +1,11 @@
 # @ijlee2-frontend-configs/prettier
 
+## 3.0.0
+
+### Major Changes
+
+- [#79](https://github.com/ijlee2/frontend-configs/pull/79) Dropped support for Node 20 ([@ijlee2](https://github.com/ijlee2))
+
 ## 2.4.1
 
 ### Patch Changes
