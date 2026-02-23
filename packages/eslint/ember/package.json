@@ -32,13 +32,13 @@
     "eslint-import-resolver-typescript": "^4.4.4",
     "eslint-plugin-ember": "^12.7.5",
     "eslint-plugin-import-x": "^4.16.1",
-    "eslint-plugin-n": "^17.23.2",
-    "eslint-plugin-qunit": "^8.2.5",
+    "eslint-plugin-n": "^17.24.0",
+    "eslint-plugin-qunit": "^8.2.6",
     "eslint-plugin-simple-import-sort": "^12.1.1",
     "eslint-plugin-sort-class-members": "^1.21.0",
     "eslint-plugin-typescript-sort-keys": "^3.3.0",
     "globals": "^17.3.0",
-    "typescript-eslint": "^8.54.0"
+    "typescript-eslint": "^8.56.0"
   },
   "devDependencies": {
     "@ijlee2-frontend-configs/eslint-config-node": "workspace:*",
