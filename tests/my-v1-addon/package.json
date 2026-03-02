@@ -47,13 +47,13 @@
   },
   "dependencies": {
     "@babel/core": "^7.29.0",
-    "ember-auto-import": "^2.12.0",
+    "ember-auto-import": "^2.12.1",
     "ember-cli-babel": "^8.3.1",
     "ember-cli-htmlbars": "^7.0.0",
-    "ember-intl": "^8.1.0"
+    "ember-intl": "^8.1.1"
   },
   "devDependencies": {
-    "@ember-intl/v1-compat": "^1.0.6",
+    "@ember-intl/v1-compat": "^1.0.7",
     "@ember/optional-features": "^3.0.0",
     "@ember/test-helpers": "^5.4.1",
     "@embroider/test-setup": "^4.0.0",
@@ -86,10 +86,10 @@
     "prettier": "^3.8.1",
     "qunit": "^2.25.0",
     "qunit-dom": "^3.5.0",
-    "stylelint": "^17.3.0",
-    "type-css-modules": "^2.1.4",
+    "stylelint": "^17.4.0",
+    "type-css-modules": "^3.0.0",
     "typescript": "^5.9.3",
-    "webpack": "^5.105.2"
+    "webpack": "^5.105.3"
   },
   "engines": {
     "node": "22.* || >= 24"
