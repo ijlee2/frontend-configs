@@ -1,5 +1,12 @@
 # my-codemod
 
+## 1.1.1
+
+### Patch Changes
+
+- [#81](https://github.com/ijlee2/frontend-configs/pull/81) Removed directories field (unused) ([@ijlee2](https://github.com/ijlee2))
+- [#82](https://github.com/ijlee2/frontend-configs/pull/82) Updated dependencies ([@ijlee2](https://github.com/ijlee2))
+
 ## 1.1.0
 
 ### Minor Changes
