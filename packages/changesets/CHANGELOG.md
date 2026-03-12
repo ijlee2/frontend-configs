@@ -1,5 +1,11 @@
 # @ijlee2-frontend-configs/changesets
 
+## 2.1.0
+
+### Minor Changes
+
+- [#83](https://github.com/ijlee2/frontend-configs/pull/83) Updated dependencies ([@ijlee2](https://github.com/ijlee2))
+
 ## 2.0.0
 
 ### Major Changes
