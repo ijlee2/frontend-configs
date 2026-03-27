@@ -78,7 +78,6 @@
     "qunit": "^2.25.0",
     "qunit-dom": "^3.5.0",
     "stylelint": "^17.6.0",
-    "tracked-built-ins": "^4.1.0",
     "type-css-modules": "^3.2.0",
     "typescript": "^5.9.3",
     "webpack": "^5.105.4"
