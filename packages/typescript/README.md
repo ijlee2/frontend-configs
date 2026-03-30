@@ -19,7 +19,7 @@ Afterwards, create the file `tsconfig.json`.
 ```json5
 // For an Ember project
 {
-  "extends": "@ijlee2-frontend-configs/typescript/ember"
+  "extends": "@ijlee2-frontend-configs/typescript/ember-app"
 }
 
 // For a Node project
@@ -35,7 +35,7 @@ See [`typescript` documentation](https://www.typescriptlang.org/tsconfig/) for m
 
 ```json5
 {
-  "extends": "@ijlee2-frontend-configs/typescript/ember"
+  "extends": "@ijlee2-frontend-configs/typescript/ember-app"
   "compilerOptions": {
     // ...
   },
