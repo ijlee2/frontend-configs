@@ -1,5 +1,11 @@
 # my-codemod
 
+## 1.2.0
+
+### Minor Changes
+
+- [#85](https://github.com/ijlee2/frontend-configs/pull/85) Set target to esnext ([@ijlee2](https://github.com/ijlee2))
+
 ## 1.1.2
 
 ### Patch Changes

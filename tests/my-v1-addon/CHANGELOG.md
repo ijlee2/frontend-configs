@@ -1,5 +1,16 @@
 # my-v1-addon
 
+## 1.2.0
+
+### Minor Changes
+
+- [#85](https://github.com/ijlee2/frontend-configs/pull/85) Set target to esnext ([@ijlee2](https://github.com/ijlee2))
+- [#85](https://github.com/ijlee2/frontend-configs/pull/85) Replaced @tsconfig/ember with @ember/app-tsconfig and @ember/library-tsconfig ([@ijlee2](https://github.com/ijlee2))
+
+### Patch Changes
+
+- [#84](https://github.com/ijlee2/frontend-configs/pull/84) Updated dependencies ([@ijlee2](https://github.com/ijlee2))
+
 ## 1.1.2
 
 ### Patch Changes

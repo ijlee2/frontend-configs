@@ -1,5 +1,12 @@
 # @ijlee2-frontend-configs/typescript
 
+## 3.0.0
+
+### Major Changes
+
+- [#85](https://github.com/ijlee2/frontend-configs/pull/85) Set target to esnext ([@ijlee2](https://github.com/ijlee2))
+- [#85](https://github.com/ijlee2/frontend-configs/pull/85) Replaced @tsconfig/ember with @ember/app-tsconfig and @ember/library-tsconfig ([@ijlee2](https://github.com/ijlee2))
+
 ## 2.0.0
 
 ### Major Changes
