@@ -41,7 +41,7 @@
     "lint:js:fix": "eslint . --fix",
     "prelint:types": "type-css-modules --src addon",
     "lint:types": "ember-tsc --noEmit",
-    "prepack": "tsc --project tsconfig.declarations.json",
+    "prepack": "tsc --project tsconfig.build.json",
     "start": "ember serve",
     "test": "ember test --test-port 0"
   },

@@ -1,15 +1,9 @@
 {
-  "extends": "@ijlee2-frontend-configs/typescript/ember",
+  "extends": "@ijlee2-frontend-configs/typescript/ember-addon",
   "compilerOptions": {
-    "allowImportingTsExtensions": true,
-    "allowJs": true,
-    "declaration": true,
     "declarationDir": "declarations",
-    "declarationMap": true,
-    "emitDeclarationOnly": true,
-    "noEmit": false,
     "rootDir": "./src",
-    "types": ["ember-source/types", "@glint/ember-tsc/types"]
+    "types": ["@glint/ember-tsc/types", "ember-source/types"]
   },
   "include": ["src/**/*", "unpublished-development-types/**/*"]
 }

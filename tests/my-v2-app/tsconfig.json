@@ -1,5 +1,5 @@
 {
-  "extends": "@ijlee2-frontend-configs/typescript/ember",
+  "extends": "@ijlee2-frontend-configs/typescript/ember-app",
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
@@ -7,7 +7,7 @@
       "my-v2-app/*": ["app/*"],
       "*": ["types/*"]
     },
-    "types": ["ember-source/types", "@glint/ember-tsc/types"]
+    "types": ["@glint/ember-tsc/types", "@types/qunit", "ember-source/types"]
   },
   "include": ["app/**/*", "tests/**/*", "types/**/*"]
 }
