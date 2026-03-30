@@ -1,3 +1,6 @@
 {
-  "extends": "@ember/library-tsconfig"
+  "extends": "@ember/library-tsconfig",
+  "compilerOptions": {
+    "target": "esnext"
+  }
 }
