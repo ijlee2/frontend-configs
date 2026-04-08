@@ -47,19 +47,19 @@
   },
   "dependencies": {
     "@babel/core": "^7.29.0",
-    "ember-auto-import": "^2.13.0",
+    "ember-auto-import": "^2.13.1",
     "ember-cli-babel": "^8.3.1",
-    "ember-cli-htmlbars": "^7.0.0",
-    "ember-intl": "^8.2.1"
+    "ember-cli-htmlbars": "^7.0.1",
+    "ember-intl": "^8.2.2"
   },
   "devDependencies": {
-    "@ember-intl/v1-compat": "^1.0.8",
+    "@ember-intl/v1-compat": "^1.0.9",
     "@ember/optional-features": "^3.0.0",
     "@ember/test-helpers": "^5.4.1",
     "@embroider/test-setup": "^4.0.0",
-    "@glimmer/component": "^2.0.0",
+    "@glimmer/component": "^2.1.1",
     "@glimmer/tracking": "^1.1.2",
-    "@glint/ember-tsc": "^1.4.0",
+    "@glint/ember-tsc": "^1.5.0",
     "@glint/template": "^1.7.7",
     "@ijlee2-frontend-configs/ember-template-lint": "workspace:*",
     "@ijlee2-frontend-configs/eslint-config-ember": "workspace:*",
@@ -87,7 +87,7 @@
     "qunit": "^2.25.0",
     "qunit-dom": "^3.5.0",
     "stylelint": "^17.6.0",
-    "type-css-modules": "^3.2.0",
+    "type-css-modules": "^3.2.1",
     "typescript": "^5.9.3",
     "webpack": "^5.105.4"
   },
