@@ -1,4 +1,6 @@
-module.exports = {
+import { fileURLToPath } from 'node:url';
+
+export default {
   generatorOpts: {
     compact: false,
   },
@@ -23,7 +25,9 @@ module.exports = {
       'module:decorator-transforms',
       {
         runtime: {
-          import: 'decorator-transforms/runtime-esm',
+          import: fileURLToPath(
+            import.meta.resolve('decorator-transforms/runtime-esm'),
+          ),
         },
       },
     ],

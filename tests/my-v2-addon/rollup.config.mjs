@@ -11,7 +11,7 @@ const addon = new Addon({
 });
 
 const rootDirectory = dirname(fileURLToPath(import.meta.url));
-const babelConfig = resolve(rootDirectory, './babel.config.cjs');
+const babelConfig = resolve(rootDirectory, './babel.config.mjs');
 const tsConfig = resolve(rootDirectory, './tsconfig.json');
 
 export default {
