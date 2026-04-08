@@ -1,5 +1,12 @@
 # my-v1-addon
 
+## 1.2.1
+
+### Patch Changes
+
+- [#87](https://github.com/ijlee2/frontend-configs/pull/87) Updated dependencies ([@ijlee2](https://github.com/ijlee2))
+- [#86](https://github.com/ijlee2/frontend-configs/pull/86) Updated ember-cli to 6.11.2 ([@ijlee2](https://github.com/ijlee2))
+
 ## 1.2.0
 
 ### Minor Changes
