@@ -30,22 +30,22 @@
     "@eslint/js": "^9.39.4",
     "eslint-config-prettier": "^10.1.8",
     "eslint-import-resolver-typescript": "^4.4.4",
-    "eslint-plugin-ember": "^12.7.5",
+    "eslint-plugin-ember": "^13.2.0",
     "eslint-plugin-import-x": "^4.16.2",
     "eslint-plugin-n": "^17.24.0",
     "eslint-plugin-qunit": "^8.2.6",
     "eslint-plugin-simple-import-sort": "^13.0.0",
     "eslint-plugin-sort-class-members": "^1.22.1",
     "eslint-plugin-typescript-sort-keys": "^3.3.0",
-    "globals": "^17.4.0",
-    "typescript-eslint": "^8.58.1"
+    "globals": "^17.5.0",
+    "typescript-eslint": "^8.59.1"
   },
   "devDependencies": {
     "@ijlee2-frontend-configs/eslint-config-node": "workspace:*",
     "@ijlee2-frontend-configs/prettier": "workspace:*",
     "concurrently": "^9.2.1",
     "eslint": "^9.39.4",
-    "prettier": "^3.8.1"
+    "prettier": "^3.8.3"
   },
   "peerDependencies": {
     "eslint": "^9.39.4",
