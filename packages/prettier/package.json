@@ -19,13 +19,13 @@
   },
   "dependencies": {
     "prettier-plugin-ember-hbs-tag": "^2.0.1",
-    "prettier-plugin-ember-template-tag": "^2.1.4"
+    "prettier-plugin-ember-template-tag": "^2.1.5"
   },
   "devDependencies": {
-    "prettier": "^3.8.1"
+    "prettier": "^3.8.3"
   },
   "peerDependencies": {
-    "prettier": "^3.8.1"
+    "prettier": "^3.8.3"
   },
   "peerDependenciesMeta": {
     "prettier": {
