@@ -86,6 +86,7 @@ export default defineConfig([
     ],
     files: ['**/*.{gts,ts}'],
     languageOptions: {
+      globals: globals.browser,
       parser: eslintPluginEmber.parser,
       parserOptions: parserOptionsTs,
     },
