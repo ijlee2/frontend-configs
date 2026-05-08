@@ -7,7 +7,7 @@ import eslintPluginSimpleImportSort from 'eslint-plugin-simple-import-sort';
 import eslintPluginSortClassMembers from 'eslint-plugin-sort-class-members';
 import globals from 'globals';
 
-import customRules from '../custom-rules/index.mjs';
+import { customRules } from '../shared/index.mjs';
 
 const parserOptionsJs = {
   ecmaFeatures: {

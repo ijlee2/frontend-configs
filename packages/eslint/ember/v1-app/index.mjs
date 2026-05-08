@@ -11,7 +11,7 @@ import eslintPluginTypescriptSortKeys from 'eslint-plugin-typescript-sort-keys';
 import globals from 'globals';
 import tseslint from 'typescript-eslint';
 
-import customRules from '../custom-rules/index.mjs';
+import { customRules } from '../shared/index.mjs';
 
 const parserOptionsJs = {
   babelOptions: {
