@@ -1,5 +1,6 @@
 import babelEslintParser from '@babel/eslint-parser';
 import eslint from '@eslint/js';
+import { defineConfig, globalIgnores } from 'eslint/config';
 import eslintConfigPrettier from 'eslint-config-prettier';
 import eslintPluginImportX from 'eslint-plugin-import-x';
 import eslintPluginN from 'eslint-plugin-n';
@@ -23,10 +24,8 @@ const parserOptionsTs = {
   projectService: true,
 };
 
-export default tseslint.config(
-  {
-    ignores: ['dist/', 'node_modules/', '.*/'],
-  },
+export default defineConfig([
+  globalIgnores(['dist/', 'node_modules/', '.*/']),
   {
     linterOptions: {
       reportUnusedDisableDirectives: 'error',
@@ -109,4 +108,4 @@ export default tseslint.config(
       n: eslintPluginN,
     },
   },
-);
+]);
