@@ -18,7 +18,6 @@ const parserOptionsJs = {
     modules: true,
   },
   ecmaVersion: 'latest',
-  requireConfigFile: true,
 };
 
 const parserOptionsTs = {
