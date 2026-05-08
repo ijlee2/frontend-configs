@@ -36,7 +36,7 @@
     "@babel/plugin-transform-typescript": "^7.28.6",
     "@ember/optional-features": "^3.0.0",
     "@ember/string": "^4.0.1",
-    "@ember/test-helpers": "^5.4.1",
+    "@ember/test-helpers": "^5.4.2",
     "@embroider/compat": "^4.1.17",
     "@embroider/config-meta-loader": "^1.0.0",
     "@embroider/core": "^4.4.7",
@@ -69,15 +69,15 @@
     "ember-source": "~6.12.0",
     "ember-template-lint": "^7.9.3",
     "ember-test-selectors": "^7.1.0",
-    "embroider-css-modules": "^4.0.3",
+    "embroider-css-modules": "^4.0.5",
     "eslint": "^9.39.4",
     "prettier": "^3.8.3",
     "qunit": "^2.25.0",
     "qunit-dom": "^3.5.1",
-    "stylelint": "^17.9.1",
-    "type-css-modules": "^3.2.2",
+    "stylelint": "^17.11.0",
+    "type-css-modules": "^3.2.5",
     "typescript": "^5.9.3",
-    "vite": "^8.0.10"
+    "vite": "^8.0.11"
   },
   "engines": {
     "node": "22.* || >= 24"
