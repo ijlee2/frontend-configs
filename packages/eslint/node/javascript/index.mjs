@@ -1,5 +1,6 @@
 import babelEslintParser from '@babel/eslint-parser';
 import eslint from '@eslint/js';
+import { defineConfig, globalIgnores } from 'eslint/config';
 import eslintConfigPrettier from 'eslint-config-prettier';
 import eslintPluginImportX from 'eslint-plugin-import-x';
 import eslintPluginN from 'eslint-plugin-n';
@@ -7,7 +8,7 @@ import eslintPluginSimpleImportSort from 'eslint-plugin-simple-import-sort';
 import eslintPluginSortClassMembers from 'eslint-plugin-sort-class-members';
 import globals from 'globals';
 
-import customRules from '../custom-rules/index.mjs';
+import { customRules } from '../shared/index.mjs';
 
 const parserOptionsJs = {
   ecmaFeatures: {
@@ -17,10 +18,8 @@ const parserOptionsJs = {
   requireConfigFile: false,
 };
 
-export default [
-  {
-    ignores: ['dist/', 'node_modules/', '.*/'],
-  },
+export default defineConfig([
+  globalIgnores(['dist/', 'node_modules/', '.*/']),
   {
     linterOptions: {
       reportUnusedDisableDirectives: 'error',
@@ -73,4 +72,4 @@ export default [
       n: eslintPluginN,
     },
   },
-];
+]);

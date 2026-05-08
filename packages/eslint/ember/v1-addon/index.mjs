@@ -1,5 +1,6 @@
 import babelEslintParser from '@babel/eslint-parser';
 import eslint from '@eslint/js';
+import { defineConfig, globalIgnores } from 'eslint/config';
 import eslintConfigPrettier from 'eslint-config-prettier';
 import eslintPluginEmber from 'eslint-plugin-ember/recommended';
 import eslintPluginImportX from 'eslint-plugin-import-x';
@@ -11,7 +12,7 @@ import eslintPluginTypescriptSortKeys from 'eslint-plugin-typescript-sort-keys';
 import globals from 'globals';
 import tseslint from 'typescript-eslint';
 
-import customRules from '../custom-rules/index.mjs';
+import { customRules } from '../shared/index.mjs';
 
 const parserOptionsJs = {
   babelOptions: {
@@ -35,10 +36,8 @@ const parserOptionsTs = {
   projectService: true,
 };
 
-export default tseslint.config(
-  {
-    ignores: ['blueprints/', 'dist/', 'node_modules/', '.*/'],
-  },
+export default defineConfig([
+  globalIgnores(['blueprints/', 'dist/', 'node_modules/', '.*/']),
   {
     linterOptions: {
       reportUnusedDisableDirectives: 'error',
@@ -87,6 +86,7 @@ export default tseslint.config(
     ],
     files: ['**/*.{gts,ts}'],
     languageOptions: {
+      globals: globals.browser,
       parser: eslintPluginEmber.parser,
       parserOptions: parserOptionsTs,
     },
@@ -168,4 +168,4 @@ export default tseslint.config(
       n: eslintPluginN,
     },
   },
-);
+]);
