@@ -1,5 +1,11 @@
 # @ijlee2-frontend-configs/prettier
 
+## 3.1.1
+
+### Patch Changes
+
+- [#92](https://github.com/ijlee2/frontend-configs/pull/92) Updated prettier-plugin-ember-template-tag to 2.1.6 ([@ijlee2](https://github.com/ijlee2))
+
 ## 3.1.0
 
 ### Minor Changes
