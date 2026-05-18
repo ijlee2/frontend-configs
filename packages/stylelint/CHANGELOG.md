@@ -1,5 +1,11 @@
 # @ijlee2-frontend-configs/stylelint
 
+## 3.1.4
+
+### Patch Changes
+
+- [#93](https://github.com/ijlee2/frontend-configs/pull/93) Updated stylelint dependency to 17.11.1 ([@ijlee2](https://github.com/ijlee2))
+
 ## 3.1.3
 
 ### Patch Changes
