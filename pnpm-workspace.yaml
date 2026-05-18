@@ -1,16 +1,3 @@
-allowBuilds:
-  core-js: false
-  unrs-resolver: false
-
-autoInstallPeers: false
-
 packages:
-  - 'packages/**'
-  - 'tests/**'
-
-publicHoistPattern:
-  - '*eslint*'
-  - '*prettier*'
-  - '*stylelint*'
-
-resolvePeersFromWorkspaceRoot: false
+  - packages/**
+  - tests/**
