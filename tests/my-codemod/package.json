@@ -39,7 +39,7 @@
     "yargs": "^18.0.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.29.0",
+    "@babel/core": "^7.29.7",
     "@codemod-utils/tests": "^3.0.2",
     "@ijlee2-frontend-configs/eslint-config-node": "workspace:*",
     "@ijlee2-frontend-configs/prettier": "workspace:*",
