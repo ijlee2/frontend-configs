@@ -57,7 +57,7 @@
   "dependencies": {
     "@embroider/addon-shim": "^1.10.2",
     "decorator-transforms": "^2.3.2",
-    "embroider-css-modules": "^4.0.6"
+    "embroider-css-modules": "^4.0.7"
   },
   "devDependencies": {
     "@babel/core": "^7.29.7",
@@ -74,19 +74,19 @@
     "@ijlee2-frontend-configs/prettier": "workspace:*",
     "@ijlee2-frontend-configs/stylelint": "workspace:*",
     "@ijlee2-frontend-configs/typescript": "workspace:*",
-    "@rollup/plugin-babel": "^7.0.0",
+    "@rollup/plugin-babel": "^7.1.0",
     "babel-plugin-ember-template-compilation": "^4.0.0",
-    "concurrently": "^9.2.1",
+    "concurrently": "^10.0.1",
     "ember-modifier": "^4.3.0",
     "ember-source": "~6.12.0",
     "ember-template-lint": "^7.9.3",
     "eslint": "^9.39.4",
     "postcss": "^8.5.15",
     "prettier": "^3.8.3",
-    "rollup": "^4.60.4",
+    "rollup": "^4.61.0",
     "rollup-plugin-postcss": "^4.0.2",
     "stylelint": "^17.12.0",
-    "type-css-modules": "^3.2.5",
+    "type-css-modules": "^3.2.6",
     "typescript": "^5.9.3"
   },
   "engines": {

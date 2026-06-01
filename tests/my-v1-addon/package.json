@@ -50,10 +50,10 @@
     "ember-auto-import": "^2.13.1",
     "ember-cli-babel": "^8.3.1",
     "ember-cli-htmlbars": "^7.0.1",
-    "ember-intl": "^8.2.5"
+    "ember-intl": "^8.2.6"
   },
   "devDependencies": {
-    "@ember-intl/v1-compat": "^1.1.0",
+    "@ember-intl/v1-compat": "^1.1.1",
     "@ember/optional-features": "^3.0.0",
     "@ember/test-helpers": "^5.4.2",
     "@embroider/test-setup": "^4.0.0",
@@ -68,7 +68,7 @@
     "@ijlee2-frontend-configs/typescript": "workspace:*",
     "@types/qunit": "^2.19.14",
     "broccoli-asset-rev": "^3.0.0",
-    "concurrently": "^9.2.1",
+    "concurrently": "^10.0.1",
     "ember-cli": "~6.12.0",
     "ember-cli-clean-css": "^3.0.0",
     "ember-cli-inject-live-reload": "^2.1.0",
@@ -84,10 +84,10 @@
     "eslint": "^9.39.4",
     "loader.js": "^4.7.0",
     "prettier": "^3.8.3",
-    "qunit": "^2.25.0",
+    "qunit": "^2.26.0",
     "qunit-dom": "^3.5.1",
     "stylelint": "^17.12.0",
-    "type-css-modules": "^3.2.5",
+    "type-css-modules": "^3.2.6",
     "typescript": "^5.9.3",
     "webpack": "^5.107.2"
   },
