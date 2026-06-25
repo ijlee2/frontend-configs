@@ -1,5 +1,11 @@
 # @ijlee2-frontend-configs/eslint-config-node
 
+## 3.4.4
+
+### Patch Changes
+
+- [#98](https://github.com/ijlee2/frontend-configs/pull/98) Updated dependencies ([@ijlee2](https://github.com/ijlee2))
+
 ## 3.4.3
 
 ### Patch Changes
