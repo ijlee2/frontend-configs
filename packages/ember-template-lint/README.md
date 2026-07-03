@@ -9,6 +9,10 @@ The package provides a configuration for [`ember-template-lint`](https://github.
 
 ## Usage
 
+> [!TIP]
+> 
+> If you have `@ijlee2-frontend-configs/eslint-config-ember` version `3.5.0` or higher, `eslint` can lint the templates in `*.{gjs,gts}`. You can uninstall `ember-template-lint` and `@ijlee2-frontend-configs/ember-template-lint`, then remove `lint:hbs` and `lint:hbs:fix` scripts.
+
 Install these packages as development dependencies:
 
 - `@ijlee2-frontend-configs/ember-template-lint`
