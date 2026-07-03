@@ -1,5 +1,12 @@
 # my-v2-addon
 
+## 1.2.7
+
+### Patch Changes
+
+- [#100](https://github.com/ijlee2/frontend-configs/pull/100) Updated dependencies ([@ijlee2](https://github.com/ijlee2))
+- [#99](https://github.com/ijlee2/frontend-configs/pull/99) Enabled linting templates ([@ijlee2](https://github.com/ijlee2))
+
 ## 1.2.6
 
 ### Patch Changes

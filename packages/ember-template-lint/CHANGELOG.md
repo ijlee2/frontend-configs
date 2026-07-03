@@ -1,5 +1,11 @@
 # @ijlee2-frontend-configs/ember-template-lint
 
+## 3.0.1
+
+### Patch Changes
+
+- [#99](https://github.com/ijlee2/frontend-configs/pull/99) Enabled linting templates ([@ijlee2](https://github.com/ijlee2))
+
 ## 3.0.0
 
 ### Major Changes

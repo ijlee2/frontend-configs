@@ -1,5 +1,15 @@
 # @ijlee2-frontend-configs/eslint-config-ember
 
+## 3.5.0
+
+### Minor Changes
+
+- [#99](https://github.com/ijlee2/frontend-configs/pull/99) Enabled linting templates ([@ijlee2](https://github.com/ijlee2))
+
+### Patch Changes
+
+- [#100](https://github.com/ijlee2/frontend-configs/pull/100) Updated dependencies ([@ijlee2](https://github.com/ijlee2))
+
 ## 3.4.4
 
 ### Patch Changes
