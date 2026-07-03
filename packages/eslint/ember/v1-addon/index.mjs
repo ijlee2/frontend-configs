@@ -2,6 +2,7 @@ import babelEslintParser from '@babel/eslint-parser';
 import eslint from '@eslint/js';
 import { defineConfig, globalIgnores } from 'eslint/config';
 import eslintConfigPrettier from 'eslint-config-prettier';
+import eslintPluginEmberTemplateLint from 'eslint-plugin-ember/configs/template-lint-migration';
 import eslintPluginEmber from 'eslint-plugin-ember/recommended';
 import eslintPluginImportX from 'eslint-plugin-import-x';
 import eslintPluginN from 'eslint-plugin-n';
@@ -47,6 +48,7 @@ export default defineConfig([
   eslint.configs.recommended,
   eslintPluginEmber.configs.base,
   eslintPluginEmber.configs.gjs,
+  eslintPluginEmberTemplateLint,
   eslintPluginImportX.flatConfigs.recommended,
   eslintPluginSortClassMembers.configs['flat/recommended'],
   eslintConfigPrettier,
@@ -69,6 +71,10 @@ export default defineConfig([
     languageOptions: {
       globals: globals.browser,
       parserOptions: parserOptionsJs,
+    },
+    rules: {
+      'ember/template-require-input-type': 'error',
+      'ember/template-sort-invocations': 'error',
     },
     settings: {
       'import-x/resolver': {
@@ -107,6 +113,8 @@ export default defineConfig([
       ],
       '@typescript-eslint/no-import-type-side-effects': 'error',
       'ember/no-unused-services': 'error',
+      'ember/template-require-input-type': 'error',
+      'ember/template-sort-invocations': 'error',
       'typescript-sort-keys/interface': 'error',
       'typescript-sort-keys/string-enum': 'error',
     },
