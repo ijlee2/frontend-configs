@@ -4,6 +4,7 @@ import { defineConfig, globalIgnores } from 'eslint/config';
 import eslintConfigPrettier from 'eslint-config-prettier';
 import eslintPluginImportX from 'eslint-plugin-import-x';
 import eslintPluginN from 'eslint-plugin-n';
+import eslintPluginPerfectionist from 'eslint-plugin-perfectionist';
 import eslintPluginSimpleImportSort from 'eslint-plugin-simple-import-sort';
 import eslintPluginSortClassMembers from 'eslint-plugin-sort-class-members';
 import globals from 'globals';
@@ -32,6 +33,7 @@ export default defineConfig([
   eslintConfigPrettier,
   {
     plugins: {
+      perfectionist: eslintPluginPerfectionist,
       'simple-import-sort': eslintPluginSimpleImportSort,
     },
   },
