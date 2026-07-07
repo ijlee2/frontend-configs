@@ -6,6 +6,7 @@
       "my-v1-app/*": ["./app/*"],
       "*": ["./types/*"]
     },
+    "rootDir": ".",
     "types": ["@glint/ember-tsc/types", "@types/qunit", "ember-source/types"]
   },
   "include": ["app/**/*", "tests/**/*", "types/**/*"]
