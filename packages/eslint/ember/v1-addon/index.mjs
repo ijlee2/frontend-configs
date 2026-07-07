@@ -21,7 +21,7 @@ const parserOptionsJs = {
       [
         '@babel/plugin-proposal-decorators',
         {
-          decoratorsBeforeExport: true,
+          version: 'legacy',
         },
       ],
     ],

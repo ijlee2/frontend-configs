@@ -1,4 +1,4 @@
-import babelEslintParser from '@babel/eslint-parser/experimental-worker';
+import babelEslintParser from '@babel/eslint-parser';
 import eslint from '@eslint/js';
 import { defineConfig, globalIgnores } from 'eslint/config';
 import eslintConfigPrettier from 'eslint-config-prettier';

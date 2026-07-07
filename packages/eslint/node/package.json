@@ -22,9 +22,9 @@
     "lint:js:fix": "eslint . --fix"
   },
   "dependencies": {
-    "@babel/core": "^7.29.7",
-    "@babel/eslint-parser": "^7.29.7",
-    "@eslint/js": "^9.39.4",
+    "@babel/core": "^8.0.1",
+    "@babel/eslint-parser": "^8.0.1",
+    "@eslint/js": "^10.0.1",
     "eslint-config-prettier": "^10.1.8",
     "eslint-import-resolver-typescript": "^4.4.5",
     "eslint-plugin-import-x": "^4.17.1",
@@ -38,11 +38,11 @@
   "devDependencies": {
     "@ijlee2-frontend-configs/prettier": "workspace:*",
     "concurrently": "^10.0.3",
-    "eslint": "^9.39.4",
+    "eslint": "^10.6.0",
     "prettier": "^3.9.4"
   },
   "peerDependencies": {
-    "eslint": "^9.39.4",
+    "eslint": "^10.6.0",
     "typescript": "^6.0.3"
   },
   "peerDependenciesMeta": {
