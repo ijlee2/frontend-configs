@@ -39,7 +39,7 @@
     "@embroider/webpack": "^4.1.2",
     "@glimmer/component": "^2.1.1",
     "@glimmer/tracking": "^1.1.2",
-    "@glint/ember-tsc": "^1.8.7",
+    "@glint/ember-tsc": "^1.8.11",
     "@glint/template": "^1.7.8",
     "@ijlee2-frontend-configs/ember-template-lint": "workspace:*",
     "@ijlee2-frontend-configs/eslint-config-ember": "workspace:*",
@@ -68,7 +68,7 @@
     "ember-template-imports": "^4.4.0",
     "ember-template-lint": "7.9.3",
     "ember-test-selectors": "^7.1.0",
-    "embroider-css-modules": "^4.0.9",
+    "embroider-css-modules": "^4.0.10",
     "eslint": "^9.39.4",
     "loader.js": "^4.7.0",
     "my-v2-addon": "workspace:*",
@@ -78,9 +78,9 @@
     "qunit": "^2.26.0",
     "qunit-dom": "^3.5.1",
     "stylelint": "^17.14.0",
-    "type-css-modules": "^3.2.6",
+    "type-css-modules": "^3.2.7",
     "typescript": "^6.0.3",
-    "webpack": "^5.108.3"
+    "webpack": "^5.108.4"
   },
   "engines": {
     "node": "22.* || >= 24"
