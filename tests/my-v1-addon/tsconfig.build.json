@@ -9,6 +9,7 @@
       "my-v1-addon/test-support/*": ["./addon-test-support/*"],
       "*": ["./types/*"]
     },
+    "rootDir": ".",
     "types": ["@glint/ember-tsc/types", "@types/qunit", "ember-source/types"]
   },
   "include": ["addon/**/*", "addon-test-support/**/*"]
