@@ -33,7 +33,7 @@
     "eslint-plugin-sort-class-members": "^1.22.1",
     "eslint-plugin-typescript-sort-keys": "^3.3.0",
     "globals": "^17.7.0",
-    "typescript-eslint": "^8.62.1"
+    "typescript-eslint": "^8.63.0"
   },
   "devDependencies": {
     "@ijlee2-frontend-configs/prettier": "workspace:*",
@@ -43,7 +43,7 @@
   },
   "peerDependencies": {
     "eslint": "^9.39.4",
-    "typescript": "^5.9.3"
+    "typescript": "^6.0.3"
   },
   "peerDependenciesMeta": {
     "eslint": {

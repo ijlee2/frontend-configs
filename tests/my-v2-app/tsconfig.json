@@ -1,11 +1,10 @@
 {
   "extends": "@ijlee2-frontend-configs/typescript/ember-app",
   "compilerOptions": {
-    "baseUrl": ".",
     "paths": {
-      "my-v2-app/tests/*": ["tests/*"],
-      "my-v2-app/*": ["app/*"],
-      "*": ["types/*"]
+      "my-v2-app/tests/*": ["./tests/*"],
+      "my-v2-app/*": ["./app/*"],
+      "*": ["./types/*"]
     },
     "types": ["@glint/ember-tsc/types", "@types/qunit", "ember-source/types"]
   },

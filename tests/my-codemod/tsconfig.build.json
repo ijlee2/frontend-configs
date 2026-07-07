@@ -2,7 +2,8 @@
   "extends": "@ijlee2-frontend-configs/typescript/node22",
   "compilerOptions": {
     "declaration": false,
-    "outDir": "dist"
+    "outDir": "dist",
+    "types": ["@types/node", "@types/yargs"]
   },
   "include": ["bin", "src"],
   "exclude": ["src/blueprints"]

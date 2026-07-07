@@ -79,7 +79,7 @@
     "qunit-dom": "^3.5.1",
     "stylelint": "^17.14.0",
     "type-css-modules": "^3.2.6",
-    "typescript": "^5.9.3",
+    "typescript": "^6.0.3",
     "webpack": "^5.108.3"
   },
   "engines": {
