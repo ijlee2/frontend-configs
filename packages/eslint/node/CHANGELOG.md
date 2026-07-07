@@ -1,5 +1,12 @@
 # @ijlee2-frontend-configs/eslint-config-node
 
+## 4.0.0
+
+### Major Changes
+
+- [#103](https://github.com/ijlee2/frontend-configs/pull/103) Dropped support for `eslint@v9` ([@ijlee2](https://github.com/ijlee2))
+- [#101](https://github.com/ijlee2/frontend-configs/pull/101) Dropped support for `typescript@v5` ([@ijlee2](https://github.com/ijlee2))
+
 ## 3.4.5
 
 ### Patch Changes

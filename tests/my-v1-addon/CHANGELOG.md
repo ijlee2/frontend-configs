@@ -1,5 +1,16 @@
 # my-v1-addon
 
+## 1.3.0
+
+### Minor Changes
+
+- [#103](https://github.com/ijlee2/frontend-configs/pull/103) Dropped support for `eslint@v9` ([@ijlee2](https://github.com/ijlee2))
+- [#101](https://github.com/ijlee2/frontend-configs/pull/101) Dropped support for `typescript@v5` ([@ijlee2](https://github.com/ijlee2))
+
+### Patch Changes
+
+- [#102](https://github.com/ijlee2/frontend-configs/pull/102) Updated dependencies ([@ijlee2](https://github.com/ijlee2))
+
 ## 1.2.6
 
 ### Patch Changes
