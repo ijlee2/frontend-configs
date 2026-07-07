@@ -1,4 +1,4 @@
-import babelEslintParser from '@babel/eslint-parser/experimental-worker';
+import babelEslintParser from '@babel/eslint-parser';
 import eslint from '@eslint/js';
 import { defineConfig, globalIgnores } from 'eslint/config';
 import eslintConfigPrettier from 'eslint-config-prettier';
@@ -6,10 +6,10 @@ import eslintPluginEmberTemplateLint from 'eslint-plugin-ember/configs/template-
 import eslintPluginEmber from 'eslint-plugin-ember/recommended';
 import eslintPluginImportX from 'eslint-plugin-import-x';
 import eslintPluginN from 'eslint-plugin-n';
+import eslintPluginPerfectionist from 'eslint-plugin-perfectionist';
 import eslintPluginQunit from 'eslint-plugin-qunit';
 import eslintPluginSimpleImportSort from 'eslint-plugin-simple-import-sort';
 import eslintPluginSortClassMembers from 'eslint-plugin-sort-class-members';
-import eslintPluginTypescriptSortKeys from 'eslint-plugin-typescript-sort-keys';
 import globals from 'globals';
 import tseslint from 'typescript-eslint';
 
@@ -43,6 +43,7 @@ export default defineConfig([
   eslintConfigPrettier,
   {
     plugins: {
+      perfectionist: eslintPluginPerfectionist,
       'simple-import-sort': eslintPluginSimpleImportSort,
     },
   },
@@ -85,9 +86,6 @@ export default defineConfig([
       parser: eslintPluginEmber.parser,
       parserOptions: parserOptionsTs,
     },
-    plugins: {
-      'typescript-sort-keys': eslintPluginTypescriptSortKeys,
-    },
     rules: {
       '@typescript-eslint/array-type': 'error',
       '@typescript-eslint/consistent-type-imports': 'error',
@@ -104,8 +102,9 @@ export default defineConfig([
       'ember/no-unused-services': 'error',
       'ember/template-require-input-type': 'error',
       'ember/template-sort-invocations': 'error',
-      'typescript-sort-keys/interface': 'error',
-      'typescript-sort-keys/string-enum': 'error',
+      'perfectionist/sort-enums': ['error', { ignoreCase: false }],
+      'perfectionist/sort-interfaces': ['error', { ignoreCase: false }],
+      'perfectionist/sort-union-types': ['error', { ignoreCase: false }],
     },
     settings: {
       'import-x/resolver': {
