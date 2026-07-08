@@ -1,5 +1,11 @@
 # @ijlee2-frontend-configs/eslint-config-ember
 
+## 4.1.0
+
+### Minor Changes
+
+- [#105](https://github.com/ijlee2/frontend-configs/pull/105) Replaced eslint-plugin-sort-class-members with eslint-plugin-perfectionist ([@ijlee2](https://github.com/ijlee2))
+
 ## 4.0.0
 
 ### Major Changes

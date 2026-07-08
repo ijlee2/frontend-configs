@@ -1,5 +1,11 @@
 # my-v2-addon
 
+## 1.3.1
+
+### Patch Changes
+
+- [#105](https://github.com/ijlee2/frontend-configs/pull/105) Replaced eslint-plugin-sort-class-members with eslint-plugin-perfectionist ([@ijlee2](https://github.com/ijlee2))
+
 ## 1.3.0
 
 ### Minor Changes
