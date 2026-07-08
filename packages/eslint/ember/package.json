@@ -36,7 +36,6 @@
     "eslint-plugin-perfectionist": "^5.10.0",
     "eslint-plugin-qunit": "^8.2.6",
     "eslint-plugin-simple-import-sort": "^13.0.0",
-    "eslint-plugin-sort-class-members": "^1.22.1",
     "globals": "^17.7.0",
     "typescript-eslint": "^8.63.0"
   },

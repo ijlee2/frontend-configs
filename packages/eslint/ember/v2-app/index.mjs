@@ -9,7 +9,6 @@ import eslintPluginN from 'eslint-plugin-n';
 import eslintPluginPerfectionist from 'eslint-plugin-perfectionist';
 import eslintPluginQunit from 'eslint-plugin-qunit';
 import eslintPluginSimpleImportSort from 'eslint-plugin-simple-import-sort';
-import eslintPluginSortClassMembers from 'eslint-plugin-sort-class-members';
 import globals from 'globals';
 import tseslint from 'typescript-eslint';
 
@@ -39,7 +38,6 @@ export default defineConfig([
   eslintPluginEmber.configs.gjs,
   eslintPluginEmberTemplateLint,
   eslintPluginImportX.flatConfigs.recommended,
-  eslintPluginSortClassMembers.configs['flat/recommended'],
   eslintConfigPrettier,
   {
     plugins: {

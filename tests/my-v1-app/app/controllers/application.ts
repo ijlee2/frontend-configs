@@ -36,7 +36,7 @@ export default class ApplicationController extends Controller {
     this.log(this.todaysDate);
   }
 
-  // eslint-disable-next-line sort-class-members/sort-class-members
+  // eslint-disable-next-line perfectionist/sort-classes
   private log(message: string): void {
     console.log(message);
   }

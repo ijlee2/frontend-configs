@@ -6,7 +6,6 @@ import eslintPluginImportX from 'eslint-plugin-import-x';
 import eslintPluginN from 'eslint-plugin-n';
 import eslintPluginPerfectionist from 'eslint-plugin-perfectionist';
 import eslintPluginSimpleImportSort from 'eslint-plugin-simple-import-sort';
-import eslintPluginSortClassMembers from 'eslint-plugin-sort-class-members';
 import globals from 'globals';
 
 import { customRules } from '../shared/index.mjs';
@@ -29,7 +28,6 @@ export default defineConfig([
 
   eslint.configs.recommended,
   eslintPluginImportX.flatConfigs.recommended,
-  eslintPluginSortClassMembers.configs['flat/recommended'],
   eslintConfigPrettier,
   {
     plugins: {
