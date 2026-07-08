@@ -28,6 +28,7 @@
   },
   "devDependencies": {
     "@babel/core": "^7.29.7",
+    "@ember-intl/v1-compat": "^1.2.1",
     "@ember/optional-features": "^3.0.0",
     "@ember/string": "^4.0.1",
     "@ember/test-helpers": "^5.4.3",
@@ -59,6 +60,7 @@
     "ember-cli-inject-live-reload": "^2.1.0",
     "ember-cli-sri": "^2.1.1",
     "ember-cli-terser": "^4.0.2",
+    "ember-intl": "^8.2.9",
     "ember-load-initializers": "^3.0.1",
     "ember-modifier": "^4.3.0",
     "ember-page-title": "^9.0.3",
