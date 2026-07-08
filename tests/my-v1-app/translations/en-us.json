@@ -1,0 +1,7 @@
+{
+  "components.welcome-1.description-1": "Thanks for trying out <code>create-v2-addon-repo</code>.",
+  "components.welcome-1.description-2": "You can use <code>my-v1-app</code> to document your packages.",
+  "components.welcome-2.description-1": "Visit <a class={classForLink} href=\"/tests?hidepassed&nolint\">/tests</a> to run tests.",
+  "routes.index.page-title": "Welcome!",
+  "routes.my-v2-addon.page-title": "Welcome!"
+}

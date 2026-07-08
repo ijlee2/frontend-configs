@@ -4,110 +4,76 @@ export const customRules = {
     'import-x/no-duplicates': 'error',
     'import-x/no-unresolved': 'off',
     'max-depth': ['error', 4],
-    'simple-import-sort/imports': 'error',
-    'simple-import-sort/exports': 'error',
-    'sort-class-members/sort-class-members': [
-      2,
+    'perfectionist/sort-classes': [
+      'error',
       {
-        groups: {
-          'ember-actions': [
-            {
-              groupByDecorator: 'action',
-              sort: 'alphabetical',
-              type: 'method',
-            },
-          ],
-          'ember-controller-model': [
-            {
-              name: 'model',
-              type: 'property',
-            },
-          ],
-          'ember-controller-queryParams': [
-            {
-              name: 'queryParams',
-              type: 'property',
-            },
-          ],
-          'ember-data-decorators': [
-            {
-              groupByDecorator: 'belongsTo',
-              sort: 'alphabetical',
-              type: 'property',
-            },
-            {
-              groupByDecorator: 'hasMany',
-              sort: 'alphabetical',
-              type: 'property',
-            },
-            {
-              groupByDecorator: 'attr',
-              sort: 'alphabetical',
-              type: 'property',
-            },
-          ],
-          'ember-data-type-brand': [
-            {
-              name: 'Type',
-              type: 'property',
-            },
-          ],
-          'ember-services': [
-            {
-              groupByDecorator: 'service',
-              sort: 'alphabetical',
-              type: 'property',
-            },
-          ],
-          'ember-tracked-properties': [
-            {
-              groupByDecorator: 'tracked',
-              sort: 'alphabetical',
-              type: 'property',
-            },
-          ],
-          getters: [
-            {
-              kind: 'get',
-              sort: 'alphabetical',
-              type: 'method',
-            },
-          ],
-          methods: [
-            {
-              sort: 'alphabetical',
-              type: 'method',
-            },
-          ],
-          properties: [
-            {
-              sort: 'alphabetical',
-              type: 'property',
-            },
-          ],
-          setters: [
-            {
-              kind: 'set',
-              sort: 'alphabetical',
-              type: 'method',
-            },
-          ],
-        },
-        order: [
-          '[ember-data-type-brand]',
-          '[ember-data-decorators]',
-          '[ember-controller-model]',
-          '[ember-controller-queryParams]',
-          '[ember-services]',
-          '[ember-tracked-properties]',
-          '[properties]',
-          '[getters]',
-          '[setters]',
-          'constructor',
-          '[methods]',
-          '[ember-actions]',
+        customGroups: [
+          {
+            decoratorNamePattern: 'action',
+            groupName: 'ember-action',
+            selector: 'method',
+          },
+          {
+            elementNamePattern: 'model',
+            groupName: 'ember-controller-model',
+            selector: 'property',
+          },
+          {
+            elementNamePattern: 'queryParams',
+            groupName: 'ember-controller-queryParams',
+            selector: 'property',
+          },
+          {
+            decoratorNamePattern: 'attr',
+            groupName: 'ember-data-model-attr',
+            selector: 'property',
+          },
+          {
+            decoratorNamePattern: 'belongsTo',
+            groupName: 'ember-data-model-belongsTo',
+            selector: 'property',
+          },
+          {
+            decoratorNamePattern: 'hasMany',
+            groupName: 'ember-data-model-hasMany',
+            selector: 'property',
+          },
+          {
+            elementNamePattern: 'Type',
+            groupName: 'ember-data-model-type',
+            selector: 'property',
+          },
+          {
+            decoratorNamePattern: 'service',
+            groupName: 'ember-service',
+            selector: 'property',
+          },
+          {
+            decoratorNamePattern: 'tracked',
+            groupName: 'ember-tracked-property',
+            selector: 'property',
+          },
         ],
+        groups: [
+          'ember-data-model-type',
+          'ember-data-model-belongsTo',
+          'ember-data-model-hasMany',
+          'ember-data-model-attr',
+          'ember-controller-model',
+          'ember-controller-queryParams',
+          'ember-service',
+          'ember-tracked-property',
+          'property',
+          'get-method',
+          'set-method',
+          'constructor',
+          'method',
+          'ember-action',
+        ],
+        type: 'alphabetical',
       },
     ],
+    'simple-import-sort/imports': 'error',
+    'simple-import-sort/exports': 'error',
   },
 };
