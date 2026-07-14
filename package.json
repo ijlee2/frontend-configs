@@ -18,7 +18,7 @@
     "lint:package-json:fix": "sort-package-json \"**/package.json\" --ignore \"**/{dist,dist-for-testing,node_modules}/**\"",
     "prepare": "pnpm --filter my-v2-addon build",
     "release:prepare": "changeset version; update-workspace-root-version",
-    "release:publish": "pnpm publish",
+    "release:publish": "changeset publish",
     "test": "pnpm --filter './tests/**' test"
   },
   "devDependencies": {
@@ -30,6 +30,6 @@
   "packageManager": "pnpm@11.13.0",
   "engines": {
     "node": "22.* || >= 24",
-    "pnpm": ">= 10"
+    "pnpm": ">= 11"
   }
 }
