@@ -1,3 +1,18 @@
+allowBuilds:
+  core-js: false
+  unrs-resolver: false
+
+autoInstallPeers: false
+
+minimumReleaseAge: 720
+
 packages:
-  - packages/**
-  - tests/**
+  - "packages/**"
+  - "tests/**"
+
+publicHoistPattern:
+  - "*eslint*"
+  - "*prettier*"
+  - "*stylelint*"
+
+resolvePeersFromWorkspaceRoot: false
