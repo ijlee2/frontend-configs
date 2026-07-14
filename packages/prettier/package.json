@@ -18,14 +18,14 @@
     "lint:fix": "prettier \"**/*.mjs\" --cache --write"
   },
   "dependencies": {
-    "prettier-plugin-ember-hbs-tag": "^2.0.1",
+    "prettier-plugin-ember-hbs-tag": "^2.0.2",
     "prettier-plugin-ember-template-tag": "^2.1.7"
   },
   "devDependencies": {
-    "prettier": "^3.9.4"
+    "prettier": "^3.9.5"
   },
   "peerDependencies": {
-    "prettier": "^3.9.4"
+    "prettier": "^3.9.5"
   },
   "peerDependenciesMeta": {
     "prettier": {
