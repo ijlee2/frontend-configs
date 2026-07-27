@@ -35,19 +35,19 @@
     "eslint-plugin-n": "^18.2.2",
     "eslint-plugin-perfectionist": "^5.10.0",
     "eslint-plugin-qunit": "^8.2.6",
-    "eslint-plugin-simple-import-sort": "^13.0.0",
-    "globals": "^17.7.0",
-    "typescript-eslint": "^8.64.0"
+    "eslint-plugin-simple-import-sort": "^14.0.0",
+    "globals": "^17.8.0",
+    "typescript-eslint": "^8.65.0"
   },
   "devDependencies": {
     "@ijlee2-frontend-configs/eslint-config-node": "workspace:*",
     "@ijlee2-frontend-configs/prettier": "workspace:*",
-    "concurrently": "^10.0.3",
-    "eslint": "^10.7.0",
-    "prettier": "^3.9.5"
+    "concurrently": "^10.0.4",
+    "eslint": "^10.8.0",
+    "prettier": "^3.9.6"
   },
   "peerDependencies": {
-    "eslint": "^10.7.0",
+    "eslint": "^10.8.0",
     "typescript": "^6.0.3"
   },
   "peerDependenciesMeta": {
