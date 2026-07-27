@@ -28,7 +28,7 @@
   },
   "devDependencies": {
     "@ijlee2-frontend-configs/prettier": "workspace:*",
-    "prettier": "^3.9.5"
+    "prettier": "^3.9.6"
   },
   "peerDependencies": {
     "typescript": "^6.0.3"

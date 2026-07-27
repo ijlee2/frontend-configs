@@ -1,8 +1,9 @@
 import Route from '@ember/routing/route';
-import { type Registry as Services, service } from '@ember/service';
+import { service } from '@ember/service';
+import type { IntlService } from 'ember-intl';
 
 export default class ApplicationRoute extends Route {
-  @service declare intl: Services['intl'];
+  @service declare intl: IntlService;
 
   beforeModel(): void {
     this.intl.setLocale(['de-de', 'en-us']);
