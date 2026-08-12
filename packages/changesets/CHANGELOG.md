@@ -1,5 +1,11 @@
 # @ijlee2-frontend-configs/changesets
 
+## 3.0.1
+
+### Patch Changes
+
+- [#112](https://github.com/ijlee2/frontend-configs/pull/112) Updated README to show versioning private packages only ([@ijlee2](https://github.com/ijlee2))
+
 ## 3.0.0
 
 ### Major Changes
