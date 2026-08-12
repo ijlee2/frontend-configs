@@ -1,5 +1,11 @@
 # @ijlee2-frontend-configs/eslint-config-ember
 
+## 4.2.2
+
+### Patch Changes
+
+- [#110](https://github.com/ijlee2/frontend-configs/pull/110) Updated dependencies ([@ijlee2](https://github.com/ijlee2))
+
 ## 4.2.1
 
 ### Patch Changes

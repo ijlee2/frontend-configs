@@ -1,5 +1,12 @@
 # @ijlee2-frontend-configs/changesets
 
+## 3.0.0
+
+### Major Changes
+
+- [#111](https://github.com/ijlee2/frontend-configs/pull/111) Addressed breaking changes in `@changesets/get-github-info@1.0.0` ([@ijlee2](https://github.com/ijlee2))
+- [#110](https://github.com/ijlee2/frontend-configs/pull/110) Updated dependencies ([@ijlee2](https://github.com/ijlee2))
+
 ## 2.1.2
 
 ### Patch Changes
