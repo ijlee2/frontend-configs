@@ -22,10 +22,10 @@
     "test": "pnpm --filter './tests/**' test"
   },
   "devDependencies": {
-    "@changesets/cli": "^2.31.1",
+    "@changesets/cli": "^3.0.0",
     "@ijlee2-frontend-configs/changesets": "workspace:*",
     "sort-package-json": "^4.0.0",
-    "update-workspace-root-version": "^3.0.4"
+    "update-workspace-root-version": "^3.0.5"
   },
   "packageManager": "pnpm@11.21.0",
   "engines": {

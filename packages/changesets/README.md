@@ -21,19 +21,13 @@ import getFormatter from '@ijlee2-frontend-configs/changesets';
 export default getFormatter('<your-github-handle>/<your-repo-name>');
 ```
 
-Then, provide the relative path to this file in `.changeset/config.json`.
+Then, provide the relative path to this file in [`.changeset/config.json`. See [`changesets` documentation](https://changesets.dev/guide/config) for more information.
 
 ```json
 {
-  "$schema": "https://unpkg.com/@changesets/config/schema.json",
-  "changelog": "./formatter.mjs",
-  "commit": false,
-  "fixed": [],
-  "linked": [],
   "access": "public",
-  "baseBranch": "main",
-  "updateInternalDependencies": "patch",
-  "ignore": []
+  "changelog": "./formatter.mjs",
+  "privatePackages": true
 }
 ```
 
