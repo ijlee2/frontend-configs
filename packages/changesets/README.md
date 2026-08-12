@@ -21,13 +21,16 @@ import getFormatter from '@ijlee2-frontend-configs/changesets';
 export default getFormatter('<your-github-handle>/<your-repo-name>');
 ```
 
-Then, provide the relative path to this file in [`.changeset/config.json`. See [`changesets` documentation](https://changesets.dev/guide/config) for more information.
+Then, set the `changelog` key in your [`.changeset/config.json`. See [`changesets` documentation](https://changesets.dev/guide/config) for more information.
 
 ```json
 {
   "access": "public",
   "changelog": "./formatter.mjs",
-  "privatePackages": true
+  "privatePackages": {
+    "tag": false,
+    "version": true
+  }
 }
 ```
 
