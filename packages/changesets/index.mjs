@@ -1,17 +1,26 @@
-import { getInfo } from '@changesets/get-github-info';
+import { getCommitInfo } from '@changesets/get-github-info';
 
 async function extractInformation({ changeset, repo }) {
-  const { links: info } = await getInfo({
+  const info = await getCommitInfo({
     commit: changeset.commit,
     repo,
   });
 
-  const contributor = info.user ? `(${info.user})` : undefined;
-  const link = info.pull ?? info.commit ?? undefined;
   const summary = (changeset.summary ?? '').split(/\r?\n/)[0].trim();
 
+  if (info === undefined) {
+    return {
+      contributor: undefined,
+      link: undefined,
+      summary,
+    };
+  }
+
+  const contributor = info.author?.markdownLink;
+  const link = info.pull?.markdownLink ?? info.commit.markdownLink;
+
   return {
-    contributor,
+    contributor: contributor ? `(${contributor})` : undefined,
     link,
     summary,
   };
