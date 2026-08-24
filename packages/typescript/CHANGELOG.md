@@ -1,5 +1,11 @@
 # @ijlee2-frontend-configs/typescript
 
+## 4.1.0
+
+### Minor Changes
+
+- [#113](https://github.com/ijlee2/frontend-configs/pull/113) Updated dependencies ([@ijlee2](https://github.com/ijlee2))
+
 ## 4.0.0
 
 ### Major Changes
