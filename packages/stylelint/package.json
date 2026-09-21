@@ -23,7 +23,7 @@
   },
   "devDependencies": {
     "@ijlee2-frontend-configs/prettier": "workspace:*",
-    "prettier": "^3.9.6"
+    "prettier": "^3.9.8"
   },
   "peerDependencies": {
     "stylelint": "^17.15.0"

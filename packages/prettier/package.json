@@ -22,10 +22,10 @@
     "prettier-plugin-ember-template-tag": "^2.1.8"
   },
   "devDependencies": {
-    "prettier": "^3.9.6"
+    "prettier": "^3.9.8"
   },
   "peerDependencies": {
-    "prettier": "^3.9.6"
+    "prettier": "^3.9.8"
   },
   "peerDependenciesMeta": {
     "prettier": {
