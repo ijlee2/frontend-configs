@@ -49,8 +49,7 @@
     "@babel/core": "^7.29.7",
     "ember-auto-import": "^2.13.1",
     "ember-cli-babel": "^8.3.2",
-    "ember-cli-htmlbars": "^7.0.1",
-    "ember-intl": "^9.1.0"
+    "ember-cli-htmlbars": "^7.0.1"
   },
   "devDependencies": {
     "@ember-intl/v1-compat": "^2.0.3",
@@ -74,13 +73,13 @@
     "ember-cli-inject-live-reload": "^2.1.0",
     "ember-cli-sri": "^2.1.1",
     "ember-cli-terser": "^4.0.2",
+    "ember-intl": "^9.1.0",
     "ember-load-initializers": "^3.0.1",
     "ember-page-title": "^9.0.3",
     "ember-qunit": "^9.1.0",
     "ember-resolver": "^13.2.0",
     "ember-source": "~6.12.0",
     "ember-template-lint": "^7.9.3",
-    "ember-test-selectors": "^7.1.0",
     "eslint": "^10.11.0",
     "loader.js": "^4.7.0",
     "prettier": "^3.9.9",
@@ -90,6 +89,14 @@
     "type-css-modules": "^3.2.12",
     "typescript": "^6.0.3",
     "webpack": "^5.111.1"
+  },
+  "peerDependencies": {
+    "ember-intl": "^9.1.0"
+  },
+  "peerDependenciesMeta": {
+    "ember-intl": {
+      "optional": false
+    }
   },
   "engines": {
     "node": "22.* || >= 24"

@@ -69,7 +69,6 @@
     "ember-source": "~6.12.0",
     "ember-template-imports": "^4.4.0",
     "ember-template-lint": "7.9.3",
-    "ember-test-selectors": "^7.1.0",
     "embroider-css-modules": "^4.1.4",
     "eslint": "^10.11.0",
     "loader.js": "^4.7.0",
