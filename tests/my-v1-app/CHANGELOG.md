@@ -1,5 +1,16 @@
 # my-v1-app
 
+## 1.4.0
+
+### Minor Changes
+
+- [#117](https://github.com/ijlee2/frontend-configs/pull/117) Installed ember-testem ([@ijlee2](https://github.com/ijlee2))
+
+### Patch Changes
+
+- [#118](https://github.com/ijlee2/frontend-configs/pull/118) Improved support for `*.{mjs,mts}` files ([@ijlee2](https://github.com/ijlee2))
+- [#116](https://github.com/ijlee2/frontend-configs/pull/116) Updated dependencies ([@ijlee2](https://github.com/ijlee2))
+
 ## 1.3.7
 
 ### Patch Changes
