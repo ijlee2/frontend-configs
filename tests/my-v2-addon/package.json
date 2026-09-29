@@ -49,8 +49,7 @@
     "prelint:types": "type-css-modules --src src",
     "lint:types": "ember-tsc --noEmit",
     "prepack": "rollup --config",
-    "start": "rollup --config --watch",
-    "test": "echo \"A v2 addon does not have tests, run tests in tests/my-app\""
+    "start": "rollup --config --watch"
   },
   "dependencies": {
     "@embroider/addon-shim": "^1.10.3",
