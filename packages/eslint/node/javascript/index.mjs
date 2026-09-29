@@ -39,7 +39,7 @@ export default defineConfig([
 
   // JavaScript files
   {
-    files: ['**/*.js'],
+    files: ['**/*.{js,mjs}'],
     languageOptions: {
       parser: babelEslintParser,
       parserOptions: parserOptionsJs,
@@ -61,11 +61,10 @@ export default defineConfig([
   },
   {
     ...eslintPluginN.configs['flat/recommended-module'],
-    files: ['**/*.mjs'],
+    files: ['*.{mjs,mts}'],
     languageOptions: {
       ecmaVersion: 'latest',
       globals: globals.node,
-      parserOptions: parserOptionsJs,
       sourceType: 'module',
     },
     plugins: {
