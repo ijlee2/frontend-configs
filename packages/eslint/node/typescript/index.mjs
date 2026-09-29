@@ -44,7 +44,7 @@ export default defineConfig([
 
   // JavaScript files
   {
-    files: ['**/*.js'],
+    files: ['**/*.{js,mjs}'],
     languageOptions: {
       parser: babelEslintParser,
       parserOptions: parserOptionsJs,
@@ -57,7 +57,7 @@ export default defineConfig([
       tseslint.configs.recommendedTypeChecked,
       eslintPluginImportX.flatConfigs.typescript,
     ],
-    files: ['**/*.ts'],
+    files: ['**/*.{mts,ts}'],
     languageOptions: {
       parserOptions: parserOptionsTs,
     },
@@ -94,11 +94,10 @@ export default defineConfig([
   },
   {
     ...eslintPluginN.configs['flat/recommended-module'],
-    files: ['**/*.mjs'],
+    files: ['*.{mjs,mts}'],
     languageOptions: {
       ecmaVersion: 'latest',
       globals: globals.node,
-      parserOptions: parserOptionsJs,
       sourceType: 'module',
     },
     plugins: {

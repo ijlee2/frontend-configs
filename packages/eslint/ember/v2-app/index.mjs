@@ -55,7 +55,7 @@ export default defineConfig([
     },
   },
   {
-    files: ['**/*.{gjs,js}'],
+    files: ['**/*.{gjs,js,mjs}'],
     languageOptions: {
       globals: globals.browser,
       parserOptions: parserOptionsJs,
@@ -78,7 +78,7 @@ export default defineConfig([
       eslintPluginEmber.configs.gts,
       eslintPluginImportX.flatConfigs.typescript,
     ],
-    files: ['**/*.{gts,ts}'],
+    files: ['**/*.{gts,mts,ts}'],
     languageOptions: {
       globals: globals.browser,
       parser: eslintPluginEmber.parser,
@@ -150,11 +150,10 @@ export default defineConfig([
   },
   {
     ...eslintPluginN.configs['flat/recommended-module'],
-    files: ['**/*.mjs'],
+    files: ['*.{mjs,mts}'],
     languageOptions: {
       ecmaVersion: 'latest',
       globals: globals.node,
-      parserOptions: parserOptionsJs,
       sourceType: 'module',
     },
     plugins: {
