@@ -8,6 +8,9 @@ autoInstallPeers: false
 
 minimumReleaseAge: 720
 
+minimumReleaseAgeExclude:
+  - "ember-testem"
+
 packages:
   - "packages/**"
   - "tests/**"
