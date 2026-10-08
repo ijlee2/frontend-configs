@@ -4,9 +4,9 @@ import Hello from 'my-v2-app/components/hello';
 import styles from './application.module.css';
 
 <template>
-  {{pageTitle "Embroider CSS Modules"}}
+  {{pageTitle "my-v2-app"}}
 
   <div class={{styles.container}} data-test-hello-container>
-    <Hello />
+    <Hello @name="World" />
   </div>
 </template>

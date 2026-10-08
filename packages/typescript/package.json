@@ -20,8 +20,8 @@
     "lint:fix": "prettier \"**/*.{json,mjs}\" --cache --write"
   },
   "dependencies": {
-    "@ember/app-tsconfig": "^2.0.0",
-    "@ember/library-tsconfig": "^2.0.0",
+    "@ember/app-tsconfig": "^2.1.0",
+    "@ember/library-tsconfig": "^3.0.0",
     "@tsconfig/node22": "^22.0.6",
     "@tsconfig/node24": "^24.0.5",
     "@tsconfig/strictest": "^2.0.8"
