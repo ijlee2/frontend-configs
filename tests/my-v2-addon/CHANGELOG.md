@@ -1,5 +1,11 @@
 # my-v2-addon
 
+## 1.4.1
+
+### Patch Changes
+
+- [#119](https://github.com/ijlee2/frontend-configs/pull/119) Updated dependencies ([@ijlee2](https://github.com/ijlee2))
+
 ## 1.4.0
 
 ### Minor Changes
