@@ -8,7 +8,9 @@ module('Integration | Component | hello', function (hooks) {
   setupRenderingTest(hooks);
 
   test('it renders', async function (assert) {
-    await render(<template><Hello /></template>);
+    const name = 'World';
+
+    await render(<template><Hello @name={{name}} /></template>);
 
     assert
       .dom('[data-test-hello]')
@@ -17,6 +19,6 @@ module('Integration | Component | hello', function (hooks) {
       .hasStyle({
         fontSize: '128px',
       })
-      .hasText('Hello Vite!');
+      .hasText('Hello World!');
   });
 });

@@ -6,7 +6,7 @@ import { module, test } from 'qunit';
 module('Acceptance | index', function (hooks) {
   setupApplicationTest(hooks);
 
-  test('We can visit index', async function (assert) {
+  test('We can visit the page', async function (assert) {
     await visit('/');
 
     assert
