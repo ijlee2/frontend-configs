@@ -1,5 +1,11 @@
 # @ijlee2-frontend-configs/typescript
 
+## 4.3.0
+
+### Minor Changes
+
+- [#120](https://github.com/ijlee2/frontend-configs/pull/120) Enabled exactOptionalPropertyTypes in Ember apps and addons ([@ijlee2](https://github.com/ijlee2))
+
 ## 4.2.0
 
 ### Minor Changes
