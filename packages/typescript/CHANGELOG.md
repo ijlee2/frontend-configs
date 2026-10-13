@@ -1,5 +1,11 @@
 # @ijlee2-frontend-configs/typescript
 
+## 4.4.0
+
+### Minor Changes
+
+- [#125](https://github.com/ijlee2/frontend-configs/pull/125) Removed exactOptionalPropertyTypes (reverted #120) ([@ijlee2](https://github.com/ijlee2))
+
 ## 4.3.0
 
 ### Minor Changes
