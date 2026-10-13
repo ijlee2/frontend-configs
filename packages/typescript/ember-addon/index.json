@@ -1,7 +1,6 @@
 {
   "extends": "@ember/library-tsconfig",
   "compilerOptions": {
-    "exactOptionalPropertyTypes": true,
     "target": "esnext"
   }
 }
