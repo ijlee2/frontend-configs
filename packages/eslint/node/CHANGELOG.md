@@ -1,5 +1,11 @@
 # @ijlee2-frontend-configs/eslint-config-node
 
+## 4.7.0
+
+### Minor Changes
+
+- [#126](https://github.com/ijlee2/frontend-configs/pull/126) Enabled perfectionist/sort-object-types ([@ijlee2](https://github.com/ijlee2))
+
 ## 4.6.0
 
 ### Minor Changes
