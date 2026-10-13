@@ -19,10 +19,10 @@
   },
   "devDependencies": {
     "@ijlee2-frontend-configs/prettier": "workspace:*",
-    "prettier": "^3.9.9"
+    "prettier": "^3.9.10"
   },
   "peerDependencies": {
-    "@changesets/cli": "^3.0.0"
+    "@changesets/cli": "^3.0.3"
   },
   "peerDependenciesMeta": {
     "@changesets/cli": {
