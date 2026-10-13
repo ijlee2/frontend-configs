@@ -13,8 +13,8 @@ import type { OxlintConfig } from 'oxlint';
 import tseslint from 'typescript-eslint';
 
 type EslintConfig = {
-  rules?: OxlintConfig['rules'];
   [key: string]: unknown;
+  rules?: OxlintConfig['rules'];
 };
 
 type Options = {

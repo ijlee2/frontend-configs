@@ -85,6 +85,10 @@ export const customRules = {
     'ember/no-unused-services': 'error',
     'perfectionist/sort-enums': ['error', { ignoreCase: false }],
     'perfectionist/sort-interfaces': ['error', { ignoreCase: false }],
+    'perfectionist/sort-object-types': [
+      'error',
+      { groups: ['index-signature', 'unknown'], ignoreCase: false },
+    ],
     'perfectionist/sort-union-types': ['error', { ignoreCase: false }],
     'typescript/array-type': 'error',
     'typescript/consistent-type-imports': 'error',
