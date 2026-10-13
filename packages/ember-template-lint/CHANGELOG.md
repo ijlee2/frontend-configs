@@ -1,5 +1,11 @@
 # @ijlee2-frontend-configs/ember-template-lint
 
+## 3.0.2
+
+### Patch Changes
+
+- [#121](https://github.com/ijlee2/frontend-configs/pull/121) Updated dependencies ([@ijlee2](https://github.com/ijlee2))
+
 ## 3.0.1
 
 ### Patch Changes

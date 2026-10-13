@@ -1,5 +1,15 @@
 # my-codemod
 
+## 1.4.0
+
+### Minor Changes
+
+- [#122](https://github.com/ijlee2/frontend-configs/pull/122) Created @ijlee2-frontend-configs/oxlint-node ([@ijlee2](https://github.com/ijlee2))
+
+### Patch Changes
+
+- [#121](https://github.com/ijlee2/frontend-configs/pull/121) Updated dependencies ([@ijlee2](https://github.com/ijlee2))
+
 ## 1.3.9
 
 ### Patch Changes

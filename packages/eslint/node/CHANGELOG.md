@@ -1,5 +1,16 @@
 # @ijlee2-frontend-configs/eslint-config-node
 
+## 4.6.0
+
+### Minor Changes
+
+- [#124](https://github.com/ijlee2/frontend-configs/pull/124) Converted to TypeScript ([@ijlee2](https://github.com/ijlee2))
+- [#124](https://github.com/ijlee2/frontend-configs/pull/124) Standardized code ([@ijlee2](https://github.com/ijlee2))
+
+### Patch Changes
+
+- [#121](https://github.com/ijlee2/frontend-configs/pull/121) Updated dependencies ([@ijlee2](https://github.com/ijlee2))
+
 ## 4.5.0
 
 ### Minor Changes

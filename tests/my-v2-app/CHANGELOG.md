@@ -1,5 +1,15 @@
 # my-v2-app
 
+## 1.5.0
+
+### Minor Changes
+
+- [#123](https://github.com/ijlee2/frontend-configs/pull/123) Created @ijlee2-frontend-configs/oxlint-ember ([@ijlee2](https://github.com/ijlee2))
+
+### Patch Changes
+
+- [#121](https://github.com/ijlee2/frontend-configs/pull/121) Updated dependencies ([@ijlee2](https://github.com/ijlee2))
+
 ## 1.4.1
 
 ### Patch Changes
