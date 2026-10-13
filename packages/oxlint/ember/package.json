@@ -1,0 +1,71 @@
+{
+  "name": "@ijlee2-frontend-configs/oxlint-ember",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Configuration for oxlint (Ember)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ijlee2/frontend-configs.git",
+    "directory": "packages/oxlint/ember"
+  },
+  "license": "MIT",
+  "type": "module",
+  "exports": {
+    "./v1-addon": "./dist/v1-addon.js",
+    "./v1-app": "./dist/v1-app.js",
+    "./v2-addon": "./dist/v2-addon.js",
+    "./v2-app": "./dist/v2-app.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "pnpm build:plugin-rules && pnpm build:package",
+    "build:package": "./build.sh",
+    "build:plugin-rules": "node scripts/extract-plugin-rules.ts && prettier src/plugin-rules.ts --write",
+    "format": "prettier . --cache --write",
+    "lint": "concurrently \"pnpm:lint:*(!fix)\" --names \"lint:\"",
+    "lint:fix": "concurrently \"pnpm:lint:*:fix\" --names \"fix:\" && pnpm format",
+    "lint:format": "prettier . --cache --check",
+    "lint:js": "eslint . --cache",
+    "lint:js:fix": "eslint . --fix",
+    "lint:types": "tsc --noEmit",
+    "prepare": "pnpm build"
+  },
+  "dependencies": {
+    "eslint-plugin-ember": "^13.6.1",
+    "eslint-plugin-perfectionist": "^5.12.1",
+    "eslint-plugin-qunit": "^8.2.6",
+    "eslint-plugin-simple-import-sort": "^14.0.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@ijlee2-frontend-configs/eslint-config-node": "workspace:*",
+    "@ijlee2-frontend-configs/prettier": "workspace:*",
+    "@ijlee2-frontend-configs/typescript": "workspace:*",
+    "@types/node": "^22.20.4",
+    "concurrently": "^10.0.6",
+    "eslint": "^10.12.0",
+    "eslint-plugin-import-x": "^4.17.1",
+    "eslint-plugin-n": "^18.4.1",
+    "oxlint": "^1.87.0",
+    "prettier": "^3.9.10",
+    "typescript": "^6.0.3",
+    "typescript-eslint": "^8.71.2"
+  },
+  "peerDependencies": {
+    "oxlint": "^1.87.0",
+    "oxlint-tsgolint": "^7.0.2004"
+  },
+  "peerDependenciesMeta": {
+    "oxlint": {
+      "optional": false
+    },
+    "oxlint-tsgolint": {
+      "optional": true
+    }
+  },
+  "engines": {
+    "node": "22.* || >= 24"
+  }
+}

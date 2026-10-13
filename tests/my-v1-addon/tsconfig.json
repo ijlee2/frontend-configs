@@ -4,6 +4,7 @@
     "declaration": false,
     "declarationMap": false,
     "emitDeclarationOnly": false,
+    "noEmit": true,
     "paths": {
       "dummy/tests/*": ["./tests/*"],
       "dummy/*": ["./tests/dummy/app/*", "./app/*"],

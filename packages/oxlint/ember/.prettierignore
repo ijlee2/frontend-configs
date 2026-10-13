@@ -1,0 +1,9 @@
+# compiled output
+/dist/
+ 
+# misc
+!.*
+.*/
+README.md
+
+# specific to this package

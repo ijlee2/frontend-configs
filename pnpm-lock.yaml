@@ -336,6 +336,61 @@ importers:
         specifier: ^3.9.10
         version: 3.9.10
 
+  packages/oxlint/ember:
+    dependencies:
+      eslint-plugin-ember:
+        specifier: ^13.6.1
+        version: 13.6.1(@babel/eslint-parser@8.0.7(@babel/core@8.0.7)(eslint@10.12.0(jiti@2.7.0)(supports-color@10.2.2)))(@typescript-eslint/parser@8.71.2(eslint@10.12.0(jiti@2.7.0)(supports-color@10.2.2))(supports-color@10.2.2)(typescript@6.0.3))(eslint@10.12.0(jiti@2.7.0)(supports-color@10.2.2))(typescript@6.0.3)
+      eslint-plugin-perfectionist:
+        specifier: ^5.12.1
+        version: 5.12.1(eslint@10.12.0(jiti@2.7.0)(supports-color@10.2.2))(supports-color@10.2.2)(typescript@6.0.3)
+      eslint-plugin-qunit:
+        specifier: ^8.2.6
+        version: 8.2.6(eslint@10.12.0(jiti@2.7.0)(supports-color@10.2.2))
+      eslint-plugin-simple-import-sort:
+        specifier: ^14.0.0
+        version: 14.0.0(eslint@10.12.0(jiti@2.7.0)(supports-color@10.2.2))
+    devDependencies:
+      '@eslint/js':
+        specifier: ^10.0.1
+        version: 10.0.1(eslint@10.12.0(jiti@2.7.0)(supports-color@10.2.2))
+      '@ijlee2-frontend-configs/eslint-config-node':
+        specifier: workspace:*
+        version: link:../../eslint/node
+      '@ijlee2-frontend-configs/prettier':
+        specifier: workspace:*
+        version: link:../../prettier
+      '@ijlee2-frontend-configs/typescript':
+        specifier: workspace:*
+        version: link:../../typescript
+      '@types/node':
+        specifier: ^22.20.4
+        version: 22.20.5
+      concurrently:
+        specifier: ^10.0.6
+        version: 10.0.6
+      eslint:
+        specifier: ^10.12.0
+        version: 10.12.0(jiti@2.7.0)(supports-color@10.2.2)
+      eslint-plugin-import-x:
+        specifier: ^4.17.1
+        version: 4.17.1(@typescript-eslint/utils@8.71.2(eslint@10.12.0(jiti@2.7.0)(supports-color@10.2.2))(supports-color@10.2.2)(typescript@6.0.3))(eslint@10.12.0(jiti@2.7.0)(supports-color@10.2.2))(supports-color@10.2.2)
+      eslint-plugin-n:
+        specifier: ^18.4.1
+        version: 18.4.1(eslint@10.12.0(jiti@2.7.0)(supports-color@10.2.2))(typescript@6.0.3)
+      oxlint:
+        specifier: ^1.87.0
+        version: 1.87.0(oxlint-tsgolint@7.0.2004)
+      prettier:
+        specifier: ^3.9.10
+        version: 3.9.10
+      typescript:
+        specifier: ^6.0.3
+        version: 6.0.3
+      typescript-eslint:
+        specifier: ^8.71.2
+        version: 8.71.2(eslint@10.12.0(jiti@2.7.0)(supports-color@10.2.2))(supports-color@10.2.2)(typescript@6.0.3)
+
   packages/oxlint/node:
     dependencies:
       eslint-plugin-perfectionist:
@@ -536,6 +591,9 @@ importers:
       '@ijlee2-frontend-configs/eslint-config-ember':
         specifier: workspace:*
         version: link:../../packages/eslint/ember
+      '@ijlee2-frontend-configs/oxlint-ember':
+        specifier: workspace:*
+        version: link:../../packages/oxlint/ember
       '@ijlee2-frontend-configs/prettier':
         specifier: workspace:*
         version: link:../../packages/prettier
@@ -599,6 +657,12 @@ importers:
       loader.js:
         specifier: ^4.7.0
         version: 4.7.0
+      oxlint:
+        specifier: ^1.87.0
+        version: 1.87.0(oxlint-tsgolint@7.0.2004)
+      oxlint-tsgolint:
+        specifier: ^7.0.2004
+        version: 7.0.2004
       prettier:
         specifier: ^3.9.10
         version: 3.9.10
@@ -674,6 +738,9 @@ importers:
       '@ijlee2-frontend-configs/eslint-config-ember':
         specifier: workspace:*
         version: link:../../packages/eslint/ember
+      '@ijlee2-frontend-configs/oxlint-ember':
+        specifier: workspace:*
+        version: link:../../packages/oxlint/ember
       '@ijlee2-frontend-configs/prettier':
         specifier: workspace:*
         version: link:../../packages/prettier
@@ -764,6 +831,12 @@ importers:
       my-v2-addon:
         specifier: workspace:*
         version: link:../my-v2-addon
+      oxlint:
+        specifier: ^1.87.0
+        version: 1.87.0(oxlint-tsgolint@7.0.2004)
+      oxlint-tsgolint:
+        specifier: ^7.0.2004
+        version: 7.0.2004
       postcss:
         specifier: ^8.5.29
         version: 8.5.29
@@ -834,6 +907,9 @@ importers:
       '@ijlee2-frontend-configs/eslint-config-ember':
         specifier: workspace:*
         version: link:../../packages/eslint/ember
+      '@ijlee2-frontend-configs/oxlint-ember':
+        specifier: workspace:*
+        version: link:../../packages/oxlint/ember
       '@ijlee2-frontend-configs/prettier':
         specifier: workspace:*
         version: link:../../packages/prettier
@@ -861,6 +937,12 @@ importers:
       eslint:
         specifier: ^10.12.0
         version: 10.12.0(jiti@2.7.0)(supports-color@10.2.2)
+      oxlint:
+        specifier: ^1.87.0
+        version: 1.87.0(oxlint-tsgolint@7.0.2004)
+      oxlint-tsgolint:
+        specifier: ^7.0.2004
+        version: 7.0.2004
       postcss:
         specifier: ^8.5.29
         version: 8.5.29
@@ -933,6 +1015,9 @@ importers:
       '@ijlee2-frontend-configs/eslint-config-ember':
         specifier: workspace:*
         version: link:../../packages/eslint/ember
+      '@ijlee2-frontend-configs/oxlint-ember':
+        specifier: workspace:*
+        version: link:../../packages/oxlint/ember
       '@ijlee2-frontend-configs/prettier':
         specifier: workspace:*
         version: link:../../packages/prettier
@@ -987,6 +1072,12 @@ importers:
       eslint:
         specifier: ^10.12.0
         version: 10.12.0(jiti@2.7.0)(supports-color@10.2.2)
+      oxlint:
+        specifier: ^1.87.0
+        version: 1.87.0(oxlint-tsgolint@7.0.2004)
+      oxlint-tsgolint:
+        specifier: ^7.0.2004
+        version: 7.0.2004
       prettier:
         specifier: ^3.9.10
         version: 3.9.10
