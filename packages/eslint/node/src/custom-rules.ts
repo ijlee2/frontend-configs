@@ -1,3 +1,5 @@
+import type { ConfigObject } from 'eslint/config';
+
 export const customRules = {
   rules: {
     curly: 'error',
@@ -20,4 +22,4 @@ export const customRules = {
     'simple-import-sort/imports': 'error',
     'simple-import-sort/exports': 'error',
   },
-};
+} satisfies ConfigObject;

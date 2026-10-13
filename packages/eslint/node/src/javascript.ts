@@ -7,9 +7,8 @@ import eslintPluginN from 'eslint-plugin-n';
 import eslintPluginPerfectionist from 'eslint-plugin-perfectionist';
 import eslintPluginSimpleImportSort from 'eslint-plugin-simple-import-sort';
 import globals from 'globals';
-import tseslint from 'typescript-eslint';
 
-import { customRules } from '../shared/index.mjs';
+import { customRules } from './custom-rules.js';
 
 const parserOptionsJs = {
   ecmaFeatures: {
@@ -17,10 +16,6 @@ const parserOptionsJs = {
   },
   ecmaVersion: 'latest',
   requireConfigFile: false,
-};
-
-const parserOptionsTs = {
-  projectService: true,
 };
 
 export default defineConfig([
@@ -48,34 +43,6 @@ export default defineConfig([
     languageOptions: {
       parser: babelEslintParser,
       parserOptions: parserOptionsJs,
-    },
-  },
-
-  // TypeScript files
-  {
-    extends: [
-      tseslint.configs.recommendedTypeChecked,
-      eslintPluginImportX.flatConfigs.typescript,
-    ],
-    files: ['**/*.{mts,ts}'],
-    languageOptions: {
-      parserOptions: parserOptionsTs,
-    },
-    rules: {
-      '@typescript-eslint/array-type': 'error',
-      '@typescript-eslint/consistent-type-imports': 'error',
-      '@typescript-eslint/explicit-function-return-type': 'error',
-      '@typescript-eslint/method-signature-style': ['error', 'property'],
-      '@typescript-eslint/no-import-type-side-effects': 'error',
-      'perfectionist/sort-enums': ['error', { ignoreCase: false }],
-      'perfectionist/sort-interfaces': ['error', { ignoreCase: false }],
-      'perfectionist/sort-union-types': ['error', { ignoreCase: false }],
-    },
-    settings: {
-      'import-x/resolver': {
-        node: true,
-        typescript: true,
-      },
     },
   },
 
