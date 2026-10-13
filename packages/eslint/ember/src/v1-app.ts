@@ -2,22 +2,36 @@ import babelEslintParser from '@babel/eslint-parser';
 import eslint from '@eslint/js';
 import { defineConfig, globalIgnores } from 'eslint/config';
 import eslintConfigPrettier from 'eslint-config-prettier';
+// @ts-expect-error: Incorrect type
 import eslintPluginEmberTemplateLint from 'eslint-plugin-ember/configs/template-lint-migration';
+// @ts-expect-error: Incorrect type
 import eslintPluginEmber from 'eslint-plugin-ember/recommended';
 import eslintPluginImportX from 'eslint-plugin-import-x';
 import eslintPluginN from 'eslint-plugin-n';
 import eslintPluginPerfectionist from 'eslint-plugin-perfectionist';
+import eslintPluginQunit from 'eslint-plugin-qunit';
 import eslintPluginSimpleImportSort from 'eslint-plugin-simple-import-sort';
 import globals from 'globals';
 import tseslint from 'typescript-eslint';
 
-import { customRules } from '../shared/index.mjs';
+import { customRules } from './custom-rules.js';
 
 const parserOptionsJs = {
+  babelOptions: {
+    plugins: [
+      [
+        '@babel/plugin-proposal-decorators',
+        {
+          version: 'legacy',
+        },
+      ],
+    ],
+  },
   ecmaFeatures: {
     modules: true,
   },
   ecmaVersion: 'latest',
+  requireConfigFile: false,
 };
 
 const parserOptionsTs = {
@@ -25,7 +39,7 @@ const parserOptionsTs = {
 };
 
 export default defineConfig([
-  globalIgnores(['declarations/', 'dist/', 'node_modules/', '.*/']),
+  globalIgnores(['dist/', 'node_modules/', '.*/']),
   {
     linterOptions: {
       reportUnusedDisableDirectives: 'error',
@@ -112,16 +126,16 @@ export default defineConfig([
       },
     },
   },
+
+  // Test files
   {
-    files: ['src/**/*.{gjs,gts,js,ts}'],
+    ...eslintPluginQunit.configs.recommended,
+    files: ['tests/**/*-test.{gjs,gts,js,ts}'],
+    plugins: {
+      qunit: eslintPluginQunit,
+    },
     rules: {
-      'import-x/extensions': [
-        'error',
-        'always',
-        {
-          ignorePackages: true,
-        },
-      ],
+      '@typescript-eslint/no-this-alias': 'off',
     },
   },
 
@@ -130,9 +144,13 @@ export default defineConfig([
     ...eslintPluginN.configs['flat/recommended-script'],
     files: [
       '**/*.cjs',
+      'config/**/*.js',
       '.prettierrc.js',
       '.stylelintrc.js',
       '.template-lintrc.js',
+      'ember-cli-build.js',
+      'postcss.config.js',
+      'testem.js',
     ],
     languageOptions: {
       ecmaVersion: 'latest',

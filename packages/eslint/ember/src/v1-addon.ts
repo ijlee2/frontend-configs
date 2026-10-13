@@ -2,7 +2,9 @@ import babelEslintParser from '@babel/eslint-parser';
 import eslint from '@eslint/js';
 import { defineConfig, globalIgnores } from 'eslint/config';
 import eslintConfigPrettier from 'eslint-config-prettier';
+// @ts-expect-error: Incorrect type
 import eslintPluginEmberTemplateLint from 'eslint-plugin-ember/configs/template-lint-migration';
+// @ts-expect-error: Incorrect type
 import eslintPluginEmber from 'eslint-plugin-ember/recommended';
 import eslintPluginImportX from 'eslint-plugin-import-x';
 import eslintPluginN from 'eslint-plugin-n';
@@ -12,7 +14,7 @@ import eslintPluginSimpleImportSort from 'eslint-plugin-simple-import-sort';
 import globals from 'globals';
 import tseslint from 'typescript-eslint';
 
-import { customRules } from '../shared/index.mjs';
+import { customRules } from './custom-rules.js';
 
 const parserOptionsJs = {
   babelOptions: {
@@ -37,7 +39,7 @@ const parserOptionsTs = {
 };
 
 export default defineConfig([
-  globalIgnores(['dist/', 'node_modules/', '.*/']),
+  globalIgnores(['blueprints/', 'dist/', 'node_modules/', '.*/']),
   {
     linterOptions: {
       reportUnusedDisableDirectives: 'error',
@@ -143,11 +145,12 @@ export default defineConfig([
     files: [
       '**/*.cjs',
       'config/**/*.js',
+      'tests/dummy/config/**/*.js',
       '.prettierrc.js',
       '.stylelintrc.js',
       '.template-lintrc.js',
       'ember-cli-build.js',
-      'postcss.config.js',
+      'index.js',
       'testem.js',
     ],
     languageOptions: {
