@@ -24,18 +24,16 @@ export default defineConfig([
     linterOptions: {
       reportUnusedDisableDirectives: 'error',
     },
-  },
-
-  eslint.configs.recommended,
-  eslintPluginImportX.flatConfigs.recommended,
-  eslintConfigPrettier,
-  {
     plugins: {
       perfectionist: eslintPluginPerfectionist,
       'simple-import-sort': eslintPluginSimpleImportSort,
     },
   },
-  customRules,
+
+  eslint.configs.recommended,
+  eslintPluginImportX.flatConfigs.recommended,
+  eslintConfigPrettier,
+  customRules.recommended,
 
   // JavaScript files
   {
@@ -61,7 +59,7 @@ export default defineConfig([
   },
   {
     ...eslintPluginN.configs['flat/recommended-module'],
-    files: ['*.{mjs,mts}'],
+    files: ['*.mjs'],
     languageOptions: {
       ecmaVersion: 'latest',
       globals: globals.node,

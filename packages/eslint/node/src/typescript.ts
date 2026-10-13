@@ -29,18 +29,16 @@ export default defineConfig([
     linterOptions: {
       reportUnusedDisableDirectives: 'error',
     },
-  },
-
-  eslint.configs.recommended,
-  eslintPluginImportX.flatConfigs.recommended,
-  eslintConfigPrettier,
-  {
     plugins: {
       perfectionist: eslintPluginPerfectionist,
       'simple-import-sort': eslintPluginSimpleImportSort,
     },
   },
-  customRules,
+
+  eslint.configs.recommended,
+  eslintPluginImportX.flatConfigs.recommended,
+  eslintConfigPrettier,
+  customRules.recommended,
 
   // JavaScript files
   {
@@ -56,20 +54,11 @@ export default defineConfig([
     extends: [
       tseslint.configs.recommendedTypeChecked,
       eslintPluginImportX.flatConfigs.typescript,
+      customRules.typescript,
     ],
     files: ['**/*.{mts,ts}'],
     languageOptions: {
       parserOptions: parserOptionsTs,
-    },
-    rules: {
-      '@typescript-eslint/array-type': 'error',
-      '@typescript-eslint/consistent-type-imports': 'error',
-      '@typescript-eslint/explicit-function-return-type': 'error',
-      '@typescript-eslint/method-signature-style': ['error', 'property'],
-      '@typescript-eslint/no-import-type-side-effects': 'error',
-      'perfectionist/sort-enums': ['error', { ignoreCase: false }],
-      'perfectionist/sort-interfaces': ['error', { ignoreCase: false }],
-      'perfectionist/sort-union-types': ['error', { ignoreCase: false }],
     },
     settings: {
       'import-x/resolver': {

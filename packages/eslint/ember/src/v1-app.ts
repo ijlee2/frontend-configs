@@ -44,6 +44,10 @@ export default defineConfig([
     linterOptions: {
       reportUnusedDisableDirectives: 'error',
     },
+    plugins: {
+      perfectionist: eslintPluginPerfectionist,
+      'simple-import-sort': eslintPluginSimpleImportSort,
+    },
   },
 
   eslint.configs.recommended,
@@ -52,13 +56,7 @@ export default defineConfig([
   eslintPluginEmberTemplateLint,
   eslintPluginImportX.flatConfigs.recommended,
   eslintConfigPrettier,
-  {
-    plugins: {
-      perfectionist: eslintPluginPerfectionist,
-      'simple-import-sort': eslintPluginSimpleImportSort,
-    },
-  },
-  customRules,
+  customRules.recommended,
 
   // Ember files
   {
@@ -73,10 +71,6 @@ export default defineConfig([
       globals: globals.browser,
       parserOptions: parserOptionsJs,
     },
-    rules: {
-      'ember/template-require-input-type': 'error',
-      'ember/template-sort-invocations': 'error',
-    },
     settings: {
       'import-x/resolver': {
         node: {
@@ -90,32 +84,13 @@ export default defineConfig([
       tseslint.configs.recommendedTypeChecked,
       eslintPluginEmber.configs.gts,
       eslintPluginImportX.flatConfigs.typescript,
+      customRules.typescript,
     ],
     files: ['**/*.{gts,mts,ts}'],
     languageOptions: {
       globals: globals.browser,
       parser: eslintPluginEmber.parser,
       parserOptions: parserOptionsTs,
-    },
-    rules: {
-      '@typescript-eslint/array-type': 'error',
-      '@typescript-eslint/consistent-type-imports': 'error',
-      '@typescript-eslint/explicit-function-return-type': 'error',
-      '@typescript-eslint/method-signature-style': ['error', 'property'],
-      '@typescript-eslint/no-empty-object-type': [
-        'error',
-        {
-          allowInterfaces: 'always',
-          allowObjectTypes: 'always',
-        },
-      ],
-      '@typescript-eslint/no-import-type-side-effects': 'error',
-      'ember/no-unused-services': 'error',
-      'ember/template-require-input-type': 'error',
-      'ember/template-sort-invocations': 'error',
-      'perfectionist/sort-enums': ['error', { ignoreCase: false }],
-      'perfectionist/sort-interfaces': ['error', { ignoreCase: false }],
-      'perfectionist/sort-union-types': ['error', { ignoreCase: false }],
     },
     settings: {
       'import-x/resolver': {
