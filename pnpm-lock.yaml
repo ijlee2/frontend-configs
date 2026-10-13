@@ -277,6 +277,12 @@ importers:
       '@ijlee2-frontend-configs/prettier':
         specifier: workspace:*
         version: link:../../prettier
+      '@ijlee2-frontend-configs/typescript':
+        specifier: workspace:*
+        version: link:../../typescript
+      '@types/node':
+        specifier: ^22.20.4
+        version: 22.20.5
       concurrently:
         specifier: ^10.0.6
         version: 10.0.6
@@ -286,6 +292,9 @@ importers:
       prettier:
         specifier: ^3.9.10
         version: 3.9.10
+      typescript:
+        specifier: ^6.0.3
+        version: 6.0.3
 
   packages/eslint/node:
     dependencies:
@@ -326,6 +335,12 @@ importers:
       '@ijlee2-frontend-configs/prettier':
         specifier: workspace:*
         version: link:../../prettier
+      '@ijlee2-frontend-configs/typescript':
+        specifier: workspace:*
+        version: link:../../typescript
+      '@types/node':
+        specifier: ^22.20.4
+        version: 22.20.5
       concurrently:
         specifier: ^10.0.6
         version: 10.0.6
@@ -335,6 +350,9 @@ importers:
       prettier:
         specifier: ^3.9.10
         version: 3.9.10
+      typescript:
+        specifier: ^6.0.3
+        version: 6.0.3
 
   packages/oxlint/ember:
     dependencies:
