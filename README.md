@@ -13,6 +13,7 @@
 - [`@ijlee2-frontend-configs/ember-template-lint`](./packages/ember-template-lint/README.md)
 - [`@ijlee2-frontend-configs/eslint-config-ember`](./packages/eslint/ember/README.md)
 - [`@ijlee2-frontend-configs/eslint-config-node`](./packages/eslint/node/README.md)
+- [`@ijlee2-frontend-configs/oxlint-ember`](./packages/oxlint/ember/README.md)
 - [`@ijlee2-frontend-configs/oxlint-node`](./packages/oxlint/node/README.md)
 - [`@ijlee2-frontend-configs/prettier`](./packages/prettier/README.md)
 - [`@ijlee2-frontend-configs/stylelint`](./packages/stylelint/README.md)
