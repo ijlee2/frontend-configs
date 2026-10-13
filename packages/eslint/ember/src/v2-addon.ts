@@ -2,34 +2,24 @@ import babelEslintParser from '@babel/eslint-parser';
 import eslint from '@eslint/js';
 import { defineConfig, globalIgnores } from 'eslint/config';
 import eslintConfigPrettier from 'eslint-config-prettier';
+// @ts-expect-error: Incorrect type
 import eslintPluginEmberTemplateLint from 'eslint-plugin-ember/configs/template-lint-migration';
+// @ts-expect-error: Incorrect type
 import eslintPluginEmber from 'eslint-plugin-ember/recommended';
 import eslintPluginImportX from 'eslint-plugin-import-x';
 import eslintPluginN from 'eslint-plugin-n';
 import eslintPluginPerfectionist from 'eslint-plugin-perfectionist';
-import eslintPluginQunit from 'eslint-plugin-qunit';
 import eslintPluginSimpleImportSort from 'eslint-plugin-simple-import-sort';
 import globals from 'globals';
 import tseslint from 'typescript-eslint';
 
-import { customRules } from '../shared/index.mjs';
+import { customRules } from './custom-rules.js';
 
 const parserOptionsJs = {
-  babelOptions: {
-    plugins: [
-      [
-        '@babel/plugin-proposal-decorators',
-        {
-          version: 'legacy',
-        },
-      ],
-    ],
-  },
   ecmaFeatures: {
     modules: true,
   },
   ecmaVersion: 'latest',
-  requireConfigFile: false,
 };
 
 const parserOptionsTs = {
@@ -37,10 +27,14 @@ const parserOptionsTs = {
 };
 
 export default defineConfig([
-  globalIgnores(['dist/', 'node_modules/', '.*/']),
+  globalIgnores(['declarations/', 'dist/', 'node_modules/', '.*/']),
   {
     linterOptions: {
       reportUnusedDisableDirectives: 'error',
+    },
+    plugins: {
+      perfectionist: eslintPluginPerfectionist,
+      'simple-import-sort': eslintPluginSimpleImportSort,
     },
   },
 
@@ -50,13 +44,7 @@ export default defineConfig([
   eslintPluginEmberTemplateLint,
   eslintPluginImportX.flatConfigs.recommended,
   eslintConfigPrettier,
-  {
-    plugins: {
-      perfectionist: eslintPluginPerfectionist,
-      'simple-import-sort': eslintPluginSimpleImportSort,
-    },
-  },
-  customRules,
+  customRules.recommended,
 
   // Ember files
   {
@@ -71,10 +59,6 @@ export default defineConfig([
       globals: globals.browser,
       parserOptions: parserOptionsJs,
     },
-    rules: {
-      'ember/template-require-input-type': 'error',
-      'ember/template-sort-invocations': 'error',
-    },
     settings: {
       'import-x/resolver': {
         node: {
@@ -88,32 +72,13 @@ export default defineConfig([
       tseslint.configs.recommendedTypeChecked,
       eslintPluginEmber.configs.gts,
       eslintPluginImportX.flatConfigs.typescript,
+      customRules.typescript,
     ],
     files: ['**/*.{gts,mts,ts}'],
     languageOptions: {
       globals: globals.browser,
       parser: eslintPluginEmber.parser,
       parserOptions: parserOptionsTs,
-    },
-    rules: {
-      '@typescript-eslint/array-type': 'error',
-      '@typescript-eslint/consistent-type-imports': 'error',
-      '@typescript-eslint/explicit-function-return-type': 'error',
-      '@typescript-eslint/method-signature-style': ['error', 'property'],
-      '@typescript-eslint/no-empty-object-type': [
-        'error',
-        {
-          allowInterfaces: 'always',
-          allowObjectTypes: 'always',
-        },
-      ],
-      '@typescript-eslint/no-import-type-side-effects': 'error',
-      'ember/no-unused-services': 'error',
-      'ember/template-require-input-type': 'error',
-      'ember/template-sort-invocations': 'error',
-      'perfectionist/sort-enums': ['error', { ignoreCase: false }],
-      'perfectionist/sort-interfaces': ['error', { ignoreCase: false }],
-      'perfectionist/sort-union-types': ['error', { ignoreCase: false }],
     },
     settings: {
       'import-x/resolver': {
@@ -124,16 +89,10 @@ export default defineConfig([
       },
     },
   },
-
-  // Test files
   {
-    ...eslintPluginQunit.configs.recommended,
-    files: ['tests/**/*-test.{gjs,gts,js,ts}'],
-    plugins: {
-      qunit: eslintPluginQunit,
-    },
+    files: ['src/**/*.{gjs,gts,js,ts}'],
     rules: {
-      '@typescript-eslint/no-this-alias': 'off',
+      'import-x/extensions': ['error', 'always', { ignorePackages: true }],
     },
   },
 
@@ -142,13 +101,9 @@ export default defineConfig([
     ...eslintPluginN.configs['flat/recommended-script'],
     files: [
       '**/*.cjs',
-      'config/**/*.js',
       '.prettierrc.js',
       '.stylelintrc.js',
       '.template-lintrc.js',
-      'ember-cli-build.js',
-      'postcss.config.js',
-      'testem.js',
     ],
     languageOptions: {
       ecmaVersion: 'latest',

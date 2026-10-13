@@ -10,18 +10,24 @@
   "license": "MIT",
   "type": "module",
   "exports": {
-    "./v1-addon": "./v1-addon/index.mjs",
-    "./v1-app": "./v1-app/index.mjs",
-    "./v2-addon": "./v2-addon/index.mjs",
-    "./v2-app": "./v2-app/index.mjs"
+    "./v1-addon": "./dist/v1-addon.js",
+    "./v1-app": "./dist/v1-app.js",
+    "./v2-addon": "./dist/v2-addon.js",
+    "./v2-app": "./dist/v2-app.js"
   },
+  "files": [
+    "dist"
+  ],
   "scripts": {
+    "build": "./build.sh",
     "format": "prettier . --cache --write",
     "lint": "concurrently \"pnpm:lint:*(!fix)\" --names \"lint:\"",
     "lint:fix": "concurrently \"pnpm:lint:*:fix\" --names \"fix:\" && pnpm format",
     "lint:format": "prettier . --cache --check",
     "lint:js": "eslint . --cache",
-    "lint:js:fix": "eslint . --fix"
+    "lint:js:fix": "eslint . --fix",
+    "lint:types": "tsc --noEmit",
+    "prepare": "pnpm build"
   },
   "dependencies": {
     "@babel/core": "^8.0.7",
@@ -42,9 +48,12 @@
   "devDependencies": {
     "@ijlee2-frontend-configs/eslint-config-node": "workspace:*",
     "@ijlee2-frontend-configs/prettier": "workspace:*",
+    "@ijlee2-frontend-configs/typescript": "workspace:*",
+    "@types/node": "^22.20.4",
     "concurrently": "^10.0.6",
     "eslint": "^10.12.0",
-    "prettier": "^3.9.10"
+    "prettier": "^3.9.10",
+    "typescript": "^6.0.3"
   },
   "peerDependencies": {
     "eslint": "^10.12.0",

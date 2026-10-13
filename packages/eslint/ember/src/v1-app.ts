@@ -2,16 +2,31 @@ import babelEslintParser from '@babel/eslint-parser';
 import eslint from '@eslint/js';
 import { defineConfig, globalIgnores } from 'eslint/config';
 import eslintConfigPrettier from 'eslint-config-prettier';
+// @ts-expect-error: Incorrect type
+import eslintPluginEmberTemplateLint from 'eslint-plugin-ember/configs/template-lint-migration';
+// @ts-expect-error: Incorrect type
+import eslintPluginEmber from 'eslint-plugin-ember/recommended';
 import eslintPluginImportX from 'eslint-plugin-import-x';
 import eslintPluginN from 'eslint-plugin-n';
 import eslintPluginPerfectionist from 'eslint-plugin-perfectionist';
+import eslintPluginQunit from 'eslint-plugin-qunit';
 import eslintPluginSimpleImportSort from 'eslint-plugin-simple-import-sort';
 import globals from 'globals';
 import tseslint from 'typescript-eslint';
 
-import { customRules } from '../shared/index.mjs';
+import { customRules } from './custom-rules.js';
 
 const parserOptionsJs = {
+  babelOptions: {
+    plugins: [
+      [
+        '@babel/plugin-proposal-decorators',
+        {
+          version: 'legacy',
+        },
+      ],
+    ],
+  },
   ecmaFeatures: {
     modules: true,
   },
@@ -29,60 +44,89 @@ export default defineConfig([
     linterOptions: {
       reportUnusedDisableDirectives: 'error',
     },
-  },
-
-  eslint.configs.recommended,
-  eslintPluginImportX.flatConfigs.recommended,
-  eslintConfigPrettier,
-  {
     plugins: {
       perfectionist: eslintPluginPerfectionist,
       'simple-import-sort': eslintPluginSimpleImportSort,
     },
   },
-  customRules,
 
-  // JavaScript files
+  eslint.configs.recommended,
+  eslintPluginEmber.configs.base,
+  eslintPluginEmber.configs.gjs,
+  eslintPluginEmberTemplateLint,
+  eslintPluginImportX.flatConfigs.recommended,
+  eslintConfigPrettier,
+  customRules.recommended,
+
+  // Ember files
   {
-    files: ['**/*.{js,mjs}'],
+    files: ['**/*.js'],
     languageOptions: {
       parser: babelEslintParser,
-      parserOptions: parserOptionsJs,
     },
   },
-
-  // TypeScript files
   {
-    extends: [
-      tseslint.configs.recommendedTypeChecked,
-      eslintPluginImportX.flatConfigs.typescript,
-    ],
-    files: ['**/*.{mts,ts}'],
+    files: ['**/*.{gjs,js,mjs}'],
     languageOptions: {
-      parserOptions: parserOptionsTs,
-    },
-    rules: {
-      '@typescript-eslint/array-type': 'error',
-      '@typescript-eslint/consistent-type-imports': 'error',
-      '@typescript-eslint/explicit-function-return-type': 'error',
-      '@typescript-eslint/method-signature-style': ['error', 'property'],
-      '@typescript-eslint/no-import-type-side-effects': 'error',
-      'perfectionist/sort-enums': ['error', { ignoreCase: false }],
-      'perfectionist/sort-interfaces': ['error', { ignoreCase: false }],
-      'perfectionist/sort-union-types': ['error', { ignoreCase: false }],
+      globals: globals.browser,
+      parserOptions: parserOptionsJs,
     },
     settings: {
       'import-x/resolver': {
-        node: true,
+        node: {
+          extensions: ['.gjs', '.gts', '.js', '.ts'],
+        },
+      },
+    },
+  },
+  {
+    extends: [
+      tseslint.configs.recommendedTypeChecked,
+      eslintPluginEmber.configs.gts,
+      eslintPluginImportX.flatConfigs.typescript,
+      customRules.typescript,
+    ],
+    files: ['**/*.{gts,mts,ts}'],
+    languageOptions: {
+      globals: globals.browser,
+      parser: eslintPluginEmber.parser,
+      parserOptions: parserOptionsTs,
+    },
+    settings: {
+      'import-x/resolver': {
+        node: {
+          extensions: ['.gjs', '.gts', '.js', '.ts'],
+        },
         typescript: true,
       },
+    },
+  },
+
+  // Test files
+  {
+    ...eslintPluginQunit.configs.recommended,
+    files: ['tests/**/*-test.{gjs,gts,js,ts}'],
+    plugins: {
+      qunit: eslintPluginQunit,
+    },
+    rules: {
+      '@typescript-eslint/no-this-alias': 'off',
     },
   },
 
   // Configuration files
   {
     ...eslintPluginN.configs['flat/recommended-script'],
-    files: ['**/*.cjs'],
+    files: [
+      '**/*.cjs',
+      'config/**/*.js',
+      '.prettierrc.js',
+      '.stylelintrc.js',
+      '.template-lintrc.js',
+      'ember-cli-build.js',
+      'postcss.config.js',
+      'testem.js',
+    ],
     languageOptions: {
       ecmaVersion: 'latest',
       globals: globals.node,
