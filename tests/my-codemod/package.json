@@ -28,7 +28,7 @@
     "lint:format": "prettier . --cache --check",
     "lint:js": "eslint . --cache",
     "lint:js:fix": "eslint . --fix",
-    "lint:js:oxlint": "oxlint --config oxlint.config.mjs",
+    "lint:js:oxlint": "oxlint",
     "lint:types": "tsc --noEmit",
     "prepare": "pnpm build",
     "release:prepare": "changeset version",

@@ -15,7 +15,7 @@ Install these packages as development dependencies:
 - `eslint`
 - `typescript` (optional)
 
-Afterwards, create the file `eslint.config.mjs`.
+Afterwards, create the file `eslint.config.{mjs,mts}`.
 
 ```js
 // For a JavaScript project

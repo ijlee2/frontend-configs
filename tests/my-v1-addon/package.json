@@ -40,7 +40,7 @@
     "lint:hbs:fix": "ember-template-lint . --fix",
     "lint:js": "eslint . --cache",
     "lint:js:fix": "eslint . --fix",
-    "lint:js:oxlint": "oxlint --config oxlint.config.mjs",
+    "lint:js:oxlint": "oxlint",
     "prelint:types": "type-css-modules --src addon",
     "lint:types": "ember-tsc --noEmit",
     "prepack": "tsc --project tsconfig.build.json",

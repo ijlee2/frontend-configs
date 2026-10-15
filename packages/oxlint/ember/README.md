@@ -15,7 +15,7 @@ Install these packages as development dependencies:
 - `oxlint`
 - `oxlint-tsgolint` (optional)
 
-Afterwards, create the file `oxlint.config.mjs`.
+Afterwards, create the file `oxlint.config.{mjs,mts}`.
 
 ```js
 // For a v1 app (classic, or Embroider + Webpack)

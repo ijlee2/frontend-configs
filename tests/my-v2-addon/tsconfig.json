@@ -2,8 +2,8 @@
   "extends": "@ijlee2-frontend-configs/typescript/ember-addon",
   "compilerOptions": {
     "declarationDir": "declarations",
-    "rootDir": "./src",
+    "rootDir": ".",
     "types": ["@glint/ember-tsc/types", "ember-source/types"]
   },
-  "include": ["src/**/*", "unpublished-development-types/**/*"]
+  "include": ["src/**/*", "unpublished-development-types/**/*", "*.mts"]
 }

@@ -24,7 +24,7 @@
     "lint:format": "prettier . --cache --check",
     "lint:js": "eslint . --cache",
     "lint:js:fix": "eslint . --fix",
-    "lint:js:oxlint": "oxlint --config oxlint.config.mjs",
+    "lint:js:oxlint": "oxlint",
     "prelint:types": "type-css-modules --src app",
     "lint:types": "ember-tsc --noEmit",
     "start": "vite",
