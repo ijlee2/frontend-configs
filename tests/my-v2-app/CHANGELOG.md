@@ -1,5 +1,12 @@
 # my-v2-app
 
+## 1.5.1
+
+### Patch Changes
+
+- [#128](https://github.com/ijlee2/frontend-configs/pull/128) Updated dependencies ([@ijlee2](https://github.com/ijlee2))
+- [#127](https://github.com/ijlee2/frontend-configs/pull/127) Converted eslint and oxlint configs to TypeScript ([@ijlee2](https://github.com/ijlee2))
+
 ## 1.5.0
 
 ### Minor Changes

@@ -1,5 +1,11 @@
 # @ijlee2-frontend-configs/eslint-config-ember
 
+## 4.8.0
+
+### Minor Changes
+
+- [#127](https://github.com/ijlee2/frontend-configs/pull/127) Exported declaration files ([@ijlee2](https://github.com/ijlee2))
+
 ## 4.7.0
 
 ### Minor Changes

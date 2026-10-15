@@ -1,5 +1,15 @@
 # @ijlee2-frontend-configs/oxlint-ember
 
+## 0.3.0
+
+### Minor Changes
+
+- [#127](https://github.com/ijlee2/frontend-configs/pull/127) Exported declaration files ([@ijlee2](https://github.com/ijlee2))
+
+### Patch Changes
+
+- [#128](https://github.com/ijlee2/frontend-configs/pull/128) Updated dependencies ([@ijlee2](https://github.com/ijlee2))
+
 ## 0.2.0
 
 ### Minor Changes
