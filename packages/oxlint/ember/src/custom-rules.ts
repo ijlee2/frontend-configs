@@ -102,5 +102,6 @@ export const customRules = {
       },
     ],
     'typescript/no-import-type-side-effects': 'error',
+    'typescript/require-array-sort-compare': 'off',
   } satisfies OxlintConfig['rules'],
 };

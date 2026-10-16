@@ -36,5 +36,6 @@ export const customRules = {
     'typescript/explicit-function-return-type': 'error',
     'typescript/method-signature-style': ['error', 'property'],
     'typescript/no-import-type-side-effects': 'error',
+    'typescript/require-array-sort-compare': 'off',
   } satisfies OxlintConfig['rules'],
 };
