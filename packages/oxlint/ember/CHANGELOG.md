@@ -1,5 +1,11 @@
 # @ijlee2-frontend-configs/oxlint-ember
 
+## 0.3.1
+
+### Patch Changes
+
+- [#130](https://github.com/ijlee2/frontend-configs/pull/130) Disabled typescript/require-array-sort-compare ([@ijlee2](https://github.com/ijlee2))
+
 ## 0.3.0
 
 ### Minor Changes

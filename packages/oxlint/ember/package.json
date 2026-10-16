@@ -1,6 +1,6 @@
 {
   "name": "@ijlee2-frontend-configs/oxlint-ember",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Configuration for oxlint (Ember)",
   "repository": {
     "type": "git",
