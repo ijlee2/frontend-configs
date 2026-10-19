@@ -1,5 +1,11 @@
 # @ijlee2-frontend-configs/changesets
 
+## 3.0.4
+
+### Patch Changes
+
+- [#131](https://github.com/ijlee2/frontend-configs/pull/131) Introduced trusted publishing ([@ijlee2](https://github.com/ijlee2))
+
 ## 3.0.3
 
 ### Patch Changes

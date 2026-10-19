@@ -1,5 +1,11 @@
 # @ijlee2-frontend-configs/typescript
 
+## 4.4.1
+
+### Patch Changes
+
+- [#131](https://github.com/ijlee2/frontend-configs/pull/131) Introduced trusted publishing ([@ijlee2](https://github.com/ijlee2))
+
 ## 4.4.0
 
 ### Minor Changes

@@ -1,5 +1,11 @@
 # @ijlee2-frontend-configs/ember-template-lint
 
+## 3.0.3
+
+### Patch Changes
+
+- [#131](https://github.com/ijlee2/frontend-configs/pull/131) Introduced trusted publishing ([@ijlee2](https://github.com/ijlee2))
+
 ## 3.0.2
 
 ### Patch Changes
