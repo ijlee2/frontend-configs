@@ -85,7 +85,7 @@
     "ember-source": "~6.12.1",
     "ember-template-lint": "^7.9.4",
     "ember-testem": "^0.3.2",
-    "eslint": "^10.12.0",
+    "eslint": "^10.13.0",
     "loader.js": "^4.7.0",
     "oxlint": "^1.88.0",
     "oxlint-tsgolint": "^7.0.2004",
@@ -95,7 +95,7 @@
     "stylelint": "^17.16.0",
     "type-css-modules": "^3.2.12",
     "typescript": "^6.0.3",
-    "webpack": "^5.111.1"
+    "webpack": "^5.112.0"
   },
   "peerDependencies": {
     "ember-intl": "^9.1.0"
