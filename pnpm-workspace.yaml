@@ -6,10 +6,10 @@ autoDedupe: true
 
 autoInstallPeers: false
 
-minimumReleaseAge: 720
+lockfile:
+  includeResolutionSettings: true
 
-minimumReleaseAgeExclude:
-  - "ember-testem"
+minimumReleaseAge: 720
 
 packages:
   - "packages/**"
