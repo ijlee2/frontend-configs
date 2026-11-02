@@ -32,8 +32,8 @@
     "prepare": "pnpm build"
   },
   "dependencies": {
-    "eslint-plugin-ember": "^13.6.1",
-    "eslint-plugin-perfectionist": "^5.12.1",
+    "eslint-plugin-ember": "^13.9.1",
+    "eslint-plugin-perfectionist": "^5.13.0",
     "eslint-plugin-qunit": "^8.2.6",
     "eslint-plugin-simple-import-sort": "^14.0.0"
   },
@@ -42,19 +42,19 @@
     "@ijlee2-frontend-configs/eslint-config-node": "workspace:*",
     "@ijlee2-frontend-configs/prettier": "workspace:*",
     "@ijlee2-frontend-configs/typescript": "workspace:*",
-    "@types/node": "^22.20.4",
+    "@types/node": "^22.20.5",
     "concurrently": "^10.0.6",
-    "eslint": "^10.13.0",
+    "eslint": "^10.14.0",
     "eslint-plugin-import-x": "^4.17.1",
     "eslint-plugin-n": "^18.5.0",
-    "oxlint": "^1.88.0",
+    "oxlint": "^1.90.0",
     "prettier": "^3.9.10",
     "typescript": "^6.0.3",
-    "typescript-eslint": "^8.71.2"
+    "typescript-eslint": "^8.72.1"
   },
   "peerDependencies": {
-    "oxlint": "^1.88.0",
-    "oxlint-tsgolint": "^7.0.2004"
+    "oxlint": "^1.90.0",
+    "oxlint-tsgolint": "^7.0.2005"
   },
   "peerDependenciesMeta": {
     "oxlint": {

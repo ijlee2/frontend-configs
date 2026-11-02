@@ -11,6 +11,9 @@ lockfile:
 
 minimumReleaseAge: 720
 
+overrides:
+  "testem": "^4.0.0-beta.3" # Due to ember-cli
+
 packages:
   - "packages/**"
   - "tests/**"
