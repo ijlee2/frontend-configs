@@ -43,13 +43,13 @@
     "eslint": "^10.14.0",
     "eslint-plugin-import-x": "^4.17.1",
     "eslint-plugin-n": "^18.5.0",
-    "oxlint": "^1.90.0",
+    "oxlint": "^1.91.0",
     "prettier": "^3.9.10",
     "typescript": "^6.0.3",
     "typescript-eslint": "^8.72.1"
   },
   "peerDependencies": {
-    "oxlint": "^1.90.0",
+    "oxlint": "^1.91.0",
     "oxlint-tsgolint": "^7.0.2005"
   },
   "peerDependenciesMeta": {

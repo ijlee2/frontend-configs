@@ -28,7 +28,7 @@
     "prepare": "pnpm build"
   },
   "dependencies": {
-    "@babel/core": "^8.0.10",
+    "@babel/core": "^8.1.0",
     "@babel/eslint-parser": "^8.0.7",
     "@eslint/js": "^10.0.1",
     "eslint-config-prettier": "^10.1.8",
