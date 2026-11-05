@@ -1,5 +1,11 @@
 # @ijlee2-frontend-configs/stylelint
 
+## 4.0.0
+
+### Major Changes
+
+- [#134](https://github.com/ijlee2/frontend-configs/pull/134) Updated dependencies (required stylelint@v18) ([@ijlee2](https://github.com/ijlee2))
+
 ## 3.3.2
 
 ### Patch Changes

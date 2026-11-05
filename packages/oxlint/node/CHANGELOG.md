@@ -1,5 +1,11 @@
 # @ijlee2-frontend-configs/oxlint-node
 
+## 0.4.1
+
+### Patch Changes
+
+- [#134](https://github.com/ijlee2/frontend-configs/pull/134) Updated dependencies ([@ijlee2](https://github.com/ijlee2))
+
 ## 0.4.0
 
 ### Minor Changes
