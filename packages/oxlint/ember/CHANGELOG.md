@@ -1,5 +1,11 @@
 # @ijlee2-frontend-configs/oxlint-ember
 
+## 0.5.0
+
+### Minor Changes
+
+- [#135](https://github.com/ijlee2/frontend-configs/pull/135) Updated dependencies ([@ijlee2](https://github.com/ijlee2))
+
 ## 0.4.1
 
 ### Patch Changes
